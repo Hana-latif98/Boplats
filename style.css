@@ -15,20 +15,22 @@ html{
     padding-left: 120px;
     padding-top: 26px;
     padding-bottom: 26px;
-    padding-right: 80px;
     float: left;
+    padding-right: 80px;
 }
 
 .headerTextHolder{
+    justify-content: space-between;
     padding-top: 33px;
     padding-bottom: 39px;
-    padding-right: 71px;
-    float: left;
+    margin:auto;
+    width: 616px;
 }
 
 .headerText{
     font-size: 16px;
     color: #444444;
-    justify-content: space-between;
+    padding-left: 20px;
+    float: left;
 }
 
