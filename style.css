@@ -1,0 +1,8 @@
+.header{
+    background-color: white;
+    border-bottom-color: #e01171;
+    border-bottom-width: 100%;
+    width: 100%;
+    position: fixed;
+    border-width: 3px;
+}
