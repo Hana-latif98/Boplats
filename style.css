@@ -6,3 +6,9 @@
     position: fixed;
     border-width: 3px;
 }
+
+.headerLogo{
+    padding-left: 120px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
