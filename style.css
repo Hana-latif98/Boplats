@@ -16,12 +16,14 @@ html{
     padding-top: 26px;
     padding-bottom: 26px;
     padding-right: 80px;
+    float: left;
 }
 
 .headerTextHolder{
     padding-top: 33px;
     padding-bottom: 39px;
     padding-right: 71px;
+    float: left;
 }
 
 .headerText{
