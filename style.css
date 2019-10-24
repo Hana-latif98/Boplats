@@ -1,3 +1,7 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .header{
     background-color: white;
     border-bottom-color: #e01171;
@@ -11,4 +15,18 @@
     padding-left: 120px;
     padding-top: 26px;
     padding-bottom: 26px;
+    padding-right: 80px;
 }
+
+.headerTextHolder{
+    padding-top: 33px;
+    padding-bottom: 39px;
+    padding-right: 71px;
+}
+
+.headerText{
+    font-size: 16px;
+    color: #444444;
+    justify-content: space-between;
+}
+
