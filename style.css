@@ -6,7 +6,6 @@ html{
     position: sticky;
     background-color: white;
     border-bottom: 3px solid #e01171;
-    width: 90%;
     position: fixed;
     border-width: 3px;
     align-items: center;
@@ -46,7 +45,6 @@ html{
 }
 
 body{
-    display: flex;
     justify-content: center;
 }
 
@@ -55,4 +53,14 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.mainFunctionBox{
+    width: 880px;
+    height: 382px;
+    background: #E01171;
+    box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    margin: auto;
+
 }
