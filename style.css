@@ -89,7 +89,9 @@ body{
     color: #FFFFFF;
     text-align: justify;
     padding-left: 52px;
+    padding-right: 52px;
 }
+
 .item1 {
     grid-area: a;
     width: 100%;
@@ -98,9 +100,6 @@ body{
     grid-area: b;
 }
 
-.item2b{
-    grid-area: ;
-}
 .item3 {
     grid-area: c;
 }
@@ -120,6 +119,7 @@ body{
     cursor: pointer;
     text-align: left;
     border-radius: 4px;
+    margin-top: 8px;
 }
   
 .dropdown {
@@ -159,6 +159,8 @@ body{
     cursor: pointer;
     text-align: left;
     border-radius: 4px;
+    margin-top: 8px;
+    margin-right: 3px;
 }
   
 .dropdown2 {
