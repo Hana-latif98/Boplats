@@ -62,5 +62,80 @@ body{
     box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
     border-radius: 6px;
     margin: auto;
-
 }
+
+.mainFunctionTitle1{
+    font-family: Verdana-Bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    padding-top: 44px;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas: 
+      "a a a a b b b b"
+      "c c c c d d d d";
+    align-items: start;
+    font-family: Verdana-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: justify;
+    padding-left: 52px;
+}
+.item1 {
+    grid-area: a;
+}
+.item2 {
+    grid-area: b;
+}
+.item3 {
+    grid-area: c;
+}
+.item4 {
+    grid-area: d;
+}
+
+.dropbtn {
+    background-color: #F9F9F9;
+    color: black;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width:372px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 4px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    width:372px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {background-color: #ddd;}
+  
+.show {display: block;}
