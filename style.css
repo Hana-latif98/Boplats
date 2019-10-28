@@ -13,11 +13,13 @@ html{
     display: flex;
     height: 91px;
     border-bottom: 3px solid #e01171;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .headerLogo{
     float: left;
-    padding-right: 80px;
+    padding-left: 94px;
 }
 
 .headerTextHolder{
@@ -25,7 +27,6 @@ html{
     margin:auto;
     flex-wrap: nowrap;
     float: left;
-    width: 700px;;
 }
 
 .headerText{
@@ -40,7 +41,7 @@ html{
     font-size: 16px;
     color: #E01171;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: right;
     padding-left: 14px;
 }
 
@@ -50,8 +51,8 @@ body{
 
 .clouds{
     padding-top: 130px;
-    display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 .mainFunctionBox{
