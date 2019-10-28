@@ -50,3 +50,9 @@ body{
     justify-content: center;
 }
 
+.clouds{
+    padding-top: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
