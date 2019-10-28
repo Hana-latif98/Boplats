@@ -20,115 +20,134 @@
             <p class="headerLoginText" style="white-space: nowrap;">LOGGA IN</p>
     </div>
 </div>
-<div class="clouds">
-    <img src="Cloud.svg">
-</div>
-<div class="mainFunctionBox">
-    <p class="mainFunctionTitle1">Sök Bostad</p>
-    <div class="wrapper">
-        <div class="item1">Kommun
-                <div class="dropdown">
-                    <button onclick="myFunction1()" class="dropbtn">Dropdown</button>
-                        <div id="myDropdown1" class="dropdown-content">
-                            <a href="#home">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#contact">Contact</a>
-                        </div>
-                </div>
-        </div>
-        <div class="item2">Hyra
-                <div class="dropdown">
-                        <button onclick="myFunction2()" class="dropbtn">Dropdown</button>
-                            <div id="myDropdown2" class="dropdown-content">
-                                <a href="#home">Home</a>
-                                <a href="#about">About</a>
-                                <a href="#contact">Contact</a>
-                            </div>
-                </div>
-        </div>
-        <div class="item3">Rum
-                <div class="dropdown">
-                        <button onclick="myFunction3()" class="dropbtn">Dropdown</button>
-                            <div id="myDropdown3" class="dropdown-content">
-                                <a href="#home">Home</a>
-                                <a href="#about">About</a>
-                                <a href="#contact">Contact</a>
-                            </div>
-                </div>
-        </div>
-        <div class="item4">Boarea
-                <div class="dropdown">
-                        <button onclick="myFunction4()" class="dropbtn">Dropdown</button>
-                            <div id="myDropdown4" class="dropdown-content">
-                                <a href="#home">Home</a>
-                                <a href="#about">About</a>
-                                <a href="#contact">Contact</a>
-                            </div>
-                </div>
-        </div>
+<div>
     </div>
-        <script>
-            function myFunction1() {
-                document.getElementById("myDropdown1").classList.toggle("show");
-            }
-            window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                        }
-                    }
-                }
-            }
-            function myFunction2() {
-                document.getElementById("myDropdown2").classList.toggle("show");
-            }
-            window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                        }
-                    }
-                }
-            }
-            function myFunction3() {
-                document.getElementById("myDropdown3").classList.toggle("show");
-            }
-            window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                        }
-                    }
-                }
-            }
-            function myFunction4() {
-                document.getElementById("myDropdown4").classList.toggle("show");
-            }
-            window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                        }
-                    }
-                }
-            }
-        </script>
+    <div class="clouds">
+        <img src="Cloud.svg">
     </div>
+    <div class="mainFunctionBox">
+        <p class="mainFunctionTitle1">Sök Bostad</p>
+        <div class="wrapper">
+            <div class="item1">Kommun
+                    <div class="dropdown">
+                        <button onclick="myFunction1()" class="dropbtn">Dropdown</button>
+                        <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 25px;"></element>
+                            <div id="myDropdown1" class="dropdown-content">
+                                <a href="#home">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#contact">Contact</a>
+                            </div>
+                    </div>
+            </div>
+            <div class="item2">Hyra
+                    <div class="dropdown2" style="display: inline;">
+                            <button onclick="myFunction2()" class="dropbtn2">Dropdown</button>
+                            <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 25px;"></element>
+                                <div id="myDropdown2" class="dropdown-content2">
+                                    <a href="#home">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#contact">Contact</a>
+                            </div>
+                    </div>
+                    <div class="dropdown2" style="display: inline;">
+                            <button onclick="myFunction2()" class="dropbtn2">Dropdown</button>
+                            <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 25px;"></element>
+                                <div id="myDropdown2" class="dropdown-content2">
+                                    <a href="#home">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#contact">Contact</a>
+                            </div>
+                    </div>
+            </div>
+            <div class="item3">Rum
+                    <div class="dropdown">
+                            <button onclick="myFunction3()" class="dropbtn">Dropdown</button>
+                                <div id="myDropdown3" class="dropdown-content">
+                                    <a href="#home">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#contact">Contact</a>
+                                </div>
+                    </div>
+            </div>
+            <div class="item4">Boarea
+                    <div class="dropdown">
+                            <button onclick="myFunction4()" class="dropbtn">Dropdown</button>
+                                <div id="myDropdown4" class="dropdown-content">
+                                    <a href="#home">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#contact">Contact</a>
+                                </div>
+                    </div>
+            </div>
+        </div>
+            <script>
+                function myFunction1() {
+                    document.getElementById("myDropdown1").classList.toggle("show");
+                }
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+                function myFunction2() {
+                    document.getElementById("myDropdown2").classList.toggle("show");
+                }
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+                function myFunction3() {
+                    document.getElementById("myDropdown3").classList.toggle("show");
+                }
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+                function myFunction4() {
+                    document.getElementById("myDropdown4").classList.toggle("show");
+                }
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+            <div>
+                <img class="mainFunctionSearchButton" src="Purple on white BT text.svg">
+            </div>
+        </div>
+        <div>
+                <img class="blueHouse" src="Blue House.svg">
+        </div>
 </div>
 </body>

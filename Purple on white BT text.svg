@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="153px" height="43px" viewBox="0 0 153 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Pink on white BT text</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-651.000000, -587.000000)">
+            <g id="Main-function" transform="translate(280.000000, 292.000000)">
+                <g id="Large-/-white-purple" transform="translate(371.000000, 295.000000)">
+                    <g id="White-text-on-purple-background">
+                        <rect id="Rectangle" fill="#59097B" x="0" y="0" width="153" height="43" rx="4"></rect>
+                        <text id="Text" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" line-spacing="15" letter-spacing="2" fill="#FFFFFF">
+                            <tspan x="53.125" y="30">SÖK</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
