@@ -97,6 +97,10 @@ body{
 .item2 {
     grid-area: b;
 }
+
+.item2b{
+    grid-area: ;
+}
 .item3 {
     grid-area: c;
 }
