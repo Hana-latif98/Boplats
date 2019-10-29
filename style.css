@@ -129,7 +129,7 @@ body{
 }
 
 .dropbtn {
-    background-color: #F9F9F9;
+    background-color: white;
     color: black;
     padding-left: 22px;
     padding-top: 16px;
@@ -151,12 +151,15 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     overflow: auto;
     width:372px;
     position: absolute;
     z-index: 1;
+    max-height:200px; 
+    overflow-y :auto; 
+    overflow-x:hidden;
 }
   
 .dropdown-content a {
@@ -194,12 +197,15 @@ body{
 .dropdown-content2 {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color:white;
     min-width: 160px;
     overflow: auto;
     width:180px;
     position: absolute;
     z-index: 1;
+    max-height:200px; 
+    overflow-y :auto; 
+    overflow-x:hidden;
 }
   
 .dropdown-content2 a {
