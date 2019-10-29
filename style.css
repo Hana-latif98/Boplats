@@ -1,5 +1,5 @@
 html{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Verdana;
 }
 
 .header{
@@ -141,13 +141,24 @@ body{
     text-align: left;
     border-radius: 4px;
     margin-top: 8px;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
 }
   
 .dropdown {
     position: relative;
     display: inline-block;
 }
-  
+
+.dropdownText{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+    font-weight: normal;
+}  
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -160,6 +171,9 @@ body{
     max-height:200px; 
     overflow-y :auto; 
     overflow-x:hidden;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
 }
   
 .dropdown-content a {
@@ -187,6 +201,9 @@ body{
     border-radius: 4px;
     margin-top: 8px;
     margin-right: 3px;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
 }
   
 .dropdown2 {
@@ -207,6 +224,7 @@ body{
     overflow-y :auto; 
     overflow-x:hidden;
 }
+
   
 .dropdown-content2 a {
     color: black;
