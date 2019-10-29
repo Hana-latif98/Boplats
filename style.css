@@ -1,5 +1,7 @@
 html{
     font-family: Verdana;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .header{
@@ -14,16 +16,16 @@ html{
     display: flex;
     height: 91px;
     border-bottom: 3px solid #e01171;
-    width: 100%;
     justify-content: space-between;
     top: 0px;
     left: 0px;
     right: 0px;
+    max-width: 1440px;
+    margin:auto;
 }
 
 .headerLogo{
     float: left;
-    padding-left: 94px;
 }
 
 .headerTextHolder{
@@ -75,15 +77,18 @@ body{
 }
 
 .mainFunctionBox{
-    width: 880px;
-    height: 382px;
     background: #E01171;
     box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
     border-radius: 6px;
     margin: auto;
     margin-top: -120px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    padding-left: 52px;
+    padding-right: 52px;
     position: relative;
     z-index: 1;
+    text-align: center;
 }
 
 .mainFunctionTitle1{
@@ -91,8 +96,6 @@ body{
     font-size: 24px;
     color: #FFFFFF;
     letter-spacing: 1px;
-    padding-top: 44px;
-    text-align: center;
 }
 
 .wrapper {
