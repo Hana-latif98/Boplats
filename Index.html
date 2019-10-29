@@ -90,35 +90,36 @@
             <div class="item2">Hyra
                 <br>
                     <div class="dropdown2">
-                            <button onclick="myFunction2()" class="dropbtn2">Min</button>
-                            <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 30px;"></element>
+                            <button onclick="myFunction2()" class="dropbtn2" id="minimum-rent">Min</button>
+                            <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 30px;" onclick="myFunction2()"></element>
                                 <div id="myDropdown2" class="dropdown-content2">
-                                    <a href="#min1000" class="dropdownText">1000</a>
-                                    <a href="#min2000" class="dropdownText">2000</a>
-                                    <a href="#min3000" class="dropdownText">3000</a>
-                                    <a href="#min4000" class="dropdownText">4000</a>
-                                    <a href="#min5000" class="dropdownText">5000</a>
-                                    <a href="#min6000" class="dropdownText">6000</a>
-                                    <a href="#min7000" class="dropdownText">7000</a>
-                                    <a href="#min8000" class="dropdownText">8000</a>
-                                    <a href="#min9000" class="dropdownText">9000</a>
-                                    <a href="#min10000" class="dropdownText">10000</a>
+                                    <a href="#min1000" class="dropdownText" onclick="getValue(1000)">1000</a>
+                                    <a href="#min2000" class="dropdownText" onclick="getValue(2000)">2000</a>
+                                    <a href="#min3000" class="dropdownText" onclick="getValue(3000)">3000</a>
+                                    <a href="#min4000" class="dropdownText" onclick="getValue(4000)">4000</a>
+                                    <a href="#min5000" class="dropdownText" onclick="getValue(5000)">5000</a>
+                                    <a href="#min6000" class="dropdownText" onclick="getValue(6000)">6000</a>
+                                    <a href="#min7000" class="dropdownText" onclick="getValue(7000)">7000</a>
+                                    <a href="#min8000" class="dropdownText" onclick="getValue(8000)">8000</a>
+                                    <a href="#min9000" class="dropdownText" onclick="getValue(9000)">9000</a>
+                                    <a href="#min10000" class="dropdownText" onclick="getValue(10000)">10000</a>
+                                    <a href="#min" class="dropdownText" onclick="getValue('Min')">Min</a>
                                 </div>
                     </div>
                     <div class="dropdown2">
-                            <button onclick="myFunction2b()" class="dropbtn2">Max</button>
+                            <button onclick="myFunction2b()" class="dropbtn2" id ="maximum-rent">Max</button>
                             <element><img src="Chevron.svg" style="position: absolute;right: 15px; top: 30px;"></element>
                                 <div id="myDropdown2b" class="dropdown-content2">
-                                    <a href="#max1000" class="dropdownText">1000</a>
-                                    <a href="#max2000" class="dropdownText">2000</a>
-                                    <a href="#max3000" class="dropdownText">3000</a>
-                                    <a href="#max4000" class="dropdownText">4000</a>
-                                    <a href="#max5000" class="dropdownText">5000</a>
-                                    <a href="#max6000" class="dropdownText">6000</a>
-                                    <a href="#max7000" class="dropdownText">7000</a>
-                                    <a href="#max8000" class="dropdownText">8000</a>
-                                    <a href="#max9000" class="dropdownText">9000</a>
-                                    <a href="#max10000" class="dropdownText">10000</a>
+                                    <a href="#max1000" class="dropdownText" onclick="getValue()">1000</a>
+                                    <a href="#max2000" class="dropdownText" onclick="getValue()">2000</a>
+                                    <a href="#max3000" class="dropdownText" onclick="getValue()">3000</a>
+                                    <a href="#max4000" class="dropdownText" onclick="getValue()">4000</a>
+                                    <a href="#max5000" class="dropdownText" onclick="getValue()">5000</a>
+                                    <a href="#max6000" class="dropdownText" onclick="getValue()">6000</a>
+                                    <a href="#max7000" class="dropdownText" onclick="getValue()">7000</a>
+                                    <a href="#max8000" class="dropdownText" onclick="getValue()">8000</a>
+                                    <a href="#max9000" class="dropdownText" onclick="getValue()">9000</a>
+                                    <a href="#max10000" class="dropdownText" onclick="getValue()">10000</a>
                             </div>
                     </div>
             </div>
@@ -200,114 +201,71 @@
             <script>
                 function myFunction1() {
                     document.getElementById("myDropdown1").classList.toggle("show");
+                    console.log('clicked on first dropdown');
                 }
-                window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn')) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                            }
-                        }
-                    }
-                }
+                // window.onclick = function(event) {
+                //     if (!event.target.matches('.dropbtn')) {
+                //         var dropdowns = document.getElementsByClassName("dropdown-content");
+                //         var i;
+                //         for (i = 0; i < dropdowns.length; i++) {
+                //             var openDropdown = dropdowns[i];
+                //             if (openDropdown.classList.contains('show')) {
+                //             openDropdown.classList.remove('show');
+                //             }
+                //         }
+                //     }
+                // }
+
+                
+
                 function myFunction2() {
                     document.getElementById("myDropdown2").classList.toggle("show");
                 }
-                window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn2')) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content2");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                            }
-                        }
+
+                let minimumRent = null
+                const getValue = (value) => {
+                    if(value) {
+                        minimumRent = value
+                        myFunction2()
+                        updateMinRentText(value)
+                    } else {
+                        // error
                     }
                 }
+
+                const minimumRentText = document.getElementById('minimum-rent')
+
+                const updateMinRentText = (value) => {
+                    if (value) {
+                        minimumRentText.innerHTML = value
+                    } else {
+                        minimumRentText.innerHTML = 'Min'
+                    }
+                }
+
+                updateMinRentText()
+
                 function myFunction2b() {
                     document.getElementById("myDropdown2b").classList.toggle("show");
                 }
-                window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn2')) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content2");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                            }
-                        }
-                    }
-                }
-
+                
                 function myFunction3() {
                     document.getElementById("myDropdown3").classList.toggle("show");
                 }
-                window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn2')) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content2");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                            }
-                        }
-                    }
-                }
-
+             
                 function myFunction3b() {
                     document.getElementById("myDropdown3b").classList.toggle("show");
                 }
-                window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn2')) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content2");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                            }
-                        }
-                    }
-                }
-
+     
 
                 function myFunction4() {
                     document.getElementById("myDropdown4").classList.toggle("show");
                 }
-                window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn')) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                            }
-                        }
-                    }
-                }
-
+              
                 function myFunction4b() {
                     document.getElementById("myDropdown4b").classList.toggle("show");
                 }
-                window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn')) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                            }
-                        }
-                    }
-                }
+                
             </script>
             <div>
                 <button class="mainFunctionSearchButton">SÖK</button>
