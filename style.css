@@ -15,6 +15,9 @@ html{
     border-bottom: 3px solid #e01171;
     width: 100%;
     justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .headerLogo{
