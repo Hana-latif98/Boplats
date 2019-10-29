@@ -137,6 +137,8 @@ body{
     min-width: 160px;
     overflow: auto;
     width:372px;
+    position: absolute;
+    z-index: 1;
 }
   
 .dropdown-content a {
@@ -178,6 +180,8 @@ body{
     min-width: 160px;
     overflow: auto;
     width:180px;
+    position: absolute;
+    z-index: 1;
 }
   
 .dropdown-content2 a {
