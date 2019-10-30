@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Om Boplats</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1074.000000, -1124.000000)">
+            <g id="Group-7" transform="translate(120.000000, 1123.000000)">
+                <g id="Om-Boplats" transform="translate(954.000000, 1.000000)">
+                    <circle id="Oval" fill="#EBBDFF" cx="75" cy="75" r="75"></circle>
+                    <path d="M75.5,45 C87.9264069,45 98,56.5126779 98,70.7142857 C98,80.1820243 90.5,91.6105957 75.5,105 C60.5,91.6105957 53,80.1820243 53,70.7142857 C53,56.5126779 63.0735931,45 75.5,45 Z M75.5,61 C69.8516332,61 65.2727273,65.4771525 65.2727273,71 C65.2727273,76.5228475 69.8516332,81 75.5,81 C81.1483668,81 85.7272727,76.5228475 85.7272727,71 C85.7272727,65.4771525 81.1483668,61 75.5,61 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <circle id="Oval" fill="#59097B" cx="75.5" cy="70.5" r="10.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
