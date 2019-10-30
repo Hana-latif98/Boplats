@@ -89,6 +89,8 @@ body{
     position: relative;
     z-index: 1;
     text-align: center;
+    max-width: 880px;
+    max-height: 382px;
 }
 
 .mainFunctionTitle1{
@@ -113,6 +115,8 @@ body{
     text-align: justify;
     padding-left: 52px;
     padding-right: 52px;
+    max-width: 776px;
+    max-height: 166px;
 }
 
 .item1 {
@@ -128,6 +132,14 @@ body{
 }
 .item4 {
     grid-area: d;
+}
+
+.item5{
+    grid-area: e;
+}
+
+.item6{
+    grid-area: f;
 }
 
 .dropbtn {
@@ -280,3 +292,24 @@ body{
     margin-left: 0px;
     margin-right: 0px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "Kommun Kommun hyra-min hyra-max" "rum-min rum-max boarea-mi boarea-max";
+  }
+  
+  .Kommun { grid-area: Kommun; }
+  
+  .hyra-min { grid-area: hyra-min; }
+  
+  .hyra-max { grid-area: hyra-max; }
+  
+  .rum-min { grid-area: rum-min; }
+  
+  .rum-max { grid-area: rum-max; }
+  
+  .boarea-mi { grid-area: boarea-mi; }
+  
+  .boarea-max { grid-area: boarea-max; }
