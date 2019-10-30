@@ -182,8 +182,25 @@ body{
     text-decoration: none;
     display: block;
 }
+
+.dropdown-content-active{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    width:372px;
+    position: absolute;
+    z-index: 1;
+    max-height:200px; 
+    overflow-y :auto; 
+    overflow-x:hidden;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+    background-image: url("Active Choice Dropdown.svg");
+}
   
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: #F7C3DB;}
   
 .show {display: block;}
 
@@ -235,7 +252,7 @@ body{
     display: block;
 }
   
-.dropdown2 a:hover {background-color: #ddd;}
+.dropdown2 a:hover {background-color: #F7C3DB;}
   
 .show {display: block;}
 
@@ -328,3 +345,4 @@ body{
     border: none;
     margin-top:16px;
 }
+

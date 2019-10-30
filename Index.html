@@ -31,60 +31,60 @@
                 <div class="div1">
                     <p class="gridHeader">Kommun</p>
                             <div class="dropdown">
-                                <button onclick="myFunction1()" class="dropbtn">Alla...</button>
+                                <button onclick="myFunction1()" id='dropDownButton' class="dropbtn">Alla...</button>
                                 <element><img src="Chevron.svg" style="position: absolute;right: 15px; top: 30px;"></element>
                                     <div id="myDropdown1" class="dropdown-content">
-                                        <a href="#gothenburg" class="dropdownText">Göteborg</a>
-                                        <a href="#ale" class="dropdownText">Ale</a>
-                                        <a href="#alingas" class="dropdownText">Alingsås</a>
-                                        <a href="#bengtfors" class="dropdownText">Bengtfors</a>
-                                        <a href="#bollebygd" class="dropdownText">Bollebygd</a>
-                                        <a href="#boras" class="dropdownText">Borås</a>
-                                        <a href="#dalsEd" class="dropdownText">DalsEd</a>
-                                        <a href="#essunga" class="dropdownText">Essunga</a>
-                                        <a href="#falkenberg" class="dropdownText">Falkenberg</a>
-                                        <a href="#falkoping" class="dropdownText">Falköping</a>
-                                        <a href="#fargelanda" class="dropdownText">Färgelanda</a>
-                                        <a href="#grastorp" class="dropdownText">Grästorp</a>
-                                        <a href="#gullspang" class="dropdownText">Gullspång</a>
-                                        <a href="#gotene" class="dropdownText">Götene</a>
-                                        <a href="#halmstad" class="dropdownText">Halmstad</a>
-                                        <a href="#herrljunga" class="dropdownText">Herrljunga</a>
-                                        <a href="#hjo" class="dropdownText">Hjo</a>
-                                        <a href="#harryda" class="dropdownText">Härryda</a>
-                                        <a href="#karlsborg" class="dropdownText">Karlsborg</a>
-                                        <a href="#kungsbacka" class="dropdownText">Kungsbacka</a>
-                                        <a href="#kungalv" class="dropdownText">Kungälv</a>
-                                        <a href="#lerum" class="dropdownText">Lerum</a>
-                                        <a href="#lidkoping" class="dropdownText">Lidköping</a>
-                                        <a href="#lillaEdet" class="dropdownText">Lilla Edet</a>
-                                        <a href="#lysekil" class="dropdownText">Lysekil</a>
-                                        <a href="#mariestad" class="dropdownText">Mariestad</a>
-                                        <a href="#mark" class="dropdownText">Mark</a>
-                                        <a href="#mellerud" class="dropdownText">Mellerud</a>
-                                        <a href="#molndal" class="dropdownText">Mölndal</a>
-                                        <a href="#orust" class="dropdownText">Orust</a>
-                                        <a href="#partille" class="dropdownText">Partille</a>
-                                        <a href="#skara" class="dropdownText">Skara</a>
-                                        <a href="#skovde" class="dropdownText">Skövde</a>
-                                        <a href="#sotenas" class="dropdownText">Sotenäs</a>
-                                        <a href="#stenugnsund" class="dropdownText">Stenungsund</a>
-                                        <a href="#stromstad" class="dropdownText">Strömstad</a>
-                                        <a href="#svenjunga" class="dropdownText">Svenjunga</a>
-                                        <a href="#tanum" class="dropdownText">Tanum</a>
-                                        <a href="#tibro" class="dropdownText">Tibro</a>
-                                        <a href="#tidaholm" class="dropdownText">Tidaholm</a>
-                                        <a href="#tjorn" class="dropdownText">Tjörn</a>
-                                        <a href="#tranemo" class="dropdownText">Tranemo</a>
-                                        <a href="#trollhattan" class="dropdownText">Trollhättan</a>
-                                        <a href="#toreboda" class="dropdownText">Töreboda</a>
-                                        <a href="#uddevalla" class="dropdownText">Uddevalla</a>
-                                        <a href="#ulricehamn" class="dropdownText">Ulricehamn</a>
-                                        <a href="#vara" class="dropdownText">Vara</a>
-                                        <a href="#vargarda" class="dropdownText">Vårgårda</a>
-                                        <a href="#vnersborg" class="dropdownText">Vänersborg</a>
-                                        <a href="#amal" class="dropdownText">Åmål</a>
-                                        <a href="#ockero" class="dropdownText">Öckero</a>
+                                        <a href="#gothenburg" onclick="toggleActive('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
+                                        <a href="#ale" onclick="toggleActive('ale')" id='ale' class="dropdownText;">Ale</a>
+                                        <a href="#alingas" onclick="toggleActive('alingsas')" id='alingsas' class="dropdownText">Alingsås</a>
+                                        <a href="#bengtfors" onclick="toggleActive('bengtfors')" id='bengtfors' class="dropdownText">Bengtfors</a>
+                                        <a href="#bollebygd" onclick="toggleActive('got')" id='got' class="dropdownText">Bollebygd</a>
+                                        <a href="#boras" onclick="toggleActive('got')" id='got' class="dropdownText">Borås</a>
+                                        <a href="#dalsEd" onclick="toggleActive('got')" id='got' class="dropdownText">DalsEd</a>
+                                        <a href="#essunga" onclick="toggleActive('got')" id='got' class="dropdownText">Essunga</a>
+                                        <a href="#falkenberg" onclick="toggleActive('got')" id='got' class="dropdownText">Falkenberg</a>
+                                        <a href="#falkoping" onclick="toggleActive('got')" id='got' class="dropdownText">Falköping</a>
+                                        <a href="#fargelanda" onclick="toggleActive('got')" id='got' class="dropdownText">Färgelanda</a>
+                                        <a href="#grastorp" onclick="toggleActive('got')" id='got' class="dropdownText">Grästorp</a>
+                                        <a href="#gullspang" onclick="toggleActive('got')" id='got' class="dropdownText">Gullspång</a>
+                                        <a href="#gotene" onclick="toggleActive('got')" id='got' class="dropdownText">Götene</a>
+                                        <a href="#halmstad" onclick="toggleActive('got')" id='got' class="dropdownText">Halmstad</a>
+                                        <a href="#herrljunga" onclick="toggleActive('got')" id='got' class="dropdownText">Herrljunga</a>
+                                        <a href="#hjo" onclick="toggleActive('got')" id='got' class="dropdownText">Hjo</a>
+                                        <a href="#harryda" onclick="toggleActive('got')" id='got' class="dropdownText">Härryda</a>
+                                        <a href="#karlsborg" onclick="toggleActive('got')" id='got' class="dropdownText">Karlsborg</a>
+                                        <a href="#kungsbacka" onclick="toggleActive('got')" id='got' class="dropdownText">Kungsbacka</a>
+                                        <a href="#kungalv" onclick="toggleActive('got')" id='got' class="dropdownText">Kungälv</a>
+                                        <a href="#lerum" onclick="toggleActive('got')" id='got' class="dropdownText">Lerum</a>
+                                        <a href="#lidkoping" onclick="toggleActive('got')" id='got' class="dropdownText">Lidköping</a>
+                                        <a href="#lillaEdet" onclick="toggleActive('got')" id='got' class="dropdownText">Lilla Edet</a>
+                                        <a href="#lysekil" onclick="toggleActive('got')" id='got' class="dropdownText">Lysekil</a>
+                                        <a href="#mariestad" onclick="toggleActive('got')" id='got' class="dropdownText">Mariestad</a>
+                                        <a href="#mark" onclick="toggleActive('got')" id='got' class="dropdownText">Mark</a>
+                                        <a href="#mellerud" onclick="toggleActive('got')" id='got' class="dropdownText">Mellerud</a>
+                                        <a href="#molndal" onclick="toggleActive('got')" id='got' class="dropdownText">Mölndal</a>
+                                        <a href="#orust" onclick="toggleActive('got')" id='got' class="dropdownText">Orust</a>
+                                        <a href="#partille" onclick="toggleActive('got')" id='got' class="dropdownText">Partille</a>
+                                        <a href="#skara" onclick="toggleActive('got')" id='got' class="dropdownText">Skara</a>
+                                        <a href="#skovde" onclick="toggleActive('got')" id='got' class="dropdownText">Skövde</a>
+                                        <a href="#sotenas" onclick="toggleActive('got')" id='got' class="dropdownText">Sotenäs</a>
+                                        <a href="#stenugnsund" onclick="toggleActive('got')" id='got' class="dropdownText">Stenungsund</a>
+                                        <a href="#stromstad" onclick="toggleActive('got')" id='got' class="dropdownText">Strömstad</a>
+                                        <a href="#svenjunga" onclick="toggleActive('got')" id='got' class="dropdownText">Svenjunga</a>
+                                        <a href="#tanum" onclick="toggleActive('got')" id='got' class="dropdownText">Tanum</a>
+                                        <a href="#tibro" onclick="toggleActive('got')" id='got' class="dropdownText">Tibro</a>
+                                        <a href="#tidaholm" onclick="toggleActive('got')" id='got' class="dropdownText">Tidaholm</a>
+                                        <a href="#tjorn" onclick="toggleActive('got')" id='got' class="dropdownText">Tjörn</a>
+                                        <a href="#tranemo" onclick="toggleActive('got')" id='got' class="dropdownText">Tranemo</a>
+                                        <a href="#trollhattan" onclick="toggleActive('got')" id='got' class="dropdownText">Trollhättan</a>
+                                        <a href="#toreboda" onclick="toggleActive('got')" id='got' class="dropdownText">Töreboda</a>
+                                        <a href="#uddevalla" onclick="toggleActive('got')" id='got' class="dropdownText">Uddevalla</a>
+                                        <a href="#ulricehamn" onclick="toggleActive('got')" id='got' class="dropdownText">Ulricehamn</a>
+                                        <a href="#vara" onclick="toggleActive('got')" id='got' class="dropdownText">Vara</a>
+                                        <a href="#vargarda" onclick="toggleActive('got')" id='got' class="dropdownText">Vårgårda</a>
+                                        <a href="#vanersborg" onclick="toggleActive('got')" id='got' class="dropdownText">Vänersborg</a>
+                                        <a href="#amal" onclick="toggleActive('got')" id='got' class="dropdownText">Åmål</a>
+                                        <a href="#ockero" onclick="toggleActive('got')" id='got' class="dropdownText">Öckero</a>
                                     </div>
                             </div>
                 </div>
@@ -207,7 +207,23 @@
             <script>
                 function myFunction1() {
                     document.getElementById("myDropdown1").classList.toggle("show");
-                    console.log('clicked on first dropdown');
+                }
+
+                function toggleActive(id) {
+                    document.getElementById(id).classList.toggle("dropdown-content-active");
+                    const name = document.getElementById(id).innerHTML;
+                    if (document.getElementById('dropDownButton').innerHTML.includes(name)) {
+                        removedChoice = document.getElementById('dropDownButton').innerHTML.replace(name + ', ', "");
+                        document.getElementById('dropDownButton').innerHTML = removedChoice;
+                    } else {
+                        removedAlla = document.getElementById('dropDownButton').innerHTML.replace('Alla...', '');
+                        document.getElementById('dropDownButton').innerHTML = removedAlla;
+                        document.getElementById('dropDownButton').innerHTML += name + ', ';
+                    }
+                    if (document.getElementById('dropDownButton').innerHTML === '') {
+                        const text = ('Alla...');
+                        document.getElementById('dropDownButton').innerHTML = text;
+                    }
                 }
 
                 function myFunction2() {
