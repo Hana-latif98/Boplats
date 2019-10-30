@@ -204,11 +204,13 @@ body{
     font-size: 14px;
     color: #444444;
     text-align: justify;
+    margin-right: 0px;
 }
   
 .dropdown2 {
     position: relative;
     display: inline-block;
+    width:180px;
 }
   
 .dropdown-content2 {
