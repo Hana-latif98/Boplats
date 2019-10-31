@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="371px" height="300px" viewBox="0 0 371 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Viewing Illustration</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-951.000000, -3185.000000)">
+            <g id="Viewing-Illustration" transform="translate(951.000000, 3185.000000)">
+                <rect id="Rectangle" fill="#BBBAFF" x="0" y="0" width="371" height="300" rx="6"></rect>
+                <g id="Mail" transform="translate(136.000000, 103.000000)">
+                    <g id="Letter" transform="translate(0.000000, 20.215094)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="107" height="73.7989225" rx="3.68994613"></rect>
+                        <path d="M3,2.78490566 C30.5381118,31.9238494 47.9753663,46.4933212 55.3117634,46.4933212 C62.6481605,46.4933212 79.8775727,31.6105385 107,1.84497306" id="Line" stroke="#0F0766" stroke-width="5" stroke-linecap="round"></path>
+                        <line x1="3" y1="70.7849057" x2="40" y2="39.7849057" id="Line-3" stroke="#0F0766" stroke-width="5" stroke-linecap="round"></line>
+                        <line x1="71" y1="70.7849057" x2="104" y2="39.7849057" id="Line-3" stroke="#0F0766" stroke-width="5" stroke-linecap="round" transform="translate(87.500000, 55.284906) scale(-1, 1) translate(-87.500000, -55.284906) "></line>
+                    </g>
+                    <circle id="Oval" fill="#0F0766" cx="100" cy="20" r="20"></circle>
+                    <polyline id="Path-11" stroke="#FFFFFF" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round" transform="translate(98.212468, 19.485318) scale(1, -1) rotate(1.636577) translate(-98.212468, -19.485318) " points="95.0065311 23.655147 101.418404 28.985012 100.875565 9.98562392"></polyline>
+                </g>
+                <circle id="Oval" fill="#0F0766" cx="58" cy="56" r="40"></circle>
+                <text id="3" font-family="Verdana-Bold, Verdana" font-size="24" font-weight="bold" line-spacing="14.6666667" fill="#FFFFFF">
+                    <tspan x="49" y="73">3</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
