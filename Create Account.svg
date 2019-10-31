@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="370px" height="300px" viewBox="0 0 370 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
-    <title>Skapa Konto</title>
+    <title>Create Account</title>
     <desc>Created with Sketch.</desc>
     <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" transform="translate(-122.000000, -3185.000000)">
-            <g id="Skapa-Konto" transform="translate(122.000000, 3185.000000)">
+            <g id="Create-Account" transform="translate(122.000000, 3185.000000)">
                 <rect id="Rectangle" fill="#EBBDFF" x="0" y="0" width="370" height="300" rx="6"></rect>
                 <g id="Computer" transform="translate(125.000000, 90.000000)">
                     <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="119.148936" height="89.8345154" rx="11.820331"></rect>
@@ -18,10 +18,10 @@
                         <path d="M37.4468085,42.5531915 C37.4468085,39.9995023 37.4468085,37.1626229 37.4468085,34.0425532 C37.4468085,29.3624487 31.2043128,25.5319149 25.6034849,25.5319149 C20.002657,25.5319149 13.6170213,29.3624487 13.6170213,34.0425532 C13.6170213,35.0068173 13.6170213,37.8436967 13.6170213,42.5531915 L37.4468085,42.5531915 Z" id="Oval" fill="#59097B"></path>
                     </g>
                 </g>
-                <g id="Group-8" transform="translate(15.000000, 16.000000)">
+                <g id="Group-8" transform="translate(16.000000, 16.000000)">
                     <circle id="Oval" fill="#59097B" cx="40" cy="40" r="40"></circle>
-                    <text id="1" font-family="Verdana-Bold, Verdana" font-size="24" font-weight="bold" line-spacing="14.6666667" fill="#FFFFFF">
-                        <tspan x="31" y="57">1</tspan>
+                    <text id="1" font-family="Verdana-Bold, Verdana" font-size="30" font-weight="bold" line-spacing="30" fill="#FFFFFF">
+                        <tspan x="29" y="52">1</tspan>
                     </text>
                 </g>
             </g>

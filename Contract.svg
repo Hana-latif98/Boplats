@@ -7,10 +7,12 @@
         <g id="Desktop-HD" transform="translate(-952.000000, -3673.000000)">
             <g id="Contract" transform="translate(952.000000, 3673.000000)">
                 <rect id="Rectangle" fill="#EBBDFF" x="0" y="0" width="369" height="300" rx="6"></rect>
-                <circle id="Oval" fill="#59097B" cx="56" cy="56" r="40"></circle>
-                <text id="6" font-family="Verdana-Bold, Verdana" font-size="24" font-weight="bold" line-spacing="14.6666667" fill="#FFFFFF">
-                    <tspan x="47" y="73">6</tspan>
-                </text>
+                <g id="Number-6" transform="translate(16.000000, 16.000000)">
+                    <circle id="Oval" fill="#59097B" cx="40" cy="40" r="40"></circle>
+                    <text id="6" font-family="Verdana-Bold, Verdana" font-size="30" font-weight="bold" line-spacing="30" fill="#FFFFFF">
+                        <tspan x="29" y="52">6</tspan>
+                    </text>
+                </g>
                 <g id="Group" transform="translate(110.000000, 93.000000)">
                     <g id="Contract" transform="translate(0.000000, -0.000000)">
                         <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="94.5017182" height="113.402062" rx="5.67010309"></rect>

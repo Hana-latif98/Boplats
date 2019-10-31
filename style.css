@@ -5,6 +5,8 @@ html{
 }
 
 .header{
+    display: flex;
+    flex-direction: row;
     position: sticky relative;
     z-index: 10;
     background-color: white;
@@ -13,26 +15,21 @@ html{
     border-width: 3px;
     align-items: center;
     height: 91;
-    display: flex;
-    height: 91px;
+    padding-top: 26px;
+    padding-bottom: 26px;
     border-bottom: 3px solid #e01171;
     justify-content: space-between;
     top: 0px;
-    left: 0px;
-    right: 0px;
     max-width: 1440px;
     margin:auto;
+    width: 100%;
 }
 
-.headerLogo{
-    float: left;
-}
 
 .headerTextHolder{
     justify-content: space-between;
-    margin:auto;
     flex-wrap: nowrap;
-    float: left;
+    display: flex;
 }
 
 .headerText{
@@ -438,7 +435,6 @@ body{
 
 .flexBoxHDBWillustrations{
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 

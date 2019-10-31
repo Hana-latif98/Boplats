@@ -5,21 +5,26 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<body style="margin-left: 0px; margin-right: 0px; max-width: 1440px; margin: auto">
-<div class="header">
-    <img class="headerLogo" src="LogoColour.svg">
-    <div class="headerTextholder">
-        <p class="headerText" style="float: left;">Sök bostad</p>
-        <p class="headerText" style="float: left;">Förmedling</p>
-        <p class="headerText" style="float: left;">Annonsera</p>
-        <p class="headerText" style="float: left;">Bostadsguiden</p>
-        <p class="headerText" style="float: left;">Om Boplats</p>
+<body style="width: 100%; max-width: 1440px; margin: auto">
+<div class="header" style="justify-content: space-around;">
+    <div>
+       <img src="LogoColour.svg"> 
     </div>
-    <div style="display: flex; padding-right: 94px;">
+    
+    <div class="headerTextholder">
+        <p class="headerText">Sök bostad</p>
+        <p class="headerText">Förmedling</p>
+        <p class="headerText">Annonsera</p>
+        <p class="headerText">Bostadsguiden</p>
+        <p class="headerText">Om Boplats</p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content: space-between;" >
             <button class="headerCreateAccount">SKAPA KONTO</button>
             <p class="headerLoginText" style="white-space: nowrap;">LOGGA IN</p>
     </div>
 </div>
+
 <div>
     </div>
     <div>
@@ -470,7 +475,10 @@
         <h2 class="h2">Hur fungerar Boplats?</h2>
         <div style="display:flex; flex-direction: row; justify-content: space-between;">
             <div class="flexBoxHDBWillustrations">
-                <img src ="Create Account.svg">
+                <div>
+                    <img src ="Create Account.svg">
+                </div>
+                
                 <p class="illustrationHeader">Skapa Konto</p>
                 <p class="illustrationBodyText">Du skapar ett konto med en uppdaterad profil, sedan lämnar du in ett intresseanmälan på ett utav våra lediga lägenheter</p>
             </div>
@@ -544,7 +552,8 @@
                 <img src="Facebook.svg" style="margin-right: 8px;">
                 <p class="footerBodyText">Följ oss på Facebook</p>
             </div>
+        </div>
     </div>
-
+    
     
 </body>
