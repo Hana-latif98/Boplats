@@ -361,7 +361,7 @@ body{
     margin-bottom: 100px;
 }
 
-.flat1{
+.flat1Image{
     max-height: 480;
     max-width: 720px;
     float: right;
@@ -385,7 +385,7 @@ body{
     margin-bottom: 0px;
 }
 
-.bodyTextExFlat{
+.bodyTextExFlat1{
     font-family: Verdana;
     font-size: 16px;
     color: #444444;
@@ -395,11 +395,36 @@ body{
     margin-bottom: 0px;
 }
 
-.flexboxExFlat{
+.flexboxExFlat1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     float: left;
     justify-content: center;
     height: 480px;
+    max-width: 720px;
+}
+
+.flat2Image{
+    max-height: 480;
+    max-width: 720px;
+}
+
+.flexboxExFlat2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 480px;
+    max-width: 720px;
+}
+
+.bodyTextExFlat2{
+    font-family: Verdana;
+    font-size: 16px;
+    color: #444444;
+    line-height: 21px;
+    max-width: 449px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
