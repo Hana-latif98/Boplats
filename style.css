@@ -27,9 +27,9 @@ html{
 
 
 .headerTextHolder{
-    justify-content: space-between;
-    flex-wrap: nowrap;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .headerText{
@@ -491,3 +491,5 @@ body{
     margin-bottom: 8px;
     margin-top: 0px;
 }
+
+img{max-width: 100%}
