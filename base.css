@@ -24,6 +24,11 @@ html{
     margin:auto;
     width: 100%;
     max-height: 91px;
+    justify-content: space-around;
+}
+
+.logo{
+    padding-left: 20px;
 }
 
 
@@ -50,6 +55,13 @@ html{
     text-align: right;
     padding-left: 14px;
     padding-right: 20px;
+    white-space: nowrap;
+}
+
+.createAccount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .headerCreateAccount{
@@ -65,16 +77,26 @@ html{
     padding-top: 12px;
     padding-bottom: 12px;
     border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 body{
     justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto
 }
 
 .clouds{
     padding-top: 130px;
     width: 100%;
     align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .mainFunctionBox{
@@ -91,6 +113,82 @@ body{
     text-align: center;
     max-width: 880px;
     max-height: 382px;
+    padding-top: 50px;
+    padding-bottom: 44px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.kommun{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.mainFunctionRow1{
+    display: flex;
+    flex-direction:column;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px
+}
+
+.chevron{
+    position: absolute;
+    right: 15px;
+    top: 32px;
+}
+
+.hyra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.hyraB{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 372px;
+}
+
+.rum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.rumB{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 372px;
+}
+
+.boarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.boareaB{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .mainFunctionTitle1{
@@ -109,6 +207,11 @@ body{
     color: #FFFFFF;
     text-align: justify;
     margin:0;
+}
+
+.mainFunctionRow1{
+    display: flex;
+    flex-direction:column;
 }
 
 .dropbtn {
@@ -271,7 +374,7 @@ body{
     max-width: 1440px;
 }
 
-.parent2 {
+.threeIcons{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4);
@@ -283,6 +386,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     grid-auto-rows: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icons{
+    max-width: 100%;
+    height: auto;
 }
 
 .grid2Header{
@@ -319,11 +429,33 @@ body{
     margin-top:16px;
 }
 
+.pinkButton2{
+    background: #E01171;
+    border-radius: 4px;
+    font-family: Verdana-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    max-width: 141px;
+    margin-top: 40px;
+}
+
+
+
 .line{
     border: 1px solid #D7D7D7;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -370,6 +502,13 @@ body{
 }
 
 .flexboxExFlat1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.flexboxExFlat1B{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -382,9 +521,18 @@ body{
 .flat2Image{
     max-height: 480;
     max-width: 720px;
+    width: 100%;
+    height: auto;
 }
 
 .flexboxExFlat2{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-right: 30px
+}
+
+.flexboxExFlat2B{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -407,6 +555,29 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.howBoplatsWorks1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.howBoplatsWorks2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-bottom: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.hbwImage{
+    max-width: 100%;
+    height: auto;
 }
 
 .flexBoxHDBWillustrations{
@@ -440,6 +611,9 @@ body{
     max-height: 301px;
     width: 100%;
     justify-content: space-around;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .flexBoxFooterPart1{
@@ -468,3 +642,34 @@ body{
     margin-top: 0px;
 }
 
+.footerBodyText2{
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.footerTextHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.followBoplats{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 550px) {
+    .page-footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+   
+    .page-footer ul {
+      margin-bottom: 0;
+    }
+}

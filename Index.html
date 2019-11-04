@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<body style="width: 100%; max-width: 1440px; margin: auto">
-<div class="header" style="justify-content: space-around;">
+<body>
+<div class="header">
     <div>
-       <img src="LogoColour.svg" style="padding-left: 20px;">
+       <img src="LogoColour.svg" class="logo">
     </div>
     
     <div class="headerTextholder">
@@ -20,26 +20,26 @@
         <p class="headerText">Om Boplats</p>
     </div>
 
-    <div style="display: flex; flex-direction: row; justify-content: space-between;" >
+    <div class="createAccount">
             <button class="headerCreateAccount">SKAPA KONTO</button>
-            <p class="headerLoginText" style="white-space: nowrap;">LOGGA IN</p>
+            <p class="headerLoginText">LOGGA IN</p>
     </div>
 </div>
 
 <div>
     </div>
     <div>
-        <img src="Clouds.svg" class="clouds" style="padding-left: 30px; padding-right: 30px;">
+        <img src="Clouds.svg" class="clouds">
     </div>
-    <div class="mainFunctionBox" style="padding-top: 50px; padding-bottom: 44px; padding-left: 52px; padding-right: 52px;"> 
+    <div class="mainFunctionBox"> 
         <p class="mainFunctionTitle1">Sök Bostad</p>
-        <div id="mainFunction" style="display: flex; flex-direction:column;">
-             <div id="row1" style="display: flex; flex-direction: row; justify-content: space-between;">
-                 <div id="Kommun" style="display: flex; flex-direction: column; justify-content: space-between; text-align: left;">
+        <div class="mainFunctionRow1">
+             <div class="row1">
+                 <div class="kommun">
                     <p class="gridHeader">Kommun</p>
                         <div class="dropdown">
                                 <button onclick="myFunction1()" id='dropDownButton' class="dropbtn">Alla...</button>
-                                <element><img src="Chevron.svg" style="position: absolute;right: 15px; top: 30px;"></element>
+                                <element><img src="Chevron.svg" class="chevron"></element>
                                     <div id="myDropdown1" class="dropdown-content">
                                         <a href="#gothenburg 'javascript:void();'" onclick="toggleActive('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
                                         <a href="#ale 'javascript:void();" onclick="toggleActive('ale')" id='ale' class="dropdownText;">Ale</a>
@@ -95,12 +95,12 @@
                                 </div>
                         </div>
                  </div>
-                 <div id="Hyra" style="display: flex; flex-direction: column; justify-content: space-between; text-align: left;">
+                 <div class="hyra">
                         <p class="gridHeader">Hyra</p>
-                        <div style="display: flex; justify-content: space-between; flex-direction: row; max-width: 372px;">
+                        <div class="hyraB">
                                 <div class="dropdown2">
                                         <button onclick="myFunction2()" class="dropbtn2" id="minimum-rent">Min</button>
-                                        <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 30px;" onclick="myFunction2()"></element>
+                                        <element><img src="Chevron.svg" class="chevron" onclick="myFunction2()"></element>
                                             <div id="myDropdown2" class="dropdown-content2">
                                                 <a href="#min1000" class="dropdownText" onclick="getValue(1000)">1000</a>
                                                 <a href="#min2000" class="dropdownText" onclick="getValue(2000)">2000</a>
@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="dropdown2" style="margin-left: 12px">
                                         <button onclick="myFunction2b()" class="dropbtn2" id ="maximum-rent"></button>
-                                        <element><img src="Chevron.svg" style="position: absolute;right: 15px; top: 30px;"></element>
+                                        <element><img src="Chevron.svg" class="chevron"></element>
                                             <div id="myDropdown2b" class="dropdown-content2">
                                                 <a href="#max1000" class="dropdownText" onclick="getValue2(1000)">1000</a>
                                                 <a href="#max2000" class="dropdownText" onclick="getValue2(2000)">2000</a>
@@ -136,14 +136,14 @@
                  </div>
          
              </div>
-             <div id="row2" style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 12px;">
-                     <div id="Rum" style="display: flex; flex-direction: column; justify-content: space-between; text-align: left;">
+             <div class="row2">
+                     <div class="rum">
                         <p class="gridHeader">Rum</p>
-                        <div style="display: flex; justify-content: space-between; flex-direction: row; max-width: 372px;">
+                        <div class="rumB">
                                 <div class="div3">
                                         <div class="dropdown2">
                                                 <button onclick="myFunction3()" class="dropbtn2" id="minimum-room"></button>
-                                                <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 30px;"></element>
+                                                <element><img src="Chevron.svg" class="chevron"></element>
                                                     <div id="myDropdown3" class="dropdown-content2">
                                                         <a href="#min1" class="dropdownText" onclick="getValue3(1)">1</a>
                                                         <a href="#min2" class="dropdownText" onclick="getValue3(2)">2</a>
@@ -158,7 +158,7 @@
                                         </div>
                                         <div class="dropdown2" style="margin-left: 6px">
                                                 <button onclick="myFunction3b()" class="dropbtn2" id="maximum-room"></button>
-                                                <element><img src="Chevron.svg" style="position: absolute;right: 15px; top: 30px;"></element>
+                                                <element><img src="Chevron.svg" class="chevron"></element>
                                                     <div id="myDropdown3b" class="dropdown-content2">
                                                         <a href="#max1" class="dropdownText" onclick="getValue4(1)">1</a>
                                                         <a href="#max2" class="dropdownText" onclick="getValue4(2)">2</a>
@@ -174,12 +174,12 @@
                                 </div>
                         </div>
                      </div>
-                     <div id="Boarea" style="display: flex; flex-direction: column; justify-content: space-between; text-align: left;">
+                     <div class="boarea">
                         <p class="gridHeader">Boarea</p>
-                        <div style="display: flex; justify-content: space-between; flex-direction: row;">
+                        <div class="boareaB">
                                 <div class="dropdown2">
                                         <button onclick="myFunction4()" class="dropbtn2" id="minimum-living-area"></button>
-                                        <element><img src="Chevron.svg" style="position: absolute;right: 20px; top: 30px;"></element>
+                                        <element><img src="Chevron.svg" class="chevron"></element>
                                             <div id="myDropdown4" class="dropdown-content2">
                                                 <a href="#min20" class="dropdownText" onclick="getValue5(20)">20</a>
                                                 <a href="#min30" class="dropdownText" onclick="getValue5(30)">30</a>
@@ -200,7 +200,7 @@
                                 </div>
                                 <div class="dropdown2" style="margin-left: 12px">
                                         <button onclick="myFunction4b()" class="dropbtn2" id="maximum-living-area"></button>
-                                        <element><img src="Chevron.svg" style="position: absolute;right: 15px; top: 30px;"></element>
+                                        <element><img src="Chevron.svg" class="chevron"></element>
                                             <div id="myDropdown4b" class="dropdown-content2">
                                                 <a href="#max20" class="dropdownText" onclick="getValue6(20)">20</a>
                                                 <a href="#max30" class="dropdownText" onclick="getValue6(30)">30</a>
@@ -225,7 +225,7 @@
          
          </div>
          <div>
-                <button class="mainFunctionSearchButton">SÖK</button>
+            <button class="mainFunctionSearchButton">SÖK</button>
         </div>
     </div>
         
@@ -422,15 +422,15 @@
             </div>
         </div>
 
-        <div class="parent2" style="padding-left: 30px; padding-right: 30px;">
+        <div class="threeIcons">
                 <div class="div1b">
-                    <img src="Light Purple circle.svg" style="max-width: 100%; height: auto;">
+                    <img src="Light Purple circle.svg" class="icons">
                 </div>
                 <div class="div2b">
-                    <img src="Medlemskap.svg" style="max-width: 100%; height: auto;">
+                    <img src="Medlemskap.svg" class="icons">
                 </div>
                 <div class="div3b">
-                    <img src="Om Boplats.svg" style="max-width: 100%; height: auto;">
+                    <img src="Om Boplats.svg" class="icons">
                 </div>
                 <div class="div4b">
                     <p class="grid2Header">Välkommen till din bostadsförmedling</p>
@@ -461,11 +461,11 @@
                 </div>
         </div>  
     
-        <hr class="line" style="max-width: 1200px;">
+        <hr class="line">
 
         <h2 class="h2">Exempel på några lediga lägenheter just nu</h2>
-        <div style="display:flex; flex-direction: row; justify-content: space-between; padding-left: 30px;">
-            <div class="flexboxExFlat1">
+        <div class="flexboxExFlat1">
+            <div class="flexboxExFlat1B">
                 <h3 class="h3">Tellusgatan 27</h3>
                 <p class="smallTitle">Östra Bergsjön</p>
                 <p class="bodyTextExFlat1">I de nyproducerade lägenheterna på Merkuriusgatan/Tellusgatan bor du nära både natur och kultur. Samtliga lägenheter har balkong och tillgång till en inbjudande, grön gård med grillplatser, sittgrupper och lekplats.</p>
@@ -475,58 +475,58 @@
                 <img src="Flat 1.svg" class="flat1Image" style="max-width: 100%; height: auto;">
             </div>
         </div>
-        <div style="display:flex; flex-direction: row-reverse; justify-content: flex-end; padding-right: 30px">
-            <div class="flexboxExFlat2" style="margin-left: 30px;">
+        <div class="flexboxExFlat2">
+            <div class="flexboxExFlat2B" style="margin-left: 30px;">
                 <h3 class="h3">Norra Dragspelsgatan 14</h3>
                 <p class="smallTitle">Frölunda</p>
                 <p class="bodyTextExFlat2">Nyproducerade lägenheter i Frölunda har närhet till natur och kultur. Samtliga lägenheter har tvättmaskin och diskmaskin. Tillgång till gård, grillplatser och lekplats.</p>
-                <button class="pinkButton" style="max-width: 141px; margin-top: 40px;">LÄS MER</button>
+                <button class="pinkButton2">LÄS MER</button>
             </div>
             <div>
-                <img src="Flat 2.svg" class="flat2Image" style="max-width: 100%; height: auto;">
+                <img src="Flat 2.svg" class="flat2Image">
             </div>
         </div>
 
         <hr class="line">
 
         <h2 class="h2">Hur fungerar Boplats?</h2>
-        <div style="display:flex; flex-direction: row; justify-content: space-between; padding-right: 30px; padding-left: 30px;">
+        <div class="howBoplatsWorks1">
             <div class="flexBoxHDBWillustrations">
-                    <img src ="Create Account.svg" style="max-width: 100%; height: auto;">
+                    <img src ="Create Account.svg" class="hbwImage">
                 <p class="illustrationHeader">Skapa Konto</p>
                 <p class="illustrationBodyText">Du skapar ett konto med en uppdaterad profil, sedan lämnar du in ett intresseanmälan på ett utav våra lediga lägenheter</p>
             </div>
             <div class="flexBoxHDBWillustrations">
-                <img src ="Applications Illustrations.svg" style="max-width: 100%; height: auto;">
+                <img src ="Applications Illustrations.svg" lass="hbwImage">
                 <p class="illustrationHeader">Ansökningar</p>
                 <p class="illustrationBodyText">Hyresvärden går igenom alla ansökningar och väljer ut dem fem personer som har högsta ködagar och som uppfyller deras krav</p>
             </div>
-            <div class="flexBoxHDBWillustrations" style="max-width: 100%; height: auto;">
+            <div class="flexBoxHDBWillustrations" lass="hbwImage">
                <img src ="Viewing Illustration.svg"> 
                <p class="illustrationHeader">Visningserbjudande</p>
                <p class="illustrationBodyText">Hyresvärden kontakter dessa fem personer via mail för att erbjuda en visning av lägenheten</p>
             </div>
         </div>
 
-        <div style="display:flex; flex-direction: row; justify-content: space-between; margin-top: 44px; margin-bottom: 200px; padding-right: 30px; padding-left: 30px;"">
+        <div class="howBoplatsWorks2">
                 <div class="flexBoxHDBWillustrations">
-                    <img src ="Reply.svg" style="max-width: 100%; height: auto;">
+                    <img src ="Reply.svg" class="hbwImage">
                     <p class="illustrationHeader">Tacka ja eller nej</p>
                     <p class="illustrationBodyText">Dessa fem personer genomgår visningen för att sedan kunna tacka ja eller nej till lägenheten</p>
                 </div>
                 <div class="flexBoxHDBWillustrations">
-                    <img src ="Flat offer.svg" style="max-width: 100%; height: auto;">
+                    <img src ="Flat offer.svg" class="hbwImage">
                     <p class="illustrationHeader">Lägenhetserbjudande</p>
                     <p class="illustrationBodyText">Hyresvärden kommer då att erbjuda lägenheten till den personen med högsta ködagar</p>
                 </div>
                 <div class="flexBoxHDBWillustrations">
-                   <img src ="Contract.svg"style="max-width: 100%; height: auto;"u> 
+                   <img src ="Contract.svg" class="hbwImage"> 
                    <p class="illustrationHeader">Kontraktskrivning</p>
                    <p class="illustrationBodyText">Personen tackar ja och skriver sedan på kontrakt med hyresvärden för att kunna flytta in enligt överenskommelse</p>
         </div>
     </div>
 
-    <div class="footerDesign" style="display:flex; flex-direction: row; justify-content: space-around;">
+    <div class="footerDesign">
         <div  class="flexBoxFooterPart1" >
             <img src="Logo White.svg" style="margin-top: 80px;">
             <img src="Footer Illustration.svg" style="margin-top: 70px;">
@@ -551,20 +551,20 @@
                 <p class="footerBodyText">Driftstatus</p>
         </div>
         <div class="flexBoxFooterPart2" style="margin-top: 80px;">
-            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+            <div class="footerTextHolder">
                 <p class="footerHeader">Följ Boplats</p>
             </div>
-            <div style="display: flex; flex-direction: row; margin-bottom: 12px;">
+            <div class="followBoplats">
                 <img src="Newsletter.svg" style="margin-right: 8px;">
-                <p class="footerBodyText">Läs vår nyhetsbrev</p>
+                <p class="footerBodyText2">Läs vår nyhetsbrev</p>
             </div>
             <div style="display: flex; flex-direction: row;">
                 <img src="Instagram.svg" style="margin-right: 8px;">
-                <p class="footerBodyText">Följ oss på instagram</p>
+                <p class="footerBodyText2">Följ oss på instagram</p>
             </div>
             <div style="display: flex; flex-direction: row; margin-top: 12px;">
                 <img src="Facebook.svg" style="margin-right: 8px;">
-                <p class="footerBodyText">Följ oss på Facebook</p>
+                <p class="footerBodyText2">Följ oss på Facebook</p>
             </div>
         </div>
     </div>
