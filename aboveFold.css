@@ -1,0 +1,284 @@
+.clouds{
+    padding-top: 130px;
+    width: 100%;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mainFunctionBox{
+    background: #E01171;
+    box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    margin: auto;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 880px;
+    max-height: 382px;
+    padding-top: 50px;
+    padding-bottom: 44px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.kommun{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.mainFunctionRow1{
+    display: flex;
+    flex-direction:column;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px
+}
+
+.chevron{
+    position: absolute;
+    right: 15px;
+    top: 32px;
+}
+
+.hyra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.hyraB{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 372px;
+}
+
+.rum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.rumB{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 372px;
+}
+
+.boarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.boareaB{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.mainFunctionTitle1{
+    font-family: Verdana-Bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.gridHeader{
+    font-family: Verdana-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: justify;
+    margin:0;
+}
+
+.mainFunctionRow1{
+    display: flex;
+    flex-direction:column;
+}
+
+.dropbtn {
+    background-color: white;
+    width: 100%;
+    max-width: 372px;
+    width: 372px;
+    color: black;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownText{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+    font-weight: normal;
+}  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    width:372px;
+    position: absolute;
+    z-index: 1;
+    max-height:200px; 
+    overflow-y :auto; 
+    overflow-x:hidden;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-active{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    width:372px;
+    position: absolute;
+    z-index: 1;
+    max-height:200px; 
+    overflow-y :auto; 
+    overflow-x:hidden;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+    background-image: url("Active Choice Dropdown.svg");
+}
+  
+.dropdown a:hover {background-color: #F7C3DB;}
+  
+.show {display: block;}
+
+.dropbtn2 {
+    background-color: #F9F9F9;
+    color: black;
+    padding-left: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    max-width:180px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-right: 3px;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+    margin-right: 0px;
+}
+  
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    width:180px;
+}
+  
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    overflow: auto;
+    width:180px;
+    position: absolute;
+    z-index: 1;
+    max-height:200px; 
+    overflow-y :auto; 
+    overflow-x:hidden;
+}
+
+  
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown2 a:hover {background-color: #F7C3DB;}
+  
+.show {display: block;}
+
+
+.mainFunctionSearchButton{
+    display: block;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    background: #59097B;
+    border-radius: 4px;
+    font-family: Verdana-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: none;
+}
+
+.houseIllustration{
+    width: 100%;
+    margin-top: 69px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 1440px;
+}

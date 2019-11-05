@@ -1,0 +1,73 @@
+.threeIcons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4);
+    grid-column-gap: 87px;
+    grid-row-gap: 0px;
+    margin-top: 100px;
+    max-width: 1200px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    grid-auto-rows: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icons{
+    max-width: 100%;
+    height: auto;
+}
+
+.grid2Header{
+    font-family: Verdana-Bold;
+    font-size: 20px;
+    color: #444444;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
+
+.grid2BodyText{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #444444;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 16px;
+}
+
+.pinkButton{
+    background: #E01171;
+    border-radius: 4px;
+    font-family: Verdana-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    margin-top:16px;
+}
+
+.pinkButton2{
+    background: #E01171;
+    border-radius: 4px;
+    font-family: Verdana-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    max-width: 141px;
+    margin-top: 40px;
+}
+
+
