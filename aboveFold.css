@@ -8,6 +8,10 @@
     padding-right: 30px;
 }
 
+.smallClouds{
+    display: none;
+}
+
 .mainFunctionBox{
     background: #E01171;
     box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
@@ -315,6 +319,14 @@
         padding-top: 16px;
         padding-bottom: 16px;
         border: none;
+    }
+    .smallClouds{
+        display: block;
+        padding-top: 50px;
+        width: 100%;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
