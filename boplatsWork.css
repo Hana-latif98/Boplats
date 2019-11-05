@@ -1,27 +1,15 @@
 
-.flexBoxHowDoesBoplatsWork{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.howBoplatsWorks1{
+.howBoplatsWorks{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     padding-right: 30px;
     padding-left: 30px;
-}
-
-.howBoplatsWorks2{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 44px;
     margin-bottom: 200px;
-    padding-right: 30px;
-    padding-left: 30px;
+    max-width: 1200px;
+    flex-wrap: wrap;
 }
+
 
 .hbwImage{
     max-width: 100%;
@@ -33,6 +21,8 @@
     flex-direction: column;
     max-width: 100%;
     height: auto;
+    max-width: 370px;
+    width: 100%;
 }
 
 .illustrationHeader{

@@ -1,5 +1,5 @@
 .clouds{
-    padding-top: 130px;
+    padding-top: 100px;
     width: 100%;
     align-content: center;
     padding-left: 30px;
@@ -13,7 +13,7 @@
     box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
     border-radius: 6px;
     margin: auto;
-    margin-top: -120px;
+    margin-top: -80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

@@ -28,10 +28,9 @@
 
 .headerTextHolder{
     display: inline-block;
-    flex-wrap: nowrap;
+    white-space: nowrap;
     justify-content: space-between;
     max-width: 616px;
-    min-width: 600px;
 }
 
 .headerText{
