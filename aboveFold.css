@@ -1,3 +1,7 @@
+.mobileAd{
+    display: none;
+}
+
 .clouds{
     padding-top: 100px;
     width: 100%;
@@ -46,7 +50,6 @@
     max-width: 776px;
 }
 
-
 .chevron{
     position: absolute;
     right: 15px;
@@ -78,7 +81,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    max-width: 372px;
 }
 
 .boarea{
@@ -109,7 +111,7 @@
     font-size: 16px;
     color: #FFFFFF;
     text-align: justify;
-    margin:0;
+    margin: 0;
 }
 
 .mainFunctionRow1{
@@ -121,7 +123,6 @@
     background-color: white;
     width: 100%;
     max-width: 372px;
-    width: 372px;
     color: black;
     padding-left: 22px;
     padding-top: 16px;
@@ -277,6 +278,10 @@
     max-width: 1440px;
 }
 
+.houseIllustrationSS{
+   display: none;
+}
+
 @media only screen and (max-width: 639px){
     body{
         margin-left: 20px;
@@ -290,8 +295,6 @@
         padding-bottom: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        height: 100%;
-        max-height: 500px;
     }
 
     .mainFunctionContent{
@@ -320,22 +323,147 @@
         padding-bottom: 16px;
         border: none;
     }
+
+    .clouds{
+        display: none;
+    }
     .smallClouds{
         display: block;
-        padding-top: 50px;
+        padding-top: 4px;
         width: 100%;
         align-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
     }
+
+    .mainFunctionBox{
+        width: 100%;
+        max-width: 345px;
+        margin-top: -28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .mainFunctionContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 305px;
+    }
+
+    .dropbtn {
+        max-width: 305px;
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    
+    .dropdown-content {
+        width: 305px;
+        max-height:150px; 
+    }
+
+    .dropdown-content-active{
+        width: 305px;
+        max-height:150px;
+    }
+    
+    .hyra{
+        max-width: 305px;
+    }
+    .rum{
+        max-width: 305px;
+    }
+    .boarea{
+        max-width: 305px;
+    }
+    
+    .dropbtn2 {
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        max-width: 150px;
+        width: 100%;
+        margin-top: 4px;
+        margin-right: 3px;
+    }
+      
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+        width:150px;
+    }
+      
+    .dropdown-content2 {
+        width:150px;
+        max-height:150px; 
+    }
+
+    .mainFunctionTitle1{
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+
+    .chevron{
+        position: absolute;
+        right: 10px;
+        top: 24px;
+    }
+
+    .houseIllustration{
+        display: none;
+    }
+
+    .houseIllustrationSS{
+        display: flex;
+        width: 100%;
+        margin-top: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .gridHeader{
+        font-family: Verdana-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: justify;
+        margin-top: 6px;
+    }
+
+    .mainFunctionSearchButton{
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        line-height: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: none;
+    }
+
+    .mobileAd{
+        display: flex;
+        max-height: 50px;
+        height: 100%;
+        background-color: gray;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+
 }
 
-
-
-    
-
-    
-    
-
-    
-}

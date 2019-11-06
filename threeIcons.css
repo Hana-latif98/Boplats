@@ -76,4 +76,41 @@
     margin-top: 40px;
 }
 
+@media only screen and (max-width: 639px){
+    .threeIconsflexbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 345px;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .threeIconsFlexContent{
+        max-width: 345px;
+    }
+    .icons{
+        max-width: 100px;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .grid2Header{
+        margin-top: 12px;
+    }
+
+    .grid2BodyText{
+        margin-bottom: 0px;
+    }
+
+    .pinkButton{
+        margin-top: 20px;
+    }
+
+    .pinkButton2{
+        margin-top: 20px;
+    }
+}
+
 

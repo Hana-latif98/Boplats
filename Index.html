@@ -7,6 +7,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="mobileAd">
+            <p>Advertisement Space</p>
+        </div>
 <div class="header">
     <div>
        <img src="LogoColour.svg" class="logo">
@@ -32,10 +35,11 @@
 <div>
     </div>
     <div>
-        <img src="Clouds.svg" class="clouds" style="display: none;">
-        <img src="Small clouds.svg" class="smallClouds">
+        <img src="Clouds.svg" class="clouds">
+        <img src="Small Clouds.svg" class="smallClouds">
     </div>
-    <div class="mainFunctionBox" style="display: none;"> 
+    <div class="mainFunctionBox" style="height: 100%;
+    max-height: 700px;"> 
         <p class="mainFunctionTitle1">Sök Bostad</p>
         <div class="mainFunctionContent">
              <div class="row1">
@@ -119,7 +123,7 @@
                                                 <a href="#minRent" class="dropdownText" onclick="getValue('Min')">Min</a>
                                             </div>
                                 </div>
-                                <div class="dropdown2" style="margin-left: 12px">
+                                <div class="dropdown2" style="margin-left: 8px">
                                         <button onclick="myFunction2b()" class="dropbtn2" id ="maximum-rent"></button>
                                         <element><img src="Chevron.svg" class="chevron"></element>
                                             <div id="myDropdown2b" class="dropdown-content2">
@@ -144,7 +148,6 @@
                      <div class="rum">
                         <p class="gridHeader">Rum</p>
                         <div class="rumB">
-                                <div class="div3">
                                         <div class="dropdown2">
                                                 <button onclick="myFunction3()" class="dropbtn2" id="minimum-room"></button>
                                                 <element><img src="Chevron.svg" class="chevron"></element>
@@ -160,7 +163,7 @@
                                                         <a href="#minRoom" class="dropdownText" onclick="getValue3('Min')">Min</a>
                                                     </div>
                                         </div>
-                                        <div class="dropdown2" style="margin-left: 6px">
+                                        <div class="dropdown2" style="margin-left: 8px">
                                                 <button onclick="myFunction3b()" class="dropbtn2" id="maximum-room"></button>
                                                 <element><img src="Chevron.svg" class="chevron"></element>
                                                     <div id="myDropdown3b" class="dropdown-content2">
@@ -175,7 +178,6 @@
                                                         <a href="#maxRoom" class="dropdownText" onclick="getValue4('Max')">Max</a>
                                                 </div>
                                         </div>
-                                </div>
                         </div>
                      </div>
                      <div class="boarea">
@@ -202,7 +204,7 @@
                                                 <a href="#minLivingArea" class="dropdownText" onclick="getValue5('Min')">Min</a>
                                             </div>
                                 </div>
-                                <div class="dropdown2" style="margin-left: 12px">
+                                <div class="dropdown2" style="margin-left: 8px">
                                         <button onclick="myFunction4b()" class="dropbtn2" id="maximum-living-area"></button>
                                         <element><img src="Chevron.svg" class="chevron"></element>
                                             <div id="myDropdown4b" class="dropdown-content2">
@@ -423,10 +425,11 @@
             </script>
         </div>
         <div> 
-            <img src="House-Illustration.svg" class="houseIllustration" style="display:none">
+            <img src="House-Illustration.svg" class="houseIllustration">
+            <img src="Small Screen Flats.svg" class="houseIllustrationSS">
         </div>
 
-        <div class="threeIconsflexbox" style="display: none;">
+        <div class="threeIconsflexbox">
             <div class="threeIconsFlexContent">
                 <img src="Light Purple circle.svg" class="icons">
                 <p class="grid2Header">Välkommen till din bostadsförmedling</p>

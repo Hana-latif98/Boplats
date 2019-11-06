@@ -90,7 +90,6 @@
         padding-bottom: 20px;
         display: flex;
         justify-content: space-between;
-        top: 0px;
         margin: auto;
     }
 
@@ -125,7 +124,6 @@
         max-height: 20px;
         padding-right: 20px;
     }
-    
 
 
 }
