@@ -145,7 +145,6 @@
         text-align: center;
         width: 100%;
         font-size: 18px;
-        margin-top: 12px;
     }
 
     .smallTitle{
@@ -159,6 +158,14 @@
 
     hr{
         display: none;
+    }
+
+    .centerFlatImage{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }

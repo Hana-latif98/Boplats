@@ -9,6 +9,8 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 80px;
+    left: 0px;
+    right: 0px;
 }
 
 .flexBoxFooterPart1{
