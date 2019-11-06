@@ -113,8 +113,7 @@
     .flexboxExFlat1B{
         display: flex;
         justify-content: center;
-        flex-direction: row;
-        max-width: 345px;
+        max-width: 335px;
         width: 100%;
     }
 
@@ -133,8 +132,7 @@
     .flexboxExFlat2B{
         display: flex;
         justify-content: center;
-        flex-direction: row;
-        max-width: 345px;
+        max-width: 335px;
         width: 100%;
     }
 
@@ -157,6 +155,10 @@
 
     .pinkButton2{
         margin-top: 20px;
+    }
+
+    hr{
+        display: none;
     }
     
 }

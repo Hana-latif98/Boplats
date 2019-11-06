@@ -289,7 +289,7 @@
     }
 
     .mainFunctionBox{
-        max-width: 345px;
+        max-width: 335px;
         margin: auto;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -336,7 +336,7 @@
 
     .mainFunctionBox{
         width: 100%;
-        max-width: 345px;
+        max-width: 335px;
         margin-top: -28px;
         display: flex;
         flex-direction: column;

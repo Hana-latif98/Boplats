@@ -10,7 +10,6 @@
     flex-wrap: wrap;
 }
 
-
 .hbwImage{
     max-width: 100%;
     height: auto;
@@ -43,4 +42,28 @@
     max-width: 341px;
     margin-top: 12px;
     margin-bottom: 0px;
+    margin-bottom: 44px;
 }
+
+@media only screen and (max-width: 639px){
+
+    .hbwImage{
+        max-width: 100%;
+        height: auto;
+        max-height: 175px;
+    }
+
+    .illustrationBodyText{
+        margin-bottom: 40px;
+    }
+
+    .illustrationHeader{
+        margin-top: 8px;
+    }
+
+    .howBoplatsWorks{
+        margin-bottom: 60px;
+    }
+
+}
+
