@@ -16,7 +16,6 @@
     }
     .flexboxExFlat1B{
         align-items: center;
-        justify-content: flex-end;
         max-height: 300px;
         padding-left: 0px;
     }
@@ -30,7 +29,6 @@
     }
     .flexboxExFlat2B{
           align-items: center;
-          justify-content: flex-end;
           max-height: 300px;
           padding-left: 0px;
     }
