@@ -72,6 +72,11 @@
     margin-top: 70px;
 }
 
+.instagram{
+    display: flex;
+    flex-direction: row;
+}
+
 .facebook{
     display: flex;
     flex-direction: row;

@@ -10,6 +10,8 @@
 .flat1Image{
     max-height: 480;
     max-width: 720px;
+    max-width: 100%;
+    height: auto;
 }
 
 .h3{
@@ -157,7 +159,10 @@
     }
 
     hr{
-        display: none;
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        max-width: 355px;
     }
 
     .centerFlatImage{
