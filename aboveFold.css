@@ -209,10 +209,10 @@
     font-size: 14px;
     color: #444444;
     text-align: justify;
-    background-image: url("Active Choice Dropdown.svg");
+    background-color: #F7C3DB;
 }
   
-.dropdown a:hover {background-color: #F7C3DB;}
+/* .dropdown a:hover {background-color: #F7C3DB;} */
   
 .show {display: block;}
 
@@ -344,8 +344,6 @@
         max-height: 700px;
     }
 
-
-
     .mainFunctionContent{
         display: flex;
         flex-direction: column;
@@ -376,6 +374,7 @@
     .clouds{
         display: none;
     }
+    
     .smallClouds{
         display: block;
         padding-top: 4px;
@@ -395,18 +394,22 @@
         padding-left: 12px;
         padding-top: 12px;
         padding-bottom: 12px;
+        padding-right: 40px;
         margin-top: 4px;
         font-size: 14px;
+        text-align: left;
     }
     
     .dropdown-content {
-        width: 255px;
-        max-height:150px; 
+        width: 240px;
+        max-height:150px;
     }
 
     .dropdown-content-active{
         width: 255px;
         max-height:150px;
+        background-image: none;
+        background-color: #F7C3DB;
     }
     
     .hyra{
@@ -435,7 +438,7 @@
     }
       
     .dropdown-content2 {
-        max-width: 124px;
+        max-width: 116px;
         width: 100%;
         max-height:150px; 
         min-width: 0;
