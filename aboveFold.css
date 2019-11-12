@@ -197,11 +197,9 @@
 
 .dropdown-content-active{
     display: none;
-    position: absolute;
     min-width: 160px;
     overflow: auto;
     width:372px;
-    position: absolute;
     z-index: 1;
     max-height:200px; 
     overflow-y :auto; 
@@ -327,7 +325,6 @@
     .mainFunctionBox{
         width: 100%;
         max-width: 320px;
-        margin-top: -28px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -507,6 +504,12 @@
 
     .mainFunctionRow1{
         margin-right: 0px;
+    }
+
+    .fullScreen{
+        background-image: url("Small\ Clouds.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
     }
     
 }
