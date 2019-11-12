@@ -153,6 +153,7 @@
 
     .footerIllustration{
         margin-top: 20px;
+        max-width: 200px;
     }
 
     .footerHeader2{
