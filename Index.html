@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -33,13 +33,21 @@
     </div>
         <div class="hamburgerMenu">
                 <div id="sideNavigation" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">&times;</a>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">
+                            <img src="Cross Icon.svg">
+                        </a>
                         <a href="#loginSN">Logga in</a>
                         <a href="#createAcountSN">Skapa konto</a>
                         <a href="#contactUsSN">Kontakta oss</a>
                         <a href="#faqSN">FAQ</a>
                     </div>
-                    <span class="spanHM" onclick="openNavigation()"><div class="hamburgerStyle">&#9776;</div></span>
+                    <span class="spanHM" onclick="openNavigation()">
+                            <div class="hamburgerFlex">
+                                <div class="hamburgerDesign"></div>
+                                <div class="hamburgerDesign"></div>
+                                <div class="hamburgerDesign"></div>
+                            </div>
+                    </span>
                 
                     <script>
                         
@@ -59,8 +67,8 @@
     <div class="wrapper">
         <div class="fullScreen">
                 <div>
-                        <img src="Clouds.svg" class="clouds">
-                        <img src="Small Clouds.svg" class="smallClouds">
+                    <img src="Clouds.svg" class="clouds">
+                    <img src="Small Clouds.svg" class="smallClouds">
                     </div>
                     <div class="mainFunctionBox"> 
                         <p class="mainFunctionTitle1">Sök Bostad</p>
@@ -205,7 +213,7 @@
                                      <div class="boarea">
                                         <p class="gridHeaderRow2">Boarea</p>
                                         <div class="boareaB">
-                                                <div class="dropdown2">
+                                                <div class="dropdown2" id="original">
                                                         <button onclick="myFunction4()" class="dropbtn2" id="minimum-living-area"></button>
                                                         <element><img src="Chevron.svg" class="chevron"></element>
                                                             <div id="myDropdown4" class="dropdown-content2">
@@ -252,14 +260,12 @@
                              </div>
                          
                          </div>
-                         <div>
                             <button class="mainFunctionSearchButton">SÖK</button>
                         </div>
-                    </div>
                     <div> 
                             <img src="House-Illustration.svg" class="houseIllustration">
                             <img src="Small Screen Flats.svg" class="houseIllustrationSS">
-                        </div>
+                    </div>
         </div>
 
 

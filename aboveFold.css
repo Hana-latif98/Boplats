@@ -311,7 +311,7 @@
 }
 
 .fullScreen{
-    min-height: 100vh;
+    min-height: 87vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -408,12 +408,12 @@
     }
     
     .dropdown-content {
-        width: 305px;
+        width: 255px;
         max-height:150px; 
     }
 
     .dropdown-content-active{
-        width: 305px;
+        width: 255px;
         max-height:150px;
     }
     
@@ -443,8 +443,16 @@
     }
       
     .dropdown-content2 {
-        width:150px;
+        max-width: 124px;
+        width: 100%;
         max-height:150px; 
+        min-width: 0;
+    }
+
+    .dropdown-content2 a {
+        width: 100%;
+        max-width: 124px;
+        min-width: 0;
     }
 
     .mainFunctionTitle1{

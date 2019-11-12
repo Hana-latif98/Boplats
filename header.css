@@ -139,29 +139,26 @@
         position: fixed;
         z-index: 1;
         top: 0;
-        right: 0;
-        background-color: white;
+        right: -1px;
+        background-color: #59097B;
         overflow-x: hidden;
         padding-top: 60px;
         transition: 0.5s;
     }
 
     .sidenav a {
-        padding: 8px 8px 8px 32px;
+        padding: 12px 8px 12px 32px;
         text-decoration: none;
         font-size: 18px;
-        color: #59097B;
+        color: white;
         display: block;
         transition: 0.3s;
     }
 
     .sidenav .closebtn {
         position: absolute;
-        top: -12px;
-        right: 12px;
-        font-size: 36px;
-        margin-left: 50px;
-        color: #E01171;
+        right: 17px;
+        top: -3px;
     }
 
     .spanHM{
@@ -169,8 +166,26 @@
         cursor:pointer;
     }
 
-    .hamburgerStyle {
-        color:#e01171;
+    .hamburgerMenuDiv{
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        background: #cdcdcd;
+        border-radius: 3px;
+    }
+
+    .hamburgerFlex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 22px;
+    }
+
+    .hamburgerDesign{
+        background-color: #e01171;
+        width: 30px;
+        border-radius: 10px;
+        height: 4px;
     }
     
 
