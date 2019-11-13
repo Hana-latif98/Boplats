@@ -27,7 +27,6 @@
     box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
     border-radius: 6px;
     margin: auto;
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -210,8 +209,7 @@
     text-align: justify;
     background-color: #F7C3DB;
 }
-  
-/* .dropdown a:hover {background-color: #F7C3DB;} */
+
   
 .show {display: block;}
 
@@ -310,11 +308,11 @@
 }
 
 .fullScreen{
-    min-height: 87vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("Clouds.svg");
+    background-image: url("Large Clouds.svg");
     background-repeat: no-repeat;
     background-size: 100vw;
 }
@@ -503,7 +501,7 @@
         height: 100%;
         background-color: gray;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 60px;
         width: 100%;
     }
 
@@ -515,6 +513,8 @@
         background-image: url("Small\ Clouds.svg");
         background-repeat: no-repeat;
         background-size: 100vw;
+        min-height: 85vh;
+
     }
     
 }
