@@ -407,7 +407,7 @@
     
     .dropdown-content {
         width: 240px;
-        max-height:150px;
+        max-height:200px;
     }
 
     .dropdown-content-active{
