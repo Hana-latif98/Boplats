@@ -25,7 +25,8 @@
 }
 
 .grid2Header{
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 20px;
     color: black;
     text-align: center;
@@ -45,7 +46,8 @@
 .pinkButton{
     background: #E01171;
     border-radius: 4px;
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 2px;
@@ -61,7 +63,8 @@
 .pinkButton2{
     background: #E01171;
     border-radius: 4px;
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 2px;
@@ -78,7 +81,8 @@
 .pinkButton2b{
     background: #E01171;
     border-radius: 4px;
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 2px;

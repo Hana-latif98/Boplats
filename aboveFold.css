@@ -102,7 +102,8 @@
 }
 
 .mainFunctionTitle1{
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 24px;
     color: #FFFFFF;
     letter-spacing: 1px;
@@ -112,7 +113,8 @@
 }
 
 .gridHeader{
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
     text-align: justify;
@@ -120,7 +122,8 @@
 }
 
 .gridHeaderRow2{
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
     text-align: justify;
@@ -283,7 +286,8 @@
     margin-bottom: 0px;
     background: #59097B;
     border-radius: 4px;
-    font-family: Verdana-Bold;
+    font-family: Verdana;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 2px;
@@ -359,7 +363,8 @@
         margin-bottom: 0px;
         background: #59097B;
         border-radius: 4px;
-        font-family: Verdana-Bold;
+        font-family: Verdana;
+        font-weight: bold;
         font-size: 16px;
         color: #FFFFFF;
         letter-spacing: 2px;
@@ -476,7 +481,8 @@
     }
 
     .gridHeader{
-        font-family: Verdana-Bold;
+        font-family: Verdana;
+        font-weight: bold;
         font-size: 16px;
         color: #FFFFFF;
         text-align: justify;
