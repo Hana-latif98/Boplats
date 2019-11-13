@@ -65,6 +65,9 @@
     </div>
     <div class="wrapper">
         <div class="fullScreen">
+                <div id="backgroundOverlay">
+                    
+                </div>
                     <div class="mainFunctionBox"> 
                         <p class="mainFunctionTitle1">Sök Bostad</p>
                         <div class="mainFunctionContent">
@@ -267,9 +270,29 @@
         
             <script>
 
-                function myFunction1() {
-                    document.getElementById("kommun").classList.toggle("show");
-                }
+
+
+                window.onload = function(){
+	                var popup = document.getElementById('kommun');
+                    var overlay = document.getElementById('backgroundOverlay');
+                    var openButton = document.getElementById('dropDownButton');
+                    document.onclick = function(e){
+                        if(e.target.id == 'backgroundOverlay'){
+                            popup.style.display = 'none';
+                            overlay.style.display = 'none';
+                        }
+                        if(e.target === openButton){
+                            console.log(openButton);
+                            popup.style.display = 'block';
+                            overlay.style.display = 'block';
+                            popup.classList.toggle("show");
+                        }
+                    };
+                };
+
+
+
+
 
                 function toggleActive(id) {
                     document.getElementById(id).classList.toggle("dropdown-content-active");
