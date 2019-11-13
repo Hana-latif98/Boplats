@@ -312,11 +312,12 @@
 }
 
 .fullScreen{
-    min-height: 100vh;
+    min-height: 91vh;
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("Large Clouds.svg");
+    background-image: url("Clouds.svg");
     background-repeat: no-repeat;
     background-size: 100vw;
 }
@@ -516,6 +517,7 @@
     }
 
     .fullScreen{
+        background-image: none;
         background-image: url("Small\ Clouds.svg");
         background-repeat: no-repeat;
         background-size: 100vw;
