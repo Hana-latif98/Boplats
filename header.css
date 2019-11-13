@@ -157,6 +157,7 @@
         color: white;
         display: block;
         transition: 0.3s;
+        white-space: nowrap;
     }
 
     .sidenav .closebtn {
