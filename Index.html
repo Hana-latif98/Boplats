@@ -65,9 +65,7 @@
     </div>
     <div class="wrapper">
         <div class="fullScreen">
-                <div id="backgroundOverlay">
-                    
-                </div>
+                <div id="backgroundOverlay"></div>
                     <div class="mainFunctionBox"> 
                         <p class="mainFunctionTitle1">Sök Bostad</p>
                         <div class="mainFunctionContent">
@@ -75,7 +73,7 @@
                                  <div class="kommun">
                                     <p class="gridHeader">Kommun</p>
                                         <div class="dropdown">
-                                                <button onclick="myFunction1()" id='dropDownButton' class="dropbtn">Alla...</button>
+                                                <button id='dropDownButton' class="dropbtn">Alla...</button>
                                                 <element><img src="Chevron.svg" class="chevron"></element>
                                                     <div id="kommun" class="dropdown-content">
                                                         <a href="#gothenburg 'javascript:void();'" onclick="toggleActive('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
@@ -270,25 +268,23 @@
         
             <script>
 
-
-
+                    
+                    
+                    
                 window.onload = function(){
-	                var popup = document.getElementById('kommun');
-                    var overlay = document.getElementById('backgroundOverlay');
-                    var openButton = document.getElementById('dropDownButton');
+
+                    var button = document.getElementById('dropDownButton');
+                    var popup = document.getElementById('kommun');
                     document.onclick = function(e){
-                        if(e.target.id == 'backgroundOverlay'){
-                            popup.style.display = 'none';
-                            overlay.style.display = 'none';
-                        }
-                        if(e.target === openButton){
-                            console.log(openButton);
-                            popup.style.display = 'block';
-                            overlay.style.display = 'block';
+                        if(e.target === button){
                             popup.classList.toggle("show");
                         }
-                    };
-                };
+                        else if(!e.target.className.includes('dropdownText') || e.target === e.target.id === 'kommun'){
+                            popup.classList.remove("show");
+                            console.log(e);
+                        }
+                    }
+                }
 
 
 
