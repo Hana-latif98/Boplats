@@ -15,6 +15,15 @@
     height: auto;
 }
 
+.hbwImage2{
+    max-width: 100%;
+    height: auto;
+}
+
+.hbwImageSS{
+    display: none;
+}
+
 .flexBoxHDBWillustrations{
     display: flex;
     flex-direction: column;
@@ -22,6 +31,7 @@
     height: auto;
     max-width: 370px;
     width: 100%;
+    align-items: center;
 }
 
 .illustrationHeader{
@@ -75,6 +85,11 @@
 @media only screen and (max-width: 768px){
 
     .hbwImage{
+        display: none;
+    }
+
+    .hbwImage2{
+        display: flex;
         max-width: 100%;
         height: auto;
         max-height: 175px;
@@ -82,10 +97,17 @@
 
     .illustrationBodyText{
         margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 19px;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 300px;
+        width: 100%;
     }
 
     .illustrationHeader{
         margin-top: 8px;
+        font-size: 18px;
     }
 
     .howBoplatsWorks{
@@ -94,6 +116,17 @@
 
     .howBoplatsWorks{
         justify-content: center;
+    }
+
+    .flexBoxHDBWillustrations{
+        max-width: 350px;
+    }
+
+    .hbwImageSS{
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        max-height: 175px;
     }
 
 }
