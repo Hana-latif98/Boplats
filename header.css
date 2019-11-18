@@ -193,11 +193,109 @@
         height: 4px;
     }
     
-
-
 }
 
+@media only screen and (max-width: 768px){
+
+    .header{
+        height: 100%;
+        max-height: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .logo{
+        padding-left: 20px;
+        max-height: 20px;
+        height: 100%;
+    }
+
+    .headerTextHolder{
+        display: none;
+    }
     
+    .headerText{
+        display: none;
+    }
     
+    .headerLoginText{
+        display: none;
+    }
+    
+    .createAccount{
+        display: none;
+    }
+    
+    .headerCreateAccount{
+        display: none;
+    }
+
+    .hamburgerMenu{
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: -1px;
+        background-color: #59097B;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+
+    .sidenav a {
+        padding: 12px 8px 12px 32px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        white-space: nowrap;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        right: 17px;
+        top: 0px;
+    }
+
+    .spanHM{
+        font-size:30px;
+        cursor:pointer;
+    }
+
+    .hamburgerMenuDiv{
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        background: #cdcdcd;
+        border-radius: 3px;
+    }
+
+    .hamburgerFlex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 22px;
+    }
+
+    .hamburgerDesign{
+        background-color: #e01171;
+        width: 30px;
+        border-radius: 10px;
+        height: 4px;
+    }
+
+}
 
    

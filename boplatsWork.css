@@ -72,3 +72,29 @@
 
 }
 
+@media only screen and (max-width: 768px){
+
+    .hbwImage{
+        max-width: 100%;
+        height: auto;
+        max-height: 175px;
+    }
+
+    .illustrationBodyText{
+        margin-bottom: 50px;
+    }
+
+    .illustrationHeader{
+        margin-top: 8px;
+    }
+
+    .howBoplatsWorks{
+        margin-bottom: 60px;
+    }
+
+    .howBoplatsWorks{
+        justify-content: center;
+    }
+
+}
+

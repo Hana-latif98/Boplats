@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -65,7 +65,6 @@
     </div>
     <div class="wrapper">
         <div class="fullScreen">
-                <div id="backgroundOverlay"></div>
                     <div class="mainFunctionBox"> 
                         <p class="mainFunctionTitle1">Sök Bostad</p>
                         <div class="mainFunctionContent">
@@ -268,10 +267,7 @@
         
             <script>
 
-                    
-                    
-                    
-                window.onload = function(){
+                    window.onload = function kommun(){
 
                     var button = document.getElementById('dropDownButton');
                     var popup = document.getElementById('kommun');
@@ -285,11 +281,7 @@
                         }
                     }
                 }
-
-
-
-
-
+                
                 function toggleActive(id) {
                     document.getElementById(id).classList.toggle("dropdown-content-active");
                     const name = document.getElementById(id).innerHTML;
@@ -471,8 +463,8 @@
 
             </script>
         
-
-        <div class="threeIconsflexbox">
+        <div>
+            <div class="threeIconsflexbox">
             <div class="threeIconsFlexContent">
                 <img src="Light Purple circle.svg" class="icons">
                 <p class="grid2Header">Välkommen till din bostadsförmedling</p>
@@ -492,6 +484,8 @@
                 <button class="pinkButton2">LÄS MER</button>
             </div>
         </div>
+        </div>
+        
 
         <hr class="line">
         <hr class="lineSS">

@@ -1,7 +1,6 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1440px;
-    margin: auto;
+    margin: 0;
 }
 
 body{
@@ -46,6 +45,29 @@ footer{
 }
 
 @media only screen and (max-width: 639px){
+
+    .line{
+        display: none;
+    }
+
+    .lineSS{
+        display: flex;
+        border: 1px solid #D7D7D7;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wrapper{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
 
     .line{
         display: none;

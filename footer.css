@@ -175,3 +175,90 @@
 
 
 }
+
+@media only screen and (max-width: 768px){
+
+    .footerDesign{
+        background: #AB0E86;
+        box-shadow: 0 0 7px 2px rgba(102,153,204,0.26);
+        width: 100%;
+        justify-content: space-around;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        align-items: center;
+        max-height: 600px;
+        bottom: 0px;
+    }
+    
+    .flexBoxFooterPart1{
+        margin-top: 40px;
+    }
+    
+    .flexBoxFooterPart2{
+        display: flex;
+        flex-direction: rowr;
+    }
+
+    .flexBoxFooterPart2b{
+        display: flex;
+        flex-direction: row;
+        max-width: 150px;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .footerHeader{
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-top: 0px;
+        margin-bottom : 8px;
+    }
+    
+    .footerBodyText{
+        display: none;
+    }
+    
+    .footerBodyText2{
+        display: none;
+    }
+    
+    .footerTextHolder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .followBoplats{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+    }
+
+    .footerIllustration{
+        margin-top: 20px;
+        max-width: 200px;
+    }
+
+    .footerHeader2{
+        display: none;
+    }
+
+    .footerSocials{
+        margin-top: 0px;
+    }
+
+    .facebook{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+    }
+
+
+}
