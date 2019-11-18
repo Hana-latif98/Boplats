@@ -8,8 +8,8 @@
     margin-bottom: 100px;
 }
 
-.flat1Image{
-    max-height: 480;
+.flatImage{
+    max-height: 480px;
     max-width: 720px;
     max-width: 100%;
     height: auto;
@@ -61,12 +61,6 @@
     padding-left: 30px;
 }
 
-.flat2Image{
-    max-height: 480;
-    max-width: 720px;
-    width: 100%;
-    height: auto;
-}
 
 .flexboxExFlat2{
     display:flex;
@@ -130,7 +124,8 @@
     .bodyTextExFlat1{
         text-align: center;
         margin-top: 12px;
-        max-width: 290px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .flexboxExFlat2 {
@@ -155,7 +150,8 @@
     .bodyTextExFlat2{
         text-align: center;
         margin-top: 12px;
-        max-width: 260px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
   
     .h3{
@@ -264,6 +260,15 @@
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .flatImage{
+        max-width: 720px;
+        max-width: 100%;
+        height: auto;
+        max-height: 380px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
     

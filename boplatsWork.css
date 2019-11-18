@@ -103,10 +103,11 @@
         padding-right: 10px;
         max-width: 300px;
         width: 100%;
+        margin-top: 8px;
     }
 
     .illustrationHeader{
-        margin-top: 8px;
+        margin-top: 12px;
         font-size: 18px;
     }
 
