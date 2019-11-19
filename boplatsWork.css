@@ -88,7 +88,7 @@
 
 }
 
-@media only screen and (max-width: 768px) and (min-width: 640px){
+@media only screen and (max-width: 1120px) and (min-width: 640px){
 
     .hbwImage{
         display: none;
@@ -117,11 +117,8 @@
     }
 
     .howBoplatsWorks{
-        margin-bottom: 60px;
-    }
-
-    .howBoplatsWorks{
         justify-content: space-around;
+        margin-bottom: 60px;
     }
 
     .flexBoxHDBWillustrations{
