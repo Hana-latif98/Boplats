@@ -64,6 +64,12 @@
         max-height: 175px;
     }
 
+    .hbwImage2{
+        max-width: 100%;
+        height: auto;
+        max-height: 175px;
+    }
+
     .illustrationBodyText{
         margin-bottom: 50px;
     }
@@ -119,7 +125,7 @@
     }
 
     .flexBoxHDBWillustrations{
-        max-width: 350px;
+        max-width: 280px;
     }
 
     .hbwImageSS{
