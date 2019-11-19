@@ -29,6 +29,13 @@
     justify-content: space-between;
 }
 
+.headerPart1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .logo{
     padding-left: 20px;
 }
@@ -193,5 +200,53 @@
         border-radius: 10px;
         height: 4px;
     }
+    
+}
+
+@media only screen and (max-width: 1120px) and (min-width: 768px){
+    
+    .header{
+        height: 100%;
+        max-height: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .headerPart1{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .headerText{
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-top: 12px;
+    }
+
+    .createAccount{
+        flex-direction: column;
+    }
+
+    .headerLoginText{
+        margin-bottom: 0;
+        margin-top: 8px;
+    }
+
+    .wrapperHeader{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo{
+        padding-left: 0;
+    }
+
     
 }
