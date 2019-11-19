@@ -331,7 +331,7 @@
 }
 
 
-@media only screen and (max-width: 639px){
+@media only screen and (max-width: 768px){
     
     .mainFunctionBox{
         width: 100%;
@@ -519,7 +519,7 @@
     } 
 }
 
-@media only screen and (max-width: 1120px) and (min-width: 640px){
+@media only screen and (max-width: 1120px) and (min-width: 769px){
 
     .mobileAd{
         display: none;

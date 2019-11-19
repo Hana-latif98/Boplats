@@ -15,8 +15,7 @@ body{
     border: 1px solid #D7D7D7;
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 810px;
-
+    width: 100%;
 }
 
 .lineSS{
@@ -53,7 +52,7 @@ footer{
         border: 1px solid #D7D7D7;
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 90%;
+        width: 100%;
     }
 
     .wrapper{
