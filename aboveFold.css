@@ -325,11 +325,6 @@
 
 @media only screen and (max-width: 768px){
     
-    body{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
     .mainFunctionBox{
         width: 100%;
         max-width: 320px;
@@ -491,18 +486,6 @@
         margin-top: 6px;
     }
 
-    .mainFunctionSearchButton{
-        font-size: 16px;
-        color: #FFFFFF;
-        letter-spacing: 2px;
-        line-height: 16px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        border: none;
-    }
-
     .mobileAd{
         display: flex;
         max-height: 50px;
@@ -524,8 +507,172 @@
         background-size: 100vw;
         min-height: 85vh;
         margin-top: 10px;
-
-    }
-    
+    } 
 }
 
+@media only screen and (max-width: 1120px) and (min-width: 769px){
+
+    .mobileAd{
+        display: none;
+    }
+
+    .mainFunctionBox{
+        width: 100%;
+        max-width: 320px;
+        display: flex;
+        margin-top: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        z-index: 8;
+        text-align: center;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        max-height: 700px;
+    }
+
+    .mainFunctionContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 305px;
+    }
+
+    .mainFunctionSearchButton{
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        background: #59097B;
+        border-radius: 4px;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        line-height: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: none;
+    }
+
+    .smallClouds{
+        
+        display: none;
+    }
+
+    .clouds{
+        display: none;
+    }
+
+    .mainFunctionContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 305px;
+    }
+
+    .dropbtn {
+        max-width: 305px;
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 40px;
+        margin-top: 4px;
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    .dropdown-content {
+        width: 240px;
+        max-height:200px;
+    }
+
+    .dropdown-content-active{
+        width: 255px;
+        max-height:150px;
+        background-image: none;
+        background-color: #F7C3DB;
+    }
+    
+    .hyra{
+        max-width: 305px;
+    }
+    .rum{
+        max-width: 305px;
+    }
+    .boarea{
+        max-width: 305px;
+    }
+    
+    .dropbtn2 {
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        max-width: 150px;
+        width: 100%;
+        margin-top: 4px;
+        margin-right: 3px;
+    }
+      
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content2 {
+        max-width: 116px;
+        width: 100%;
+        max-height:150px; 
+        min-width: 0;
+    }
+
+    .dropdown-content2 a {
+        width: 100%;
+        max-width: 124px;
+        min-width: 0;
+    }
+
+    .mainFunctionTitle1{
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+
+    .chevron{
+        position: absolute;
+        right: 10px;
+        top: 24px;
+    }
+    .gridHeader{
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: justify;
+        margin-top: 6px;
+    }
+
+    .mainFunctionRow1{
+        margin-right: 0px;
+    }
+
+    .fullScreen{
+        background-image: none;
+        background-image: url("Small\ Clouds.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        min-height: 85vh;
+    } 
+
+
+}

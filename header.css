@@ -120,6 +120,10 @@
         height: 100%;
     }
 
+    .headerPart1{
+        justify-content: flex-start;
+    }
+
     .headerTextHolder{
         display: none;
     }
@@ -203,7 +207,7 @@
     
 }
 
-@media only screen and (max-width: 1120px) and (min-width: 768px){
+@media only screen and (max-width: 1120px) and (min-width: 769px){
     
     .header{
         height: 100%;
@@ -222,12 +226,14 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        width: auto;
     }
 
     .headerText{
         padding-top: 0;
         margin-bottom: 0;
         margin-top: 12px;
+        font-size: 14px;
     }
 
     .createAccount{
