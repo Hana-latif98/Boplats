@@ -301,7 +301,7 @@
 }
 
 .houseIllustration{
-    width: 100%;
+    width: 100vw;
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
@@ -519,14 +519,14 @@
     } 
 }
 
-@media only screen and (max-width: 1120px) and (min-width: 769px){
+@media only screen and (max-width: 1120px) and (min-width: 640px){
 
     .mobileAd{
         display: none;
     }
 
     .fullScreen{
-        margin-top: 100px;
+        min-height: 93vh;
     }
 
     .houseIllustrationSS{

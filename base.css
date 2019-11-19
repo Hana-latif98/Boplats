@@ -15,10 +15,7 @@ body{
     border: 1px solid #D7D7D7;
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 810px;
 
 }
 
@@ -28,6 +25,7 @@ body{
 
 .wrapper{
     max-width: 1200px;
+    width: 100vw;
 }
 
 footer{
@@ -56,8 +54,6 @@ footer{
         margin-top: 0px;
         margin-bottom: 0px;
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .wrapper{
