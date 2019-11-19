@@ -184,4 +184,44 @@
 
 }
 
+@media only screen and (max-width: 1120px) and (min-width: 769px){
+    .threeIconsflexbox{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 60px;
+        align-items: center;
+    }
+    .threeIconsFlexContent{
+        max-width: 500px;
+    }
+    .icons{
+        max-width: 100px;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .grid2Header{
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+    .grid2BodyText{
+        margin-bottom: 0px;
+    }
+
+    .pinkButton{
+        margin-top: 20px;
+    }
+
+    .pinkButton2{
+        margin-top: 20px;
+    }
+
+
+    .pinkButton2b{
+        margin-top: 20px;
+    }
+}
+
 
