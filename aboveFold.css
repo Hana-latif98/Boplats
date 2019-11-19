@@ -301,7 +301,7 @@
 
 .houseIllustration{
     width: 100%;
-    margin-top: 69px;
+    margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
     max-width: 1440px;
@@ -313,13 +313,14 @@
 
 .fullScreen{
     min-height: 91vh;
-    margin-top: 120px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-image: url("Clouds.svg");
     background-repeat: no-repeat;
     background-size: 100vw;
+    top: 0;
 }
 
 
