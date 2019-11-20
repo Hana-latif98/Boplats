@@ -267,21 +267,36 @@
         
             <script>
 
-                    window.onload = function kommun(){
+                window.onload = function offClick(){
 
-                    var button = document.getElementById('dropDownButton');
-                    var popup = document.getElementById('kommun');
-                    document.onclick = function(e){
-                        if(e.target === button){
-                            popup.classList.toggle("show");
+                    var kommunButton = document.getElementById('dropDownButton');
+                    var kommunDc = document.getElementById('kommun');
+                    
+                    document.onclick = function kommunClick(e){
+                        if(e.target === kommunButton){
+                            kommunDc.classList.toggle("show");
                         }
                         else if(!e.target.className.includes('dropdownText') || e.target === e.target.id === 'kommun'){
-                            popup.classList.remove("show");
-                            console.log(e);
+                            kommunDc.classList.remove("show");
+                        }
+                    }
+
+                }
+                
+                window.onclick = function offClick2(event) {
+                    if (!event.target.matches('.dropbtn2')) {
+
+                        var dropdowns = document.getElementsByClassName("dropdown-content2");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
                         }
                     }
                 }
-                
+
                 function toggleActive(id) {
                     document.getElementById(id).classList.toggle("dropdown-content-active");
                     const name = document.getElementById(id).innerHTML;
