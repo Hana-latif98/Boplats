@@ -580,12 +580,9 @@
 
 @media only screen and (max-width: 1120px) and (min-width: 769px){
 
-    .mobileAd{
-        display: none;
-    }
-
     .fullScreen{
         height: 87vh;
+        margin-top: 0;
     }
 
     .houseIllustrationSS{
@@ -605,9 +602,6 @@
         display: none;
     }
 
-}
-
-@media only screen and (max-width:1121px){
     .flexendDiv{
         display: none;
     }
@@ -619,16 +613,6 @@
         width: 100%;
     }
 
-    .houseIllustrationSS{
-        display: none;
-    }
-
-    .fullScreen{
-        margin-top: 0;
-    }
-    .house1100{
-        display: flex;
-    }
 }
 
 @media only screen and (min-width: 1400px){
