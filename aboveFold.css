@@ -2,18 +2,6 @@
     display: none;
 }
 
-.clouds{
-    width: 100%;
-    align-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 100px;
-    position: relative;
-    z-index: -40;
-}
-
 .aboveFold{
     height: 100vh;
 }
@@ -338,11 +326,17 @@
     visibility: hidden;
 }
 
+.flexendDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .commercialSpace{
     display: flex;
     flex-direction: column;
     width: 960px;
-    height: 150px;
+    height: 140px;
     align-self: center;
     align-items: center;
     justify-content: space-between;
@@ -353,12 +347,6 @@
     background-position-y: bottom;
 }
 
-.flexendDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .commercialSpaceRow2{
     display: flex;
     flex-direction: row;
@@ -367,21 +355,30 @@
 }
 
 .commercial1{
-    width: 468px;
-    height: 60px;
+    width: 470px;
+    height: 64px;
     background-color: gray;
+    background-image: url("Commercial-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .commercial2{
-    width: 468px;
-    height: 60px;
+    width: 470px;
+    height: 64px;
     background-color: gray;
+    background-image: url("Commercial-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .commercial3{
-    width: 468px;
-    height: 60px;
+    width: 470px;
+    height: 64px;
     background-color: gray;
+    background-image: url("Commercial-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
