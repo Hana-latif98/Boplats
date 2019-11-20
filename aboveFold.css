@@ -306,10 +306,19 @@
     margin-right: 0px;
     max-width: 1200px;
     align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .houseIllustrationSS{
    display: none;
+}
+
+.houseAndCom{
+    display: flex;
+    flex-direction: column;
 }
 
 .fullScreen{
@@ -327,6 +336,52 @@
 
 .dummy{
     visibility: hidden;
+}
+
+.commercialSpace{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 150px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    background-image: url("Commercial Holder.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+}
+
+.flexendDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.commercialSpaceRow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.commercial1{
+    width: 468px;
+    height: 60px;
+    background-color: gray;
+}
+
+.commercial2{
+    width: 468px;
+    height: 60px;
+    background-color: gray;
+}
+
+.commercial3{
+    width: 468px;
+    height: 60px;
+    background-color: gray;
 }
 
 
