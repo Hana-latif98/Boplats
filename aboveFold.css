@@ -302,7 +302,6 @@
 
 .houseIllustration{
     width: 100vw;
-    margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
     max-width: 1200px;
@@ -314,7 +313,7 @@
 }
 
 .fullScreen{
-    min-height: 91vh;
+    height: 91vh;
     margin-top: 70px;
     display: flex;
     flex-direction: column;

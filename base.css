@@ -31,16 +31,6 @@ footer{
     width: 100%;
 }
 
-#backgroundOverlay{
-    background-color:transparent;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    display:block;
-}
-
 @media only screen and (max-width: 768px) and (min-width: 640px){
 
     .line{
