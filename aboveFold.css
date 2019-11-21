@@ -20,7 +20,6 @@
     z-index: 1;
     text-align: center;
     max-width: 880px;
-    max-height: 382px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 52px;
@@ -312,7 +311,7 @@
 }
 
 .fullScreen{
-    height: 91vh;
+    min-height: 91vh;
     margin-top: 70px;
     display: flex;
     flex-direction: column;
@@ -407,7 +406,6 @@
         margin-left: auto;
         margin-right: auto;
         height: 100%;
-        max-height: 490px;
         transform: none;
     }
 
@@ -696,4 +694,23 @@
         transform: scale(0.7);
     }
 
+}
+
+@media only screen and (max-height: 500px) and (max-width: 5000px){
+
+    .mainFunctionContent{ 
+        height: 328px;
+    }
+
+    .mainFunctionBox{
+        max-height:386px;
+    }
+
+    #fullS{
+        min-height: none !important;
+    }
+
+    .mainFunctionSearchButton{
+        padding-bottom: 19px;
+    }
 }
