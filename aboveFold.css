@@ -568,7 +568,7 @@
         background-image: url("Small\ Clouds.svg");
         background-repeat: no-repeat;
         background-size: 100vw;
-        min-height: 85vh;
+        min-height: 100vh;
         margin-top: 10px;
     } 
 
@@ -580,10 +580,10 @@
         display: none;
     }
 
-
     .dummy{
         display: none;
     }
+
 }
 
 @media only screen and (max-width: 1120px) and (min-width: 769px){
@@ -726,6 +726,10 @@
 
     .mainFunctionContent{ 
         height: 328px;
+    }
+
+    .mainFunctionBox{
+        height: 386px;
     }
 
     #fullS{
