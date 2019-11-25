@@ -2,6 +2,18 @@
     display: none;
 }
 
+#smallAd{
+    display: none;
+}
+
+#mediumAd{
+    display: none;
+}
+
+#largeAd{
+    display: none;
+}
+
 .aboveFold{
     height: 100vh;
 }
@@ -553,11 +565,13 @@
 
     .mobileAd{
         display: flex;
+        flex-direction: row;
+        overflow: hidden;
         height: 50px;
-        background-color: #ADADAD;
         justify-content: center;
         margin-top: 60px;
         width: 100%;
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
     }
 
     .mainFunctionRow1{
@@ -583,6 +597,10 @@
 
     .dummy{
         display: none;
+    }
+
+    #smallAd{
+        display: flex;
     }
 
 }
@@ -625,10 +643,14 @@
     .mobileAd{
         display: flex;
         margin-top: 100px;
-        background-color: #ADADAD;
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
         width: 100%;
         justify-content: center;
         height: 90px;
+    }
+
+    #mediumAd{
+        display: flex;
     }
 
 }
@@ -677,7 +699,7 @@
     .mobileAd{
         display: flex;
         margin-top: 66px;
-        background-color: #ADADAD;
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
         width: 100%;
         justify-content: center;
         height: 90px;
@@ -694,6 +716,11 @@
     .mainFunctionBox{
         transform: scale(0.8);
     }
+
+
+    #largeAd{
+        display: flex;
+    }
 }
 
 @media only screen and (max-height: 680px) and (min-width: 1400px){
@@ -705,7 +732,7 @@
     .mobileAd{
         display: flex;
         margin-top: 80px;
-        background-color: #ADADAD;
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
         width: 100%;
         justify-content: center;
         height: 90px;
@@ -730,6 +757,10 @@
         transform: scale(0.7);
     }
 
+    #smallAd{
+        display: flex;
+    }
+
 }
 
 @media only screen and (max-height: 500px) and (max-width: 5000px){
@@ -747,6 +778,7 @@
         display: flex;
         justify-content: center;
         height: 90px;
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
     }
 
     .mainFunctionBox{
