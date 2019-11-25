@@ -407,6 +407,7 @@
         margin-left: auto;
         margin-right: auto;
         transform: none;
+        margin-top: 20px;
     }
 
     .mainFunctionContent{
@@ -567,8 +568,8 @@
         background-image: none;
         background-image: url("Small\ Clouds.svg");
         background-repeat: no-repeat;
-        background-size: 100vw;
-        min-height: 100vh;
+        background-size: 100%;
+        min-height: 50vh;
         margin-top: 10px;
     } 
 
@@ -770,7 +771,7 @@
 
     #fullS{
         min-height: none !important;
-        height: 500px;
+        height: 600px;
     }
 
     .commercialSpace{
@@ -783,7 +784,7 @@
 
     .mainFunctionBox{
         margin-top: 0;
-        min-height: 486px;
+        max-height: 486px;
     }
 
     .dummy{
