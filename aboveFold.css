@@ -585,7 +585,7 @@
 
 }
 
-@media only screen and (max-width: 1120px) and (min-width: 769px){
+@media only screen and (max-width: 1120px) and (min-width: 769px) and (max-height: 800px){
 
     .fullScreen{
         height: none;
@@ -728,15 +728,15 @@
         height: 800px;
     }
 
-    .mainFunctionSearchButton{
-        padding-bottom: 19px;
-    }
-
     .commercialSpace{
         display: none;
     }
 
     .mobileAd{
         display: flex;
+    }
+
+    .dummy{
+        display: none;
     }
 }
