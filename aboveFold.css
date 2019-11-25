@@ -159,6 +159,7 @@
     font-size: 14px;
     color: #444444;
     text-align: justify;
+    cursor:pointer;
 }
   
 .dropdown {
@@ -172,6 +173,7 @@
     color: #444444;
     text-align: justify;
     font-weight: normal;
+    cursor:pointer;
 }  
 
 .dropdown-content {
@@ -214,7 +216,7 @@
     background-color: #F7C3DB;
 }
 
-  
+.dropdown a:hover {background-color: #F7C3DB;}
 .show {display: block;}
 
 .dropbtn2 {
@@ -274,7 +276,7 @@
     text-decoration: none;
     display: block;
 }
-  
+
 .dropdown2 a:hover {background-color: #F7C3DB;}
   
 .show {display: block;}
@@ -299,6 +301,7 @@
     padding-top: 14px;
     padding-bottom: 14px;
     border: none;
+    cursor:pointer;
 }
 
 .houseIllustration{
@@ -375,6 +378,7 @@
     background-image: url("Commercial-1.png");
     background-repeat: no-repeat;
     background-position: center;
+    cursor:pointer;
 }
 
 .commercial2{
@@ -384,6 +388,7 @@
     background-image: url("Commercial-2.png");
     background-repeat: no-repeat;
     background-position: center;
+    cursor:pointer;
 }
 
 .commercial3{
@@ -393,6 +398,7 @@
     background-image: url("Commercial-3.png");
     background-repeat: no-repeat;
     background-position: center;
+    cursor:pointer;
 }
 
 .house1100{
