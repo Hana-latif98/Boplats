@@ -762,31 +762,3 @@
     }
 
 }
-
-@media only screen and (max-height: 500px) and (max-width: 5000px){
-
-    #fullS{
-        min-height: none !important;
-        height: 600px;
-    }
-
-    .commercialSpace{
-        display: none;
-    }
-
-    .mobileAd{
-        display: flex;
-        justify-content: center;
-        height: 90px;
-        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
-    }
-
-    .mainFunctionBox{
-        margin-top: 0;
-        max-height: 486px;
-    }
-
-    .dummy{
-        display: none;
-    }
-}
