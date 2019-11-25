@@ -405,7 +405,6 @@
         padding-right: 40px;
         margin-left: auto;
         margin-right: auto;
-        height: 100%;
         transform: none;
     }
 
@@ -724,19 +723,20 @@
 
 @media only screen and (max-height: 500px) and (max-width: 5000px){
 
-    .mainFunctionContent{ 
-        height: 328px;
-    }
-
-    .mainFunctionBox{
-        height: 386px;
-    }
-
     #fullS{
         min-height: none !important;
+        height: 800px;
     }
 
     .mainFunctionSearchButton{
         padding-bottom: 19px;
+    }
+
+    .commercialSpace{
+        display: none;
+    }
+
+    .mobileAd{
+        display: flex;
     }
 }
