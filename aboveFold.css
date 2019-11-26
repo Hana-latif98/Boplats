@@ -37,7 +37,6 @@
     padding-left: 52px;
     padding-right: 52px;
     margin-bottom: 0px;
-    transform: scale(0.8);
 
 }
 
@@ -660,6 +659,51 @@
         display: flex;
     }
 
+    .mainFunctionBox{
+        transform: scale(0.8);
+    }
+
+    .mainFunctionTitle1{
+        font-size: 28px !important;
+    }
+
+    .dropbtn{
+        font-size: 16px;
+    }
+
+
+    .dropbtn2{
+        font-size: 16px;
+    }
+
+    .dropdownText {
+        font-size: 16px;
+    }
+
+
+    .dropdown-content-active{
+        font-size: 16px;
+    }
+
+    .dropdown-content{
+        font-size: 16px;
+    }
+
+    .gridHeader{
+        font-size: 18px;
+    }
+
+    .gridHeaderRow2{
+        font-size: 18px;
+    }
+
+    .mainFunctionSearchButton{
+        font-size: 19px !important;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
 }
 
 @media only screen and (min-width: 1400px){
@@ -674,7 +718,7 @@
 }
 
 
-@media only screen and (max-height: 680px) and (min-width: 1120px){
+@media only screen and (max-height: 780px) and (min-width: 1120px){
 
     .commercialSpace{
         display: none;
@@ -701,39 +745,54 @@
         transform: scale(0.8);
     }
 
+    .mainFunctionTitle1{
+        font-size: 28px !important;
+    }
 
     #largeAd{
         display: flex;
     }
+
+
+    .dropbtn{
+        font-size: 16px;
+    }
+
+
+    .dropbtn2{
+        font-size: 16px;
+    }
+
+    .dropdownText {
+        font-size: 16px;
+    }
+
+
+    .dropdown-content-active{
+        font-size: 16px;
+    }
+
+    .dropdown-content{
+        font-size: 16px;
+    }
+
+    .gridHeader{
+        font-size: 18px;
+    }
+
+    .gridHeaderRow2{
+        font-size: 18px;
+    }
+
+    .mainFunctionSearchButton{
+        font-size: 19px !important;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
 }
 
-@media only screen and (max-height: 680px) and (min-width: 1400px){
-
-    .commercialSpace{
-        display: none;
-    }
-
-    .mobileAd{
-        display: flex;
-        margin-top: 80px;
-        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
-        width: 100%;
-        justify-content: center;
-        height: 90px;
-    }
-
-    .fullScreen{
-        margin-top: 0;
-    }
-
-    .dummy{
-        display: none;
-    }
-
-    .mainFunctionBox{
-        transform: scale(0.8);
-    }
-}
 
 @media only screen and (max-width: 768px) and (max-height: 720px){
 
