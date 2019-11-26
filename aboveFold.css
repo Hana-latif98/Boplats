@@ -616,6 +616,7 @@
 
     .fullScreen{
         height: none;
+        min-height: 80vh;
         margin-top: 0;
     }
 
@@ -663,10 +664,6 @@
 
 @media only screen and (min-width: 1400px){
 
-    .mainFunctionBox{
-        transform: none;
-    }
-
     .house1100{
         display: none;
     }
@@ -676,25 +673,6 @@
     }
 }
 
-
-@media only screen and (max-height: 760px) and (min-width: 1120px){
-
-    .commercialSpace{
-        display: flex;
-    }
-
-    .mobileAd{
-        display: none;
-    }
-
-    .dummy{
-        display: none;
-    }
-
-    .mainFunctionBox{
-        transform: scale(0.7);
-    }
-}
 
 @media only screen and (max-height: 680px) and (min-width: 1120px){
 
