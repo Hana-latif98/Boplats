@@ -15,8 +15,7 @@
 .threeIconsFlexContent{
     display: flex;
     flex-direction: column;
-    max-width: 345px;
-    justify-content: space-between;
+    max-width: 340px;
     align-items: center;
 }
 
@@ -25,14 +24,27 @@
     height: auto;
 }
 
+
 .grid2Header{
     font-family: Verdana;
     font-weight: bold;
     font-size: 20px;
     color: black;
     text-align: center;
-    margin-top: 31px;
+    margin-top: 16px;
     margin-bottom: 0px;
+    max-width: 300px;
+}
+
+.grid2Header2{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    max-width: 300px;
 }
 
 .grid2BodyText{
@@ -42,6 +54,15 @@
     text-align: center;
     line-height: 22px;
     margin-top: 16px;
+}
+
+.grid2BodyText2{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #444444;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 32px;
 }
 
 .pinkButton{
@@ -81,6 +102,26 @@
     cursor: pointer;
 }
 
+
+.pinkButton2a{
+    background: #E01171;
+    border-radius: 4px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    max-width: 141px;
+    margin-top: 84px;
+    cursor: pointer;
+}
+
 .pinkButton2b{
     background: #E01171;
     border-radius: 4px;
@@ -96,7 +137,28 @@
     padding-bottom: 12px;
     border: none;
     max-width: 141px;
-    margin-top: 40px;
+    margin-top: 16px;
+    max-width: 181px;
+    cursor: pointer;
+}
+
+
+.pinkButton2c{
+    background: #E01171;
+    border-radius: 4px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    max-width: 141px;
+    margin-top: 60px;
     max-width: 181px;
     cursor: pointer;
 }
