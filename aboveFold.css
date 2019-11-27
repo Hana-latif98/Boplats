@@ -629,6 +629,17 @@
 
     .mainFunctionBox{
         margin-bottom: 0px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .mainFunctionRow1{
+        margin-right: 20px;
+        max-width: 320px;
+    }
+
+    .mainFunctionRow2{
+        max-width: 320px;
     }
 
     .house1100{
@@ -658,53 +669,6 @@
         display: flex;
     }
 
-    .mainFunctionBox{
-        transform: scale(0.8);
-    }
-
-    .mainFunctionTitle1{
-        font-size: 28px !important;
-    }
-
-    .dropbtn{
-        font-size: 16px;
-        height: auto;
-    }
-
-
-    .dropbtn2{
-        font-size: 16px;
-        height: auto;
-    }
-
-    .dropdownText {
-        font-size: 16px;
-    }
-
-
-    .dropdown-content-active{
-        font-size: 16px;
-    }
-
-    .dropdown-content{
-        font-size: 16px;
-    }
-
-    .gridHeader{
-        font-size: 18px;
-    }
-
-    .gridHeaderRow2{
-        font-size: 18px;
-    }
-
-    .mainFunctionSearchButton{
-        font-size: 19px !important;
-        padding-left: 62px;
-        padding-right: 62px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
 }
 
 @media only screen and (min-width: 1400px){
@@ -744,54 +708,12 @@
     }
 
     .mainFunctionBox{
-        transform: scale(0.8);
-    }
-
-    .mainFunctionTitle1{
-        font-size: 28px !important;
+        margin-top: 40px;
     }
 
     #largeAd{
         display: flex;
     }
 
-
-    .dropbtn{
-        font-size: 16px;
-    }
-
-
-    .dropbtn2{
-        font-size: 16px;
-    }
-
-    .dropdownText {
-        font-size: 16px;
-    }
-
-
-    .dropdown-content-active{
-        font-size: 16px;
-    }
-
-    .dropdown-content{
-        font-size: 16px;
-    }
-
-    .gridHeader{
-        font-size: 18px;
-    }
-
-    .gridHeaderRow2{
-        font-size: 18px;
-    }
-
-    .mainFunctionSearchButton{
-        font-size: 19px !important;
-        padding-left: 62px;
-        padding-right: 62px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
 }
 
