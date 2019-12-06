@@ -618,7 +618,7 @@
 
     .fullScreen{
         height: none;
-        min-height: 100vh;
+        min-height: 91vh;
         margin-top: 0;
         background-position-y: 14%;
     }
@@ -675,7 +675,7 @@
 
     .commercialSpace2{
         align-self: center;
-        margin-bottom: 12px;
+        margin-bottom: 4px;
         margin-top: 12px;
     }
 
