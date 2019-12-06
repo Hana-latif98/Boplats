@@ -218,12 +218,10 @@
         display: flex;
     }
 
-    #headerText1{
-        margin-left: 5%;
-    }
-
     #noWrap{
         width: 543px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
