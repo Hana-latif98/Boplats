@@ -709,37 +709,3 @@
 
 }
 
-
-@media only screen and (max-height: 720px) and (min-width: 1120px){
-
-    .commercialSpace{
-        display: none;
-    }
-
-    .mobileAd{
-        display: flex;
-        margin-top: 66px;
-        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
-        width: 100%;
-        justify-content: center;
-        height: 90px;
-    }
-
-    .fullScreen{
-        margin-top: 0;
-    }
-
-    .dummy{
-        display: none;
-    }
-
-    .mainFunctionBox{
-        margin-top: 40px;
-    }
-
-    #largeAd{
-        display: flex;
-    }
-
-}
-
