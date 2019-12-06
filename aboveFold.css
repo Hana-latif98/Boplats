@@ -178,7 +178,6 @@
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
     overflow: auto;
     width:368px;
     position: absolute;
@@ -201,7 +200,6 @@
 
 .dropdown-content-active{
     display: none;
-    min-width: 160px;
     overflow: auto;
     width:372px;
     z-index: 1;
@@ -255,7 +253,6 @@
     display: none;
     position: absolute;
     background-color:white;
-    min-width: 160px;
     overflow: auto;
     width:180px;
     position: absolute;
@@ -408,7 +405,7 @@
 }
 
 /* mobile */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 766px){
     
     .mainFunctionBox{
         width: 100%;
@@ -527,14 +524,12 @@
     .dropdown-content2 {
         max-width: 116px;
         width: 100%;
-        max-height:150px; 
-        min-width: 0;
+        max-height:150px;
     }
 
     .dropdown-content2 a {
         width: 100%;
         max-width: 124px;
-        min-width: 0;
     }
 
     .mainFunctionTitle1{
@@ -614,7 +609,7 @@
 }
 
 
-@media only screen and (max-width: 1130px) and (min-width: 769px){
+@media only screen and (max-width: 1130px) and (min-width: 767px){
 
     .fullScreen{
         height: none;
@@ -684,7 +679,6 @@
     }
 
     .commercial1{
-        /* margin-bottom: 8px; */
         display: none;
     }
 
@@ -696,16 +690,12 @@
         display: none;
     }
 
-}
-
-@media only screen and (min-width: 1400px){
-
-    .house1100{
-        display: none;
+    .dropdown-content {
+        width:320px;
     }
 
-    .mobileAd{
-        height: 90px;
+    .dropdown-content2 {
+        width: 156px;
     }
 
 }
