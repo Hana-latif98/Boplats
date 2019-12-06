@@ -105,7 +105,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1130px){
 
     .header{
         height: 100%;
@@ -214,49 +214,16 @@
 
 @media only screen and (max-width: 1130px) and (min-width: 769px){
     
-    .header{
-        height: 100%;
-        max-height: 100px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .headerPart1{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: auto;
-    }
-
     .headerText{
-        padding-top: 0;
-        margin-bottom: 0;
-        margin-top: 12px;
-        font-size: 14px;
+        display: flex;
     }
 
-    .createAccount{
-        flex-direction: column;
+    #headerText1{
+        margin-left: 5%;
     }
 
-    .headerLoginText{
-        margin-bottom: 0;
-        margin-top: 8px;
-    }
-
-    .wrapperHeader{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .logo{
-        padding-left: 0;
+    #noWrap{
+        width: 543px;
     }
 }
 

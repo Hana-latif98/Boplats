@@ -618,7 +618,7 @@
 
     .fullScreen{
         height: none;
-        min-height: 94vh;
+        min-height: 100vh;
         margin-top: 0;
         background-position-y: 14%;
     }
@@ -684,7 +684,8 @@
     }
 
     .commercial1{
-        margin-bottom: 8px;
+        /* margin-bottom: 8px; */
+        display: none;
     }
 
     .commercial2{
