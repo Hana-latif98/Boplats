@@ -96,6 +96,7 @@
 
 .footerSocials{
     cursor: pointer;
+    padding-right: 8px;
 }
 
 .footerIllustrationDiv{
@@ -181,6 +182,7 @@
 
     .footerSocials{
         margin-top: 0px;
+        padding-right: 0px;
     }
 
     .footerSocialsSS{
@@ -260,6 +262,7 @@
 
     .footerSocials{
         margin-top: 0px;
+        padding-right: 0px;
     }
 
     .facebook{
@@ -272,6 +275,14 @@
         display: flex;
     }
 
+
+    .footerSocialsSS{
+        display: flex;
+        padding-bottom: 40px;
+        width: 140px;
+        justify-content: space-between;
+    }
+
 }
 
 @media only screen and (max-width: 1000px){
@@ -282,5 +293,18 @@
 
     .flexBoxFooterPart1{
         display: flex;
+    }
+
+    .footerSocials{
+        margin-top: 0px;
+        padding-right: 0px;
+    }
+
+    .footerSocialsSS{
+        display: flex;
+        padding-bottom: 40px;
+        width: 140px;
+        justify-content: space-between;
+        padding-right: 0px;
     }
 }
