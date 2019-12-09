@@ -2,13 +2,11 @@
 .footer{
     background: #AB0E86;
     box-shadow: 0 0 7px 2px rgba(102,153,204,0.26);
-    max-height: 301px;
     width: 100%;
     left: 0px;
     right: 0px;
     bottom: 0;
 }
-
 
 .footerDesign{
     justify-content: space-around;
@@ -22,7 +20,7 @@
 }
 
 .flexBoxFooterPart1{
-    display: flex;
+    display: none;
     flex-direction: column;
     max-width: 250px;
 }
@@ -82,9 +80,8 @@
 }
 
 .footerIllustration{
-    margin-top: 70px;
+    margin-top: 40px;
     max-width: 250px;
-    align-self: flex-end;
 }
 
 .instagram{
@@ -98,8 +95,18 @@
 }
 
 .footerSocials{
-    margin-right: 8px;
     cursor: pointer;
+}
+
+.footerIllustrationDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footerSocialsSS{
+    display: none;
 }
 
 @media only screen and (max-width: 639px){
@@ -113,12 +120,11 @@
         flex-direction: column-reverse;
         padding-top: 40px;
         align-items: center;
-        max-height: 600px;
         bottom: 0px;
     }
     
     .flexBoxFooterPart1{
-        margin-top: 40px;
+        display: none;
     }
     
     .flexBoxFooterPart2{
@@ -177,12 +183,12 @@
         margin-top: 0px;
     }
 
-    .facebook{
+    .footerSocialsSS{
         display: flex;
-        flex-direction: row;
-        margin-top: 0px;
+        padding-bottom: 40px;
+        width: 140px;
+        justify-content: space-between;
     }
-
 
 }
 
@@ -197,12 +203,12 @@
     }
     
     .flexBoxFooterPart1{
-        margin-top: 40px;
+        display: none;
     }
     
     .flexBoxFooterPart2{
         display: flex;
-        flex-direction: rowr;
+        flex-direction: row;
     }
 
     .flexBoxFooterPart2b{
@@ -262,11 +268,19 @@
         margin-top: 0px;
     }
 
+    .flexBoxFooterPart1{
+        display: flex;
+    }
+
 }
 
 @media only screen and (max-width: 1000px){
     
     .flexBoxFooterPart2b{
         display: none;
+    }
+
+    .flexBoxFooterPart1{
+        display: flex;
     }
 }

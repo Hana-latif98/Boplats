@@ -320,7 +320,7 @@
 }
 
 .fullScreen{
-    min-height: 91vh;
+    min-height: 100vh;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
