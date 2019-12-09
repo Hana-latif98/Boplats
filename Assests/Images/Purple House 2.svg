@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="191px" height="100px" viewBox="0 0 191 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Purple House</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1129.000000, -914.000000)">
+            <g id="Purple-House" transform="translate(1129.000000, 914.000000)">
+                <rect id="Rectangle" fill="#EBBDFF" x="3.3345873" y="28.3429296" width="187.570536" height="70.8825573"></rect>
+                <g id="Window-purple" transform="translate(25.009405, 49.184100)">
+                    <rect id="Rectangle" fill="#F5DFFF" x="4.16823413" y="0" width="33.345873" height="50.0188095"></rect>
+                    <rect id="Rectangle" fill="#2E0041" x="0" y="0" width="41.6823413" height="8.33646826"></rect>
+                    <rect id="Rectangle" fill="#2E0041" x="0" y="41.6823413" width="41.6823413" height="8.33646826"></rect>
+                    <line x1="20.8411706" y1="9.17011508" x2="20.8411706" y2="40.8486945" id="Line-17" stroke="#FFFFFF" stroke-width="1.66729365" stroke-linecap="square"></line>
+                    <line x1="20.8411706" y1="9.17011508" x2="20.8411706" y2="40.8486945" id="Line-17" stroke="#FFFFFF" stroke-width="1.66729365" stroke-linecap="square" transform="translate(20.841171, 25.009405) rotate(-90.000000) translate(-20.841171, -25.009405) "></line>
+                </g>
+                <g id="Window-purple" transform="translate(83.364683, 49.184100)">
+                    <rect id="Rectangle" fill="#F5DFFF" x="4.16823413" y="0" width="33.345873" height="50.0188095"></rect>
+                    <rect id="Rectangle" fill="#2E0041" x="0" y="0" width="41.6823413" height="8.33646826"></rect>
+                    <rect id="Rectangle" fill="#2E0041" x="0" y="41.6823413" width="41.6823413" height="8.33646826"></rect>
+                    <line x1="20.8411706" y1="9.17011508" x2="20.8411706" y2="40.8486945" id="Line-17" stroke="#FFFFFF" stroke-width="1.66729365" stroke-linecap="square"></line>
+                    <line x1="20.8411706" y1="9.17011508" x2="20.8411706" y2="40.8486945" id="Line-17" stroke="#FFFFFF" stroke-width="1.66729365" stroke-linecap="square" transform="translate(20.841171, 25.009405) rotate(-90.000000) translate(-20.841171, -25.009405) "></line>
+                </g>
+                <g id="Window-purple" transform="translate(141.719960, 49.184100)">
+                    <rect id="Rectangle" fill="#F5DFFF" x="4.16823413" y="0" width="33.345873" height="50.0188095"></rect>
+                    <rect id="Rectangle" fill="#2E0041" x="0" y="0" width="41.6823413" height="8.33646826"></rect>
+                    <rect id="Rectangle" fill="#2E0041" x="0" y="41.6823413" width="41.6823413" height="8.33646826"></rect>
+                    <line x1="20.8411706" y1="9.17011508" x2="20.8411706" y2="40.8486945" id="Line-17" stroke="#FFFFFF" stroke-width="1.66729365" stroke-linecap="square"></line>
+                    <line x1="20.8411706" y1="9.17011508" x2="20.8411706" y2="40.8486945" id="Line-17" stroke="#FFFFFF" stroke-width="1.66729365" stroke-linecap="square" transform="translate(20.841171, 25.009405) rotate(-90.000000) translate(-20.841171, -25.009405) "></line>
+                </g>
+                <rect id="Rectangle" fill="#2E0041" x="0" y="18.3391677" width="190.905123" height="10.0037619"></rect>
+                <rect id="Rectangle" fill="#2E0041" x="8.33646826" y="13.3372868" width="182.568655" height="5.00188095"></rect>
+                <rect id="Rectangle" fill="#14001D" x="26.6766984" y="3.33033749" width="12.5047024" height="10.0069493"></rect>
+                <rect id="Rectangle" fill="#14001D" x="49.1851627" y="0.828600169" width="12.5047024" height="12.5086866"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

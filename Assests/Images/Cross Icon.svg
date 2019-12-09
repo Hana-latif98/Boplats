@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Cross Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-82.000000, -439.000000)" fill="#E01171">
+            <g id="Cross-Icon" transform="translate(81.000000, 438.000000)">
+                <rect id="Rectangle" transform="translate(13.000000, 13.000000) rotate(45.000000) translate(-13.000000, -13.000000) " x="-2" y="11" width="30" height="4" rx="2"></rect>
+                <rect id="Rectangle" transform="translate(13.000000, 13.000000) scale(-1, 1) rotate(45.000000) translate(-13.000000, -13.000000) " x="-2" y="11" width="30" height="4" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1110.000000, -4489.000000)">
+            <g id="Group-3" transform="translate(534.000000, 4376.000000)">
+                <g id="Facebook" transform="translate(576.000000, 113.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="15" cy="15" r="15"></circle>
+                    <path d="M21.2264151,6.50943396 L21.2264151,10.1886792 C19.5283019,9.81132075 18.3962264,10 17.8301887,10.754717 C17.2641509,11.509434 16.9811321,13.0188679 16.9811321,15.2830189 L21.2264151,15.2830189 L20.6603774,19.245283 L16.9811321,19.245283 L16.9811321,30 C16.2264151,30 15.4716981,30 14.7169811,30 C13.9622642,30 13.2075472,29.9528302 12.4528302,29.8584906 L12.4528302,19.245283 L8.77358491,19.245283 L8.77358491,15.2830189 L12.4528302,15.2830189 C12.2641509,11.6981132 12.8301887,9.1509434 14.1509434,7.64150943 C15.4716981,6.13207547 17.8301887,5.75471698 21.2264151,6.50943396 Z" id="Path" fill="#AB0E86"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
