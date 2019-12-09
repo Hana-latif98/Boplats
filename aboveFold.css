@@ -325,7 +325,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("Clouds.svg");
+    background-image: url("./Assests/Images/Clouds.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     justify-content: space-between;
@@ -357,7 +357,7 @@
     align-items: center;
     justify-content: space-between;
     padding-bottom: 10px;
-    background-image: url("Commercial Holder.svg");
+    background-image: url("./Assests/Images/Commercial Holder.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: bottom;
@@ -374,7 +374,7 @@
     width: 470px;
     height: 64px;
     background-color: #ADADAD;
-    background-image: url("Commercial-1.png");
+    background-image: url("./Assests/Images/Commercial-1.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor:pointer;
@@ -384,7 +384,7 @@
     width: 470px;
     height: 64px;
     background-color: #ADADAD;
-    background-image: url("Commercial-2.png");
+    background-image: url("./Assests/Images/Commercial-2.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor:pointer;
@@ -394,7 +394,7 @@
     width: 470px;
     height: 64px;
     background-color: #ADADAD;
-    background-image: url("Commercial-3.png");
+    background-image: url("./Assests/Images/Commercial-3.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor:pointer;
@@ -583,7 +583,7 @@
 
     .fullScreen{
         background-image: none;
-        background-image: url("Small\ Clouds.svg");
+        background-image: url("./Assests/Images/Small\ Clouds.svg");
         background-repeat: no-repeat;
         background-size: 100%;
         min-height: 50vh;
@@ -654,7 +654,7 @@
     .flexendDiv2{
         display: flex;
         flex-direction: column;
-        background-image: url(CommercialHolder2.svg);
+        background-image: url(./Assests/Images/CommercialHolder2.svg);
         background-repeat: no-repeat;
         background-position: center;
     }
