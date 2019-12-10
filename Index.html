@@ -8,509 +8,502 @@
 <body>
     <div class="mobileAd">
         <div id="smallAd"><img src="./Assests/Images/pool-ad.png"></div>
-        </div>
-<div class="header">
-    <div class="wrapperHeader">
-        <div class="headerPart1">
-            <img src="./Assests/Images/logo.svg" class="logo">
-            
-            <div class="headerTextholder" id="noWrap">
-                <button class="headerText" id="headerText1">Sök bostad</button>
-                <button class="headerText">Förmedling</button>
-                <button class="headerText">Annonsera</button>
-                <button class="headerText">Bostadsguiden</button>
-                <button class="headerText">Om Boplats</button>
+    </div>
+    <div class="header">
+        <div class="wrapperHeader">
+            <div class="headerPart1">
+                <img src="./Assests/Images/logo.svg" class="logo">
+                <div class="headerTextholder" id="noWrap">
+                    <button class="headerText" id="headerText1">Sök bostad</button>
+                    <button class="headerText">Förmedling</button>
+                    <button class="headerText">Annonsera</button>
+                    <button class="headerText">Bostadsguiden</button>
+                    <button class="headerText">Om Boplats</button>
+                </div>
+            </div>
+            <div class="createAccount">
+                <button class="headerCreateAccount">SKAPA KONTO</button>
+                <p class="headerLoginText">LOGGA IN</p>
             </div>
         </div>
-        <div class="createAccount">
-            <button class="headerCreateAccount">SKAPA KONTO</button>
-            <p class="headerLoginText">LOGGA IN</p>
-        </div>
-    </div>
-        <div class="hamburgerMenu">
+            <div class="hamburgerMenu">
                 <div id="sideNavigation" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">
-                            <img src="./Assests/Images/cross-icon.svg">
-                        </a>
-                        <a href="#loginSN">Logga in</a>
-                        <a href="#createAcountSN">Skapa konto</a>
-                        <a href="#contactUsSN">Kontakta oss</a>
-                        <a href="#faqSN">FAQ</a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">
+                        <img src="./Assests/Images/cross-icon.svg">
+                    </a>
+                    <a href="#loginSN">Logga in</a>
+                    <a href="#createAcountSN">Skapa konto</a>
+                    <a href="#contactUsSN">Kontakta oss</a>
+                    <a href="#faqSN">FAQ</a>
+                </div>
+                <span class="spanHM" onclick="openNavigation()">
+                    <div class="hamburgerFlex">
+                        <div class="hamburgerDesign"></div>
+                        <div class="hamburgerDesign"></div>
+                        <div class="hamburgerDesign"></div>
                     </div>
-                    <span class="spanHM" onclick="openNavigation()">
-                            <div class="hamburgerFlex">
-                                <div class="hamburgerDesign"></div>
-                                <div class="hamburgerDesign"></div>
-                                <div class="hamburgerDesign"></div>
-                            </div>
-                    </span>
-                
-                    <script>
-                        
-                        function openNavigation() {
-                            document.getElementById("sideNavigation").style.width = "200px";
-                        }
-                
-                        function closeNavigation() {
-                            document.getElementById("sideNavigation").style.width = "0";
-                        }
-                    </script>
-        </div>
-</div>
-
-<div>
+                </span>
+                <script>
+                    function openNavigation() {
+                        document.getElementById("sideNavigation").style.width = "200px";
+                    }
+                    
+                    function closeNavigation() {
+                        document.getElementById("sideNavigation").style.width = "0";
+                    }
+                </script>
+            </div>
     </div>
+
     <div class="wrapper">
         <div class="fullScreen" id="fullS">
             <div class="dummy">
                 <p>hej</p>
             </div>
-                    <div class="mainFunctionBox"> 
-                        <p class="mainFunctionTitle1">Sök Bostad</p>
-                        <div class="mainFunctionContent">
-                             <div class="mainFunctionRow1">
-                                 <div class="kommun">
-                                    <p class="gridHeader">Kommun</p>
-                                        <div class="dropdown">
-                                                <button id='dropDownButton' class="dropbtn">Alla...</button>
-                                                <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
-                                                    <div id="kommun" class="dropdown-content">
-                                                        <a href="#gothenburg 'javascript:void();'" onclick="toggleActive('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
-                                                        <a href="#ale 'javascript:void();" onclick="toggleActive('ale')" id='ale' class="dropdownText;">Ale</a>
-                                                        <a href="#alingas 'javascript:void();" onclick="toggleActive('alingsas')" id='alingsas' class="dropdownText">Alingsås</a>
-                                                        <a href="#bengtfors 'javascript:void();" onclick="toggleActive('bengtfors')" id='bengtfors' class="dropdownText">Bengtfors</a>
-                                                        <a href="#bollebygd 'javascript:void();" onclick="toggleActive('bollebygd')" id='bollebygd' class="dropdownText">Bollebygd</a>
-                                                        <a href="#boras 'javascript:void();" onclick="toggleActive('boras')" id='boras' class="dropdownText">Borås</a>
-                                                        <a href="#dalsEd 'javascript:void();" onclick="toggleActive('dalsEd')" id='dalsEd' class="dropdownText">DalsEd</a>
-                                                        <a href="#essunga 'javascript:void();" onclick="toggleActive('essunga')" id='essunga' class="dropdownText">Essunga</a>
-                                                        <a href="#falkenberg 'javascript:void();" onclick="toggleActive('falkenberg')" id='falkenberg' class="dropdownText">Falkenberg</a>
-                                                        <a href="#falkoping 'javascript:void();" onclick="toggleActive('falkoping')" id='falkoping' class="dropdownText">Falköping</a>
-                                                        <a href="#fargelanda 'javascript:void();" onclick="toggleActive('fargelanda')" id='fargelanda' class="dropdownText">Färgelanda</a>
-                                                        <a href="#grastorp 'javascript:void();" onclick="toggleActive('grastorp')" id='grastorp' class="dropdownText">Grästorp</a>
-                                                        <a href="#gullspang 'javascript:void();" onclick="toggleActive('gullspang')" id='gullspang' class="dropdownText">Gullspång</a>
-                                                        <a href="#gotene 'javascript:void();" onclick="toggleActive('gotene')" id='gotene' class="dropdownText">Götene</a>
-                                                        <a href="#halmstad 'javascript:void();" onclick="toggleActive('halmstad')" id='halmstad' class="dropdownText">Halmstad</a>
-                                                        <a href="#herrljunga 'javascript:void();" onclick="toggleActive('herrljunga')" id='herrljunga' class="dropdownText">Herrljunga</a>
-                                                        <a href="#hjo 'javascript:void();" onclick="toggleActive('hjo')" id='hjo' class="dropdownText">Hjo</a>
-                                                        <a href="#harryda 'javascript:void();" onclick="toggleActive('harryda')" id='harryda' class="dropdownText">Härryda</a>
-                                                        <a href="#karlsborg 'javascript:void();" onclick="toggleActive('karlsborg')" id='karlsborg' class="dropdownText">Karlsborg</a>
-                                                        <a href="#kungsbacka 'javascript:void();" onclick="toggleActive('kungsbacka')" id='kungsbacka' class="dropdownText">Kungsbacka</a>
-                                                        <a href="#kungalv 'javascript:void();" onclick="toggleActive('kungalv')" id='kungalv' class="dropdownText">Kungälv</a>
-                                                        <a href="#lerum 'javascript:void();" onclick="toggleActive('lerum')" id='lerum' class="dropdownText">Lerum</a>
-                                                        <a href="#lidkoping 'javascript:void();" onclick="toggleActive('lidkoping')" id='lidkoping' class="dropdownText">Lidköping</a>
-                                                        <a href="#lillaEdet 'javascript:void();" onclick="toggleActive('lillaEdet')" id='lillaEdet' class="dropdownText">Lilla Edet</a>
-                                                        <a href="#lysekil 'javascript:void();" onclick="toggleActive('lysekil')" id='lysekil' class="dropdownText">Lysekil</a>
-                                                        <a href="#mariestad 'javascript:void();" onclick="toggleActive('mariestad')" id='mariestad' class="dropdownText">Mariestad</a>
-                                                        <a href="#mark 'javascript:void();" onclick="toggleActive('mark')" id='mark' class="dropdownText">Mark</a>
-                                                        <a href="#mellerud 'javascript:void();" onclick="toggleActive('mellerud')" id='mellerud' class="dropdownText">Mellerud</a>
-                                                        <a href="#molndal 'javascript:void();" onclick="toggleActive('molndal')" id='molndal' class="dropdownText">Mölndal</a>
-                                                        <a href="#orust 'javascript:void();" onclick="toggleActive('orust')" id='orust' class="dropdownText">Orust</a>
-                                                        <a href="#partille 'javascript:void();" onclick="toggleActive('partille')" id='partille' class="dropdownText">Partille</a>
-                                                        <a href="#skara 'javascript:void();" onclick="toggleActive('skara')" id='skara' class="dropdownText">Skara</a>
-                                                        <a href="#skovde 'javascript:void();" onclick="toggleActive('skovde')" id='skovde' class="dropdownText">Skövde</a>
-                                                        <a href="#sotenas 'javascript:void();" onclick="toggleActive('sotenas')" id="sotenas" class="dropdownText">Sotenäs</a>
-                                                        <a href="#stenugnsund 'javascript:void();" onclick="toggleActive('stenungsund')" id='stenungsund' class="dropdownText">Stenungsund</a>
-                                                        <a href="#stromstad 'javascript:void();" onclick="toggleActive('stromstad')" id='stromstad' class="dropdownText">Strömstad</a>
-                                                        <a href="#svenjunga 'javascript:void();" onclick="toggleActive('svenjunga')" id='svenjunga' class="dropdownText">Svenjunga</a>
-                                                        <a href="#tanum 'javascript:void();" onclick="toggleActive('tanum')" id='tanum' class="dropdownText">Tanum</a>
-                                                        <a href="#tibro 'javascript:void();" onclick="toggleActive('tibro')" id='tibro' class="dropdownText">Tibro</a>
-                                                        <a href="#tidaholm 'javascript:void();" onclick="toggleActive('tidaholm')" id='tidaholm' class="dropdownText">Tidaholm</a>
-                                                        <a href="#tjorn 'javascript:void();" onclick="toggleActive('tjorn')" id='tjorn' class="dropdownText">Tjörn</a>
-                                                        <a href="#tranemo 'javascript:void();" onclick="toggleActive('tranemo')" id='tranemo' class="dropdownText">Tranemo</a>
-                                                        <a href="#trollhattan 'javascript:void();" onclick="toggleActive('trollhattan')" id='trollhattan' class="dropdownText">Trollhättan</a>
-                                                        <a href="#toreboda 'javascript:void();" onclick="toggleActive('toreboda')" id='toreboda' class="dropdownText">Töreboda</a>
-                                                        <a href="#uddevalla 'javascript:void();" onclick="toggleActive('uddevalla')" id='uddevalla' class="dropdownText">Uddevalla</a>
-                                                        <a href="#ulricehamn 'javascript:void();" onclick="toggleActive('ulricehamn')" id='ulricehamn' class="dropdownText">Ulricehamn</a>
-                                                        <a href="#vara 'javascript:void();" onclick="toggleActive('vara')" id='vara' class="dropdownText">Vara</a>
-                                                        <a href="#vargarda 'javascript:void();" onclick="toggleActive('vargarda')" id='vargarda' class="dropdownText">Vårgårda</a>
-                                                        <a href="#vanersborg 'javascript:void();" onclick="toggleActive('vanersborg')" id='vanersborg' class="dropdownText">Vänersborg</a>
-                                                        <a href="#amal 'javascript:void();" onclick="toggleActive('amal')" id='amal' class="dropdownText">Åmål</a>
-                                                        <a href="#ockero 'javascript:void();" onclick="toggleActive('ockero')" id='ockero' class="dropdownText">Öckero</a>
-                                                </div>
+            <div class="mainFunctionBox"> 
+                <p class="mainFunctionTitle1">Sök Bostad</p>
+                    <div class="mainFunctionContent">
+                        <div class="mainFunctionRow1">
+                            <div class="kommun">
+                                <p class="gridHeader">Kommun</p>
+                                <div class="dropdown">
+                                    <button id='dropDownButton' class="dropbtn">Alla...</button>
+                                    <element><img src="./Assests/Images/chevron.svg" class="chevron">
+                                    <element>
+                                        <div id="kommun" class="dropdown-content">
+                                            <a href="#gothenburg 'javascript:void();'" onclick="toggleActive('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
+                                            <a href="#ale 'javascript:void();" onclick="toggleActive('ale')" id='ale' class="dropdownText;">Ale</a>
+                                            <a href="#alingas 'javascript:void();" onclick="toggleActive('alingsas')" id='alingsas' class="dropdownText">Alingsås</a>
+                                            <a href="#bengtfors 'javascript:void();" onclick="toggleActive('bengtfors')" id='bengtfors' class="dropdownText">Bengtfors</a>
+                                            <a href="#bollebygd 'javascript:void();" onclick="toggleActive('bollebygd')" id='bollebygd' class="dropdownText">Bollebygd</a>
+                                            <a href="#boras 'javascript:void();" onclick="toggleActive('boras')" id='boras' class="dropdownText">Borås</a>
+                                            <a href="#dalsEd 'javascript:void();" onclick="toggleActive('dalsEd')" id='dalsEd' class="dropdownText">DalsEd</a>
+                                            <a href="#essunga 'javascript:void();" onclick="toggleActive('essunga')" id='essunga' class="dropdownText">Essunga</a>
+                                            <a href="#falkenberg 'javascript:void();" onclick="toggleActive('falkenberg')" id='falkenberg' class="dropdownText">Falkenberg</a>
+                                            <a href="#falkoping 'javascript:void();" onclick="toggleActive('falkoping')" id='falkoping' class="dropdownText">Falköping</a>
+                                            <a href="#fargelanda 'javascript:void();" onclick="toggleActive('fargelanda')" id='fargelanda' class="dropdownText">Färgelanda</a>
+                                            <a href="#grastorp 'javascript:void();" onclick="toggleActive('grastorp')" id='grastorp' class="dropdownText">Grästorp</a>
+                                            <a href="#gullspang 'javascript:void();" onclick="toggleActive('gullspang')" id='gullspang' class="dropdownText">Gullspång</a>
+                                            <a href="#gotene 'javascript:void();" onclick="toggleActive('gotene')" id='gotene' class="dropdownText">Götene</a>
+                                            <a href="#halmstad 'javascript:void();" onclick="toggleActive('halmstad')" id='halmstad' class="dropdownText">Halmstad</a>
+                                            <a href="#herrljunga 'javascript:void();" onclick="toggleActive('herrljunga')" id='herrljunga' class="dropdownText">Herrljunga</a>
+                                            <a href="#hjo 'javascript:void();" onclick="toggleActive('hjo')" id='hjo' class="dropdownText">Hjo</a>
+                                            <a href="#harryda 'javascript:void();" onclick="toggleActive('harryda')" id='harryda' class="dropdownText">Härryda</a>
+                                            <a href="#karlsborg 'javascript:void();" onclick="toggleActive('karlsborg')" id='karlsborg' class="dropdownText">Karlsborg</a>
+                                            <a href="#kungsbacka 'javascript:void();" onclick="toggleActive('kungsbacka')" id='kungsbacka' class="dropdownText">Kungsbacka</a>
+                                            <a href="#kungalv 'javascript:void();" onclick="toggleActive('kungalv')" id='kungalv' class="dropdownText">Kungälv</a>
+                                            <a href="#lerum 'javascript:void();" onclick="toggleActive('lerum')" id='lerum' class="dropdownText">Lerum</a>
+                                            <a href="#lidkoping 'javascript:void();" onclick="toggleActive('lidkoping')" id='lidkoping' class="dropdownText">Lidköping</a>
+                                            <a href="#lillaEdet 'javascript:void();" onclick="toggleActive('lillaEdet')" id='lillaEdet' class="dropdownText">Lilla Edet</a>
+                                            <a href="#lysekil 'javascript:void();" onclick="toggleActive('lysekil')" id='lysekil' class="dropdownText">Lysekil</a>
+                                            <a href="#mariestad 'javascript:void();" onclick="toggleActive('mariestad')" id='mariestad' class="dropdownText">Mariestad</a>
+                                            <a href="#mark 'javascript:void();" onclick="toggleActive('mark')" id='mark' class="dropdownText">Mark</a>
+                                            <a href="#mellerud 'javascript:void();" onclick="toggleActive('mellerud')" id='mellerud' class="dropdownText">Mellerud</a>
+                                            <a href="#molndal 'javascript:void();" onclick="toggleActive('molndal')" id='molndal' class="dropdownText">Mölndal</a>
+                                            <a href="#orust 'javascript:void();" onclick="toggleActive('orust')" id='orust' class="dropdownText">Orust</a>
+                                            <a href="#partille 'javascript:void();" onclick="toggleActive('partille')" id='partille' class="dropdownText">Partille</a>
+                                            <a href="#skara 'javascript:void();" onclick="toggleActive('skara')" id='skara' class="dropdownText">Skara</a>
+                                            <a href="#skovde 'javascript:void();" onclick="toggleActive('skovde')" id='skovde' class="dropdownText">Skövde</a>
+                                            <a href="#sotenas 'javascript:void();" onclick="toggleActive('sotenas')" id="sotenas" class="dropdownText">Sotenäs</a>
+                                            <a href="#stenugnsund 'javascript:void();" onclick="toggleActive('stenungsund')" id='stenungsund' class="dropdownText">Stenungsund</a>
+                                            <a href="#stromstad 'javascript:void();" onclick="toggleActive('stromstad')" id='stromstad' class="dropdownText">Strömstad</a>
+                                            <a href="#svenjunga 'javascript:void();" onclick="toggleActive('svenjunga')" id='svenjunga' class="dropdownText">Svenjunga</a>
+                                            <a href="#tanum 'javascript:void();" onclick="toggleActive('tanum')" id='tanum' class="dropdownText">Tanum</a>
+                                            <a href="#tibro 'javascript:void();" onclick="toggleActive('tibro')" id='tibro' class="dropdownText">Tibro</a>
+                                            <a href="#tidaholm 'javascript:void();" onclick="toggleActive('tidaholm')" id='tidaholm' class="dropdownText">Tidaholm</a>
+                                            <a href="#tjorn 'javascript:void();" onclick="toggleActive('tjorn')" id='tjorn' class="dropdownText">Tjörn</a>
+                                            <a href="#tranemo 'javascript:void();" onclick="toggleActive('tranemo')" id='tranemo' class="dropdownText">Tranemo</a>
+                                            <a href="#trollhattan 'javascript:void();" onclick="toggleActive('trollhattan')" id='trollhattan' class="dropdownText">Trollhättan</a>
+                                            <a href="#toreboda 'javascript:void();" onclick="toggleActive('toreboda')" id='toreboda' class="dropdownText">Töreboda</a>
+                                            <a href="#uddevalla 'javascript:void();" onclick="toggleActive('uddevalla')" id='uddevalla' class="dropdownText">Uddevalla</a>
+                                            <a href="#ulricehamn 'javascript:void();" onclick="toggleActive('ulricehamn')" id='ulricehamn' class="dropdownText">Ulricehamn</a>
+                                            <a href="#vara 'javascript:void();" onclick="toggleActive('vara')" id='vara' class="dropdownText">Vara</a>
+                                            <a href="#vargarda 'javascript:void();" onclick="toggleActive('vargarda')" id='vargarda' class="dropdownText">Vårgårda</a>
+                                            <a href="#vanersborg 'javascript:void();" onclick="toggleActive('vanersborg')" id='vanersborg' class="dropdownText">Vänersborg</a>
+                                            <a href="#amal 'javascript:void();" onclick="toggleActive('amal')" id='amal' class="dropdownText">Åmål</a>
+                                            <a href="#ockero 'javascript:void();" onclick="toggleActive('ockero')" id='ockero' class="dropdownText">Öckero</a>
                                         </div>
-                                 </div>
-                                 <div class="rum">
-                                        <p class="gridHeaderRow2">Rum</p>
-                                        <div class="rumB">
-                                                        <div class="dropdown2">
-                                                                <button onclick="myFunction3()" class="dropbtn2" id="minimum-room"></button>
-                                                                <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
-                                                                    <div id="myDropdown3" class="dropdown-content2">
-                                                                        <a href="#min1" class="dropdownText" onclick="getValue3(1)">1</a>
-                                                                        <a href="#min2" class="dropdownText" onclick="getValue3(2)">2</a>
-                                                                        <a href="#min3" class="dropdownText" onclick="getValue3(3)">3</a>
-                                                                        <a href="#min4" class="dropdownText" onclick="getValue3(4)">4</a>
-                                                                        <a href="#min5" class="dropdownText" onclick="getValue3(5)">5</a>
-                                                                        <a href="#min6" class="dropdownText" onclick="getValue3(6)">6</a>
-                                                                        <a href="#min7" class="dropdownText" onclick="getValue3(7)">7</a>
-                                                                        <a href="#min8" class="dropdownText" onclick="getValue3(8)">8</a>
-                                                                        <a href="#minRoom" class="dropdownText" onclick="getValue3('Min')">Min</a>
-                                                                    </div>
-                                                        </div>
-                                                        <div class="dropdown2b">
-                                                                <button onclick="myFunction3b()" class="dropbtn2" id="maximum-room"></button>
-                                                                <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
-                                                                    <div id="myDropdown3b" class="dropdown-content2">
-                                                                        <a href="#max1" class="dropdownText" onclick="getValue4(1)">1</a>
-                                                                        <a href="#max2" class="dropdownText" onclick="getValue4(2)">2</a>
-                                                                        <a href="#max3" class="dropdownText" onclick="getValue4(3)">3</a>
-                                                                        <a href="#max4" class="dropdownText" onclick="getValue4(4)">4</a>
-                                                                        <a href="#max5" class="dropdownText" onclick="getValue4(5)">5</a>
-                                                                        <a href="#max6" class="dropdownText" onclick="getValue4(6)">6</a>
-                                                                        <a href="#max7" class="dropdownText" onclick="getValue4(7)">7</a>
-                                                                        <a href="#max8" class="dropdownText" onclick="getValue4(8)">8</a>
-                                                                        <a href="#maxRoom" class="dropdownText" onclick="getValue4('Max')">Max</a>
-                                                                </div>
-                                                        </div>
+                                </div>
+                            </div>
+                                <div class="rum">
+                                    <p class="gridHeaderRow2">Rum</p>
+                                    <div class="rumB">
+                                        <div class="dropdown2">
+                                            <button onclick="myFunction3()" class="dropbtn2" id="minimum-room"></button>
+                                            <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
+                                            <div id="myDropdown3" class="dropdown-content2">
+                                                <a href="#min1" class="dropdownText" onclick="getValue3(1)">1</a>
+                                                <a href="#min2" class="dropdownText" onclick="getValue3(2)">2</a>
+                                                <a href="#min3" class="dropdownText" onclick="getValue3(3)">3</a>
+                                                <a href="#min4" class="dropdownText" onclick="getValue3(4)">4</a>
+                                                <a href="#min5" class="dropdownText" onclick="getValue3(5)">5</a>
+                                                <a href="#min6" class="dropdownText" onclick="getValue3(6)">6</a>
+                                                <a href="#min7" class="dropdownText" onclick="getValue3(7)">7</a>
+                                                <a href="#min8" class="dropdownText" onclick="getValue3(8)">8</a>
+                                                <a href="#minRoom" class="dropdownText" onclick="getValue3('Min')">Min</a>
+                                            </div>
                                         </div>
-                                     </div>
-                             </div>
-                             <div class="mainFunctionRow2">
-                                    <div class="hyra">
-                                            <p class="gridHeader">Hyra</p>
-                                            <div class="hyraB">
-                                                    <div class="dropdown2">
-                                                            <button onclick="myFunction2()" class="dropbtn2" id="minimum-rent">Min</button>
-                                                            <element><img src="./Assests/Images/chevron.svg" class="chevron" onclick="myFunction2()"></element>
-                                                                <div id="myDropdown2" class="dropdown-content2">
-                                                                    <a href="#min1000" class="dropdownText" onclick="getValue(1000)">1000</a>
-                                                                    <a href="#min2000" class="dropdownText" onclick="getValue(2000)">2000</a>
-                                                                    <a href="#min3000" class="dropdownText" onclick="getValue(3000)">3000</a>
-                                                                    <a href="#min4000" class="dropdownText" onclick="getValue(4000)">4000</a>
-                                                                    <a href="#min5000" class="dropdownText" onclick="getValue(5000)">5000</a>
-                                                                    <a href="#min6000" class="dropdownText" onclick="getValue(6000)">6000</a>
-                                                                    <a href="#min7000" class="dropdownText" onclick="getValue(7000)">7000</a>
-                                                                    <a href="#min8000" class="dropdownText" onclick="getValue(8000)">8000</a>
-                                                                    <a href="#min9000" class="dropdownText" onclick="getValue(9000)">9000</a>
-                                                                    <a href="#min10000" class="dropdownText" onclick="getValue(10000)">10000</a>
-                                                                    <a href="#minRent" class="dropdownText" onclick="getValue('Min')">Min</a>
-                                                                </div>
-                                                    </div>
-                                                    <div class="dropdown2b">
-                                                            <button onclick="myFunction2b()" class="dropbtn2" id ="maximum-rent"></button>
-                                                            <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
-                                                                <div id="myDropdown2b" class="dropdown-content2">
-                                                                    <a href="#max1000" class="dropdownText" onclick="getValue2(1000)">1000</a>
-                                                                    <a href="#max2000" class="dropdownText" onclick="getValue2(2000)">2000</a>
-                                                                    <a href="#max3000" class="dropdownText" onclick="getValue2(3000)">3000</a>
-                                                                    <a href="#max4000" class="dropdownText" onclick="getValue2(4000)">4000</a>
-                                                                    <a href="#max5000" class="dropdownText" onclick="getValue2(5000)">5000</a>
-                                                                    <a href="#max6000" class="dropdownText" onclick="getValue2(6000)">6000</a>
-                                                                    <a href="#max7000" class="dropdownText" onclick="getValue2(7000)">7000</a>
-                                                                    <a href="#max8000" class="dropdownText" onclick="getValue2(8000)">8000</a>
-                                                                    <a href="#max9000" class="dropdownText" onclick="getValue2(9000)">9000</a>
-                                                                    <a href="#max10000" class="dropdownText" onclick="getValue2(10000)">10000</a>
-                                                                    <a href="#maxRent" class="dropdownText" onclick="getValue2('Max')">Max</a>
-                                                            </div>
+                                        <div class="dropdown2b">
+                                            <button onclick="myFunction3b()" class="dropbtn2" id="maximum-room"></button>
+                                            <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
+                                            <div id="myDropdown3b" class="dropdown-content2">
+                                                <a href="#max1" class="dropdownText" onclick="getValue4(1)">1</a>
+                                                <a href="#max2" class="dropdownText" onclick="getValue4(2)">2</a>
+                                                <a href="#max3" class="dropdownText" onclick="getValue4(3)">3</a>
+                                                <a href="#max4" class="dropdownText" onclick="getValue4(4)">4</a>
+                                                <a href="#max5" class="dropdownText" onclick="getValue4(5)">5</a>
+                                                <a href="#max6" class="dropdownText" onclick="getValue4(6)">6</a>
+                                                <a href="#max7" class="dropdownText" onclick="getValue4(7)">7</a>
+                                                <a href="#max8" class="dropdownText" onclick="getValue4(8)">8</a>
+                                                <a href="#maxRoom" class="dropdownText" onclick="getValue4('Max')">Max</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                            <div class="mainFunctionRow2">
+                                <div class="hyra">
+                                    <p class="gridHeader">Hyra</p>
+                                    <div class="hyraB">
+                                            <div class="dropdown2">
+                                                <button onclick="myFunction2()" class="dropbtn2" id="minimum-rent">Min</button>
+                                                <element><img src="./Assests/Images/chevron.svg" class="chevron" onclick="myFunction2()"></element>
+                                                    <div id="myDropdown2" class="dropdown-content2">
+                                                        <a href="#min1000" class="dropdownText" onclick="getValue(1000)">1000</a>
+                                                        <a href="#min2000" class="dropdownText" onclick="getValue(2000)">2000</a>
+                                                        <a href="#min3000" class="dropdownText" onclick="getValue(3000)">3000</a>
+                                                        <a href="#min4000" class="dropdownText" onclick="getValue(4000)">4000</a>
+                                                        <a href="#min5000" class="dropdownText" onclick="getValue(5000)">5000</a>
+                                                        <a href="#min6000" class="dropdownText" onclick="getValue(6000)">6000</a>
+                                                        <a href="#min7000" class="dropdownText" onclick="getValue(7000)">7000</a>
+                                                        <a href="#min8000" class="dropdownText" onclick="getValue(8000)">8000</a>
+                                                        <a href="#min9000" class="dropdownText" onclick="getValue(9000)">9000</a>
+                                                        <a href="#min10000" class="dropdownText" onclick="getValue(10000)">10000</a>
+                                                        <a href="#minRent" class="dropdownText" onclick="getValue('Min')">Min</a>
                                                     </div>
                                             </div>
-                                     </div>
-                                     <div class="boarea">
-                                        <p class="gridHeaderRow2">Boarea</p>
+                                            <div class="dropdown2b">
+                                                <button onclick="myFunction2b()" class="dropbtn2" id ="maximum-rent"></button>
+                                                <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
+                                                    <div id="myDropdown2b" class="dropdown-content2">
+                                                        <a href="#max1000" class="dropdownText" onclick="getValue2(1000)">1000</a>
+                                                        <a href="#max2000" class="dropdownText" onclick="getValue2(2000)">2000</a>
+                                                        <a href="#max3000" class="dropdownText" onclick="getValue2(3000)">3000</a>
+                                                        <a href="#max4000" class="dropdownText" onclick="getValue2(4000)">4000</a>
+                                                        <a href="#max5000" class="dropdownText" onclick="getValue2(5000)">5000</a>
+                                                        <a href="#max6000" class="dropdownText" onclick="getValue2(6000)">6000</a>
+                                                        <a href="#max7000" class="dropdownText" onclick="getValue2(7000)">7000</a>
+                                                        <a href="#max8000" class="dropdownText" onclick="getValue2(8000)">8000</a>
+                                                        <a href="#max9000" class="dropdownText" onclick="getValue2(9000)">9000</a>
+                                                        <a href="#max10000" class="dropdownText" onclick="getValue2(10000)">10000</a>
+                                                        <a href="#maxRent" class="dropdownText" onclick="getValue2('Max')">Max</a>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="boarea">
+                                    <p class="gridHeaderRow2">Boarea</p>
                                         <div class="boareaB">
-                                                <div class="dropdown2" id="original">
-                                                        <button onclick="myFunction4()" class="dropbtn2" id="minimum-living-area"></button>
-                                                        <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
-                                                            <div id="myDropdown4" class="dropdown-content2">
-                                                                <a href="#min20" class="dropdownText" onclick="getValue5(20)">20</a>
-                                                                <a href="#min30" class="dropdownText" onclick="getValue5(30)">30</a>
-                                                                <a href="#min40" class="dropdownText" onclick="getValue5(40)">40</a>
-                                                                <a href="#min50" class="dropdownText" onclick="getValue5(50)">50</a>
-                                                                <a href="#min60" class="dropdownText" onclick="getValue5(60)">60</a>
-                                                                <a href="#min70" class="dropdownText" onclick="getValue5(70)">70</a>
-                                                                <a href="#min80" class="dropdownText" onclick="getValue5(80)">80</a>
-                                                                <a href="#min90" class="dropdownText" onclick="getValue5(90)">90</a>
-                                                                <a href="#min100" class="dropdownText" onclick="getValue5(100)">100</a>
-                                                                <a href="#min110" class="dropdownText" onclick="getValue5(110)">110</a>
-                                                                <a href="#min120" class="dropdownText" onclick="getValue5(120)">120</a>
-                                                                <a href="#min130" class="dropdownText" onclick="getValue5(130)">130</a>
-                                                                <a href="#min140" class="dropdownText" onclick="getValue5(140)">140</a>
-                                                                <a href="#min150" class="dropdownText" onclick="getValue5(150)">150</a>
-                                                                <a href="#minLivingArea" class="dropdownText" onclick="getValue5('Min')">Min</a>
-                                                            </div>
-                                                </div>
-                                                <div class="dropdown2b">
-                                                        <button onclick="myFunction4b()" class="dropbtn2" id="maximum-living-area"></button>
-                                                        <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
-                                                            <div id="myDropdown4b" class="dropdown-content2">
-                                                                <a href="#max20" class="dropdownText" onclick="getValue6(20)">20</a>
-                                                                <a href="#max30" class="dropdownText" onclick="getValue6(30)">30</a>
-                                                                <a href="#max40" class="dropdownText" onclick="getValue6(40)">40</a>
-                                                                <a href="#max50" class="dropdownText" onclick="getValue6(50)">50</a>
-                                                                <a href="#max60" class="dropdownText" onclick="getValue6(60)">60</a>
-                                                                <a href="#max70" class="dropdownText" onclick="getValue6(70)">70</a>
-                                                                <a href="#max80" class="dropdownText" onclick="getValue6(80)">80</a>
-                                                                <a href="#max90" class="dropdownText" onclick="getValue6(90)">90</a>
-                                                                <a href="#max100" class="dropdownText" onclick="getValue6(100)">100</a>
-                                                                <a href="#max110" class="dropdownText" onclick="getValue6(110)">110</a>
-                                                                <a href="#mxa120" class="dropdownText" onclick="getValue6(120)">120</a>
-                                                                <a href="#max130" class="dropdownText" onclick="getValue6(130)">130</a>
-                                                                <a href="#max140" class="dropdownText" onclick="getValue6(150)">140</a>
-                                                                <a href="#max150" class="dropdownText" onclick="getValue6(160)">150</a>
-                                                                <a href ="#maxLivingArea" class="dropdownText" onclick="getValue6('Max')">Max</a>
+                                            <div class="dropdown2" id="original">
+                                                <button onclick="myFunction4()" class="dropbtn2" id="minimum-living-area"></button>
+                                                <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
+                                                    <div id="myDropdown4" class="dropdown-content2">
+                                                        <a href="#min20" class="dropdownText" onclick="getValue5(20)">20</a>
+                                                        <a href="#min30" class="dropdownText" onclick="getValue5(30)">30</a>
+                                                        <a href="#min40" class="dropdownText" onclick="getValue5(40)">40</a>
+                                                        <a href="#min50" class="dropdownText" onclick="getValue5(50)">50</a>
+                                                        <a href="#min60" class="dropdownText" onclick="getValue5(60)">60</a>
+                                                        <a href="#min70" class="dropdownText" onclick="getValue5(70)">70</a>
+                                                        <a href="#min80" class="dropdownText" onclick="getValue5(80)">80</a>
+                                                        <a href="#min90" class="dropdownText" onclick="getValue5(90)">90</a>
+                                                        <a href="#min100" class="dropdownText" onclick="getValue5(100)">100</a>
+                                                        <a href="#min110" class="dropdownText" onclick="getValue5(110)">110</a>
+                                                        <a href="#min120" class="dropdownText" onclick="getValue5(120)">120</a>
+                                                        <a href="#min130" class="dropdownText" onclick="getValue5(130)">130</a>
+                                                        <a href="#min140" class="dropdownText" onclick="getValue5(140)">140</a>
+                                                        <a href="#min150" class="dropdownText" onclick="getValue5(150)">150</a>
+                                                        <a href="#minLivingArea" class="dropdownText" onclick="getValue5('Min')">Min</a>
+                                                    </div>
+                                            </div>
+                                            <div class="dropdown2b">
+                                                    <button onclick="myFunction4b()" class="dropbtn2" id="maximum-living-area"></button>
+                                                    <element><img src="./Assests/Images/chevron.svg" class="chevron"></element>
+                                                        <div id="myDropdown4b" class="dropdown-content2">
+                                                            <a href="#max20" class="dropdownText" onclick="getValue6(20)">20</a>
+                                                            <a href="#max30" class="dropdownText" onclick="getValue6(30)">30</a>
+                                                            <a href="#max40" class="dropdownText" onclick="getValue6(40)">40</a>
+                                                            <a href="#max50" class="dropdownText" onclick="getValue6(50)">50</a>
+                                                            <a href="#max60" class="dropdownText" onclick="getValue6(60)">60</a>
+                                                            <a href="#max70" class="dropdownText" onclick="getValue6(70)">70</a>
+                                                            <a href="#max80" class="dropdownText" onclick="getValue6(80)">80</a>
+                                                            <a href="#max90" class="dropdownText" onclick="getValue6(90)">90</a>
+                                                            <a href="#max100" class="dropdownText" onclick="getValue6(100)">100</a>
+                                                            <a href="#max110" class="dropdownText" onclick="getValue6(110)">110</a>
+                                                            <a href="#mxa120" class="dropdownText" onclick="getValue6(120)">120</a>
+                                                            <a href="#max130" class="dropdownText" onclick="getValue6(130)">130</a>
+                                                            <a href="#max140" class="dropdownText" onclick="getValue6(150)">140</a>
+                                                            <a href="#max150" class="dropdownText" onclick="getValue6(160)">150</a>
+                                                            <a href ="#maxLivingArea" class="dropdownText" onclick="getValue6('Max')">Max</a>
                                                         </div>
-                                                </div>
+                                            </div>
                                         </div>
-                                     </div>
-                             </div>
-                         
-                         </div>
-                            <button class="mainFunctionSearchButton">SÖK</button>
-                        </div>
-
-                        <div class="flexendDiv">
-                            <div class="commercialSpace">
-                                <div class="commercialSpaceRow1">
-                                    <div class="commercial1"></div>
-                                </div>
-                                <div class="commercialSpaceRow2">
-                                    <div class="commercial2"></div>
-                                    <div class="commercial3"></div>
                                 </div>
                             </div>
-                            <div class="houseIllustration">
-                                <div>
-                                    <img src="./Assests/Images/blue-flat-illustration.svg">
-                                </div>
-                                <div>
-                                    <img src="./Assests/Images/pink-flat.svg">
-                                </div>
-                
-                                <div id="purplehouse">
-                                    <img src="./Assests/Images/purple-flat.svg">
-                                </div>
-                            </div>
+                    </div>
+                        <button class="mainFunctionSearchButton">SÖK</button>
+                </div>
+                <div class="flexendDiv">
+                    <div class="commercialSpace">
+                        <div class="commercialSpaceRow1">
+                            <div class="commercial1"></div>
                         </div>
-                        <div class="flexendDiv2">
-                                <div class="commercialSpace2">
-                                    <div class="commercialSpaceRow1">
-                                        <div class="commercial1"></div>
-                                    </div>
-                                    <div class="commercialSpaceRow2">
-                                        <div class="commercial2"></div>
-                                        <div class="commercial3"></div>
-                                    </div>
-                                </div>
-                                <img src="./Assests/Images/flat-middle-breakpoint.svg" class="house1100">
+                        <div class="commercialSpaceRow2">
+                            <div class="commercial2"></div>
+                            <div class="commercial3"></div>
                         </div>
-
-                    <img src="./Assests/Images/flat-illustration-small-screen.svg" class="houseIllustrationSS">
+                    </div>
+                    <div class="houseIllustration">
+                        <div>
+                            <img src="./Assests/Images/blue-flat-illustration.svg">
+                        </div>
+                        <div>
+                            <img src="./Assests/Images/pink-flat.svg">
+                        </div>
+        
+                        <div id="purplehouse">
+                            <img src="./Assests/Images/purple-flat.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="flexendDiv2">
+                    <div class="commercialSpace2">
+                        <div class="commercialSpaceRow1">
+                            <div class="commercial1"></div>
+                        </div>
+                        <div class="commercialSpaceRow2">
+                            <div class="commercial2"></div>
+                            <div class="commercial3"></div>
+                        </div>
+                    </div>
+                    <img src="./Assests/Images/flat-middle-breakpoint.svg" class="house1100">
+                </div>
+                <img src="./Assests/Images/flat-illustration-small-screen.svg" class="houseIllustrationSS">
         </div>
-        
-            <script>
 
-                window.onload = function offClick(){
+        <script>
 
-                    var kommunButton = document.getElementById('dropDownButton');
-                    var kommunDc = document.getElementById('kommun');
-                    
-                    document.onclick = function kommunClick(e){
-                        if(e.target === kommunButton){
-                            kommunDc.classList.toggle("show");
-                        }
-                        else if(!e.target.className.includes('dropdownText') || e.target === e.target.id === 'kommun'){
-                            kommunDc.classList.remove("show");
-                        }
-                    }
+            window.onload = function offClick(){
 
-                }
+                var kommunButton = document.getElementById('dropDownButton');
+                var kommunDc = document.getElementById('kommun');
                 
-                window.onclick = function offClick2(event) {
-                    if (!event.target.matches('.dropbtn2')) {
-
-                        var dropdowns = document.getElementsByClassName("dropdown-content2");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                        }
-                        }
+                document.onclick = function kommunClick(e){
+                    if(e.target === kommunButton){
+                        kommunDc.classList.toggle("show");
+                    }
+                    else if(!e.target.className.includes('dropdownText') || e.target === e.target.id === 'kommun'){
+                        kommunDc.classList.remove("show");
                     }
                 }
 
-                function toggleActive(id) {
-                    document.getElementById(id).classList.toggle("dropdown-content-active");
-                    const name = document.getElementById(id).innerHTML;
-                    if (document.getElementById('dropDownButton').innerHTML.includes(name)) {
-                        removedChoice = document.getElementById('dropDownButton').innerHTML.replace(name + ', ', "");
-                        document.getElementById('dropDownButton').innerHTML = removedChoice;
-                    } else {
-                        removedAlla = document.getElementById('dropDownButton').innerHTML.replace('Alla...', '');
-                        document.getElementById('dropDownButton').innerHTML = removedAlla;
-                        document.getElementById('dropDownButton').innerHTML += name + ', ';
+            }
+            
+            window.onclick = function offClick2(event) {
+                if (!event.target.matches('.dropbtn2')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content2");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
                     }
-                    if (document.getElementById('dropDownButton').innerHTML === '') {
-                        const text = ('Alla...');
-                        document.getElementById('dropDownButton').innerHTML = text;
                     }
                 }
+            }
 
-                function myFunction2() {
-                    document.getElementById("myDropdown2").classList.toggle("show");
+            function toggleActive(id) {
+                document.getElementById(id).classList.toggle("dropdown-content-active");
+                const name = document.getElementById(id).innerHTML;
+                if (document.getElementById('dropDownButton').innerHTML.includes(name)) {
+                    removedChoice = document.getElementById('dropDownButton').innerHTML.replace(name + ', ', "");
+                    document.getElementById('dropDownButton').innerHTML = removedChoice;
+                } else {
+                    removedAlla = document.getElementById('dropDownButton').innerHTML.replace('Alla...', '');
+                    document.getElementById('dropDownButton').innerHTML = removedAlla;
+                    document.getElementById('dropDownButton').innerHTML += name + ', ';
                 }
-
-                let minimumRent = null
-                const getValue = (value) => {
-                    if(value) {
-                        minimumRent = value
-                        myFunction2()
-                        updateMinRentText(value)
-                    } else {
-                        // error
-                    }
+                if (document.getElementById('dropDownButton').innerHTML === '') {
+                    const text = ('Alla...');
+                    document.getElementById('dropDownButton').innerHTML = text;
                 }
+            }
 
-                const minimumRentText = document.getElementById('minimum-rent')
+            function myFunction2() {
+                document.getElementById("myDropdown2").classList.toggle("show");
+            }
 
-                const updateMinRentText = (value) => {
-                    if (value) {
-                        minimumRentText.innerHTML = value
-                    } else {
-                        minimumRentText.innerHTML = 'Min'
-                    }
+            let minimumRent = null
+            const getValue = (value) => {
+                if(value) {
+                    minimumRent = value
+                    myFunction2()
+                    updateMinRentText(value)
+                } else {
+                    // error
                 }
+            }
 
-                updateMinRentText()
+            const minimumRentText = document.getElementById('minimum-rent')
 
-                function myFunction2b() {
-                    document.getElementById("myDropdown2b").classList.toggle("show");
+            const updateMinRentText = (value) => {
+                if (value) {
+                    minimumRentText.innerHTML = value
+                } else {
+                    minimumRentText.innerHTML = 'Min'
                 }
+            }
 
-                let maximumRent = null
-                const getValue2 = (value2) => {
-                    if(value2) {
-                        maximumRent = value2
-                        myFunction2b()
-                        updateMaxRentText2(value2)
-                    } else {
-                        // error
-                    }
+            updateMinRentText()
+
+            function myFunction2b() {
+                document.getElementById("myDropdown2b").classList.toggle("show");
+            }
+
+            let maximumRent = null
+            const getValue2 = (value2) => {
+                if(value2) {
+                    maximumRent = value2
+                    myFunction2b()
+                    updateMaxRentText2(value2)
+                } else {
+                    // error
                 }
+            }
 
-                const maximumRentText = document.getElementById('maximum-rent')
+            const maximumRentText = document.getElementById('maximum-rent')
 
-                const updateMaxRentText2 = (value2) => {
-                    if (value2) {
-                        maximumRentText.innerHTML = value2
-                    } else {
-                        maximumRentText.innerHTML = 'Max'
-                    }
+            const updateMaxRentText2 = (value2) => {
+                if (value2) {
+                    maximumRentText.innerHTML = value2
+                } else {
+                    maximumRentText.innerHTML = 'Max'
                 }
+            }
 
-                updateMaxRentText2()
+            updateMaxRentText2()
 
-                function myFunction3() {
-                    document.getElementById("myDropdown3").classList.toggle("show");
+            function myFunction3() {
+                document.getElementById("myDropdown3").classList.toggle("show");
+            }
+
+            let minimumRoom = null
+            const getValue3 = (value3) => {
+                if(value3) {
+                    minimumRent = value3
+                    myFunction3()
+                    updateMinimumRoomText(value3)
+                } else {
+                    // error
                 }
+            }
 
-                let minimumRoom = null
-                const getValue3 = (value3) => {
-                    if(value3) {
-                        minimumRent = value3
-                        myFunction3()
-                        updateMinimumRoomText(value3)
-                    } else {
-                        // error
-                    }
+            const minimumRoomText = document.getElementById('minimum-room')
+
+            const updateMinimumRoomText = (value3) => {
+                if (value3) {
+                    minimumRoomText.innerHTML = value3
+                } else {
+                    minimumRoomText.innerHTML = 'Min'
                 }
+            }
 
-                const minimumRoomText = document.getElementById('minimum-room')
+            updateMinimumRoomText()
 
-                const updateMinimumRoomText = (value3) => {
-                    if (value3) {
-                        minimumRoomText.innerHTML = value3
-                    } else {
-                        minimumRoomText.innerHTML = 'Min'
-                    }
+            function myFunction3b() {
+                document.getElementById("myDropdown3b").classList.toggle("show");
+            }
+
+            let maximumRoom = null
+            const getValue4 = (value4) => {
+                if(value4) {
+                    maximumRoom = value4
+                    myFunction3b()
+                    updateMaximumRoomText(value4)
+                } else {
+                    // error
                 }
+            }
 
-                updateMinimumRoomText()
+            const maximumRoomText = document.getElementById('maximum-room')
 
-                function myFunction3b() {
-                    document.getElementById("myDropdown3b").classList.toggle("show");
+            const updateMaximumRoomText = (value4) => {
+                if (value4) {
+                    maximumRoomText.innerHTML = value4
+                } else {
+                    maximumRoomText.innerHTML = 'Max'
                 }
+            }
 
-                let maximumRoom = null
-                const getValue4 = (value4) => {
-                    if(value4) {
-                        maximumRoom = value4
-                        myFunction3b()
-                        updateMaximumRoomText(value4)
-                    } else {
-                        // error
-                    }
+            updateMaximumRoomText()
+
+            function myFunction4() {
+                document.getElementById("myDropdown4").classList.toggle("show");
+            }
+
+            let minimumLivingArea = null
+            const getValue5 = (value5) => {
+                if(value5) {
+                    minimumLivingArea = value5
+                    myFunction4()
+                    updateMinimumLivingAreaText(value5)
+                } else {
+                    // error
                 }
+            }
 
-                const maximumRoomText = document.getElementById('maximum-room')
+            const minimumLivingAreaText = document.getElementById('minimum-living-area')
 
-                const updateMaximumRoomText = (value4) => {
-                    if (value4) {
-                        maximumRoomText.innerHTML = value4
-                    } else {
-                        maximumRoomText.innerHTML = 'Max'
-                    }
+            const updateMinimumLivingAreaText = (value5) => {
+                if (value5) {
+                    minimumLivingAreaText.innerHTML = value5
+                } else {
+                    minimumLivingAreaText.innerHTML = 'Min'
                 }
+            }
 
-                updateMaximumRoomText()
+            updateMinimumLivingAreaText()
 
-                function myFunction4() {
-                    document.getElementById("myDropdown4").classList.toggle("show");
+            function myFunction4b() {
+                document.getElementById("myDropdown4b").classList.toggle("show");
+            }
+
+            let maximumLivingArea = null
+            const getValue6 = (value6) => {
+                if(value6) {
+                    maximumLivingArea = value6
+                    myFunction4b()
+                    updateMaximumLivingAreaText(value6)
+                } else {
+                    // error
                 }
+            }
 
-                let minimumLivingArea = null
-                const getValue5 = (value5) => {
-                    if(value5) {
-                        minimumLivingArea = value5
-                        myFunction4()
-                        updateMinimumLivingAreaText(value5)
-                    } else {
-                        // error
-                    }
+            const maximumLivingAreaText = document.getElementById('maximum-living-area')
+
+            const updateMaximumLivingAreaText = (value6) => {
+                if (value6) {
+                    maximumLivingAreaText.innerHTML = value6
+                } else {
+                    maximumLivingAreaText.innerHTML = 'Max'
                 }
+            }
 
-                const minimumLivingAreaText = document.getElementById('minimum-living-area')
+            updateMaximumLivingAreaText()
+            
 
-                const updateMinimumLivingAreaText = (value5) => {
-                    if (value5) {
-                        minimumLivingAreaText.innerHTML = value5
-                    } else {
-                        minimumLivingAreaText.innerHTML = 'Min'
-                    }
-                }
+        </script>
 
-                updateMinimumLivingAreaText()
-
-                function myFunction4b() {
-                    document.getElementById("myDropdown4b").classList.toggle("show");
-                }
-
-                let maximumLivingArea = null
-                const getValue6 = (value6) => {
-                    if(value6) {
-                        maximumLivingArea = value6
-                        myFunction4b()
-                        updateMaximumLivingAreaText(value6)
-                    } else {
-                        // error
-                    }
-                }
-
-                const maximumLivingAreaText = document.getElementById('maximum-living-area')
-
-                const updateMaximumLivingAreaText = (value6) => {
-                    if (value6) {
-                        maximumLivingAreaText.innerHTML = value6
-                    } else {
-                        maximumLivingAreaText.innerHTML = 'Max'
-                    }
-                }
-
-                updateMaximumLivingAreaText()
-                
-
-            </script>
-        
         <div id="threeIconsSS">
             <div class="threeIconsflexbox">
                 <div class="threeIconsFlexContent">
@@ -601,63 +594,61 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="footer">
+    <div class="footer">
         <div class="footerDesign">
-                <div class="flexBoxFooterPart1" >
-                    <p class="footerHeader">Boplats</p>
-                    <p class="footerBodyText">Sök bostad</p>
-                    <p class="footerBodyText">Förmedling</p>
-                    <p class="footerBodyText">Annonsera</p>
-                    <p class="footerBodyText">Bostadsguiden</p>
-                </div>
-                <div class="flexBoxFooterPart2">
-                    <p class="footerHeader">Om Boplats</p>
-                    <p class="footerBodyText">Kontakta oss</p>
-                    <p class="footerBodyText">Boplats i siffror</p>
-                    <p class="footerBodyText">Press</p>
-                </div>
-                <div class="flexBoxFooterPart2">
-                        <p class="footerHeader">Om Boplats.se</p>
-                        <p class="footerBodyText">Dina personuppgifter</p>
-                        <p class="footerBodyText">Cookies (kakor)</p>
-                        <p class="footerBodyText">Säkerhet och lösenord</p>
-                        <p class="footerBodyText">Om webbplatsen</p>
-                </div>
-                <div class="flexBoxFooterPart2" >
-                    <p class="footerHeader">Tips & Hjälp</p>
-                    <p class="footerBodyText">Att betala</p>
-                    <p class="footerBodyText">Att registrera sig</p>
-                    <p class="footerBodyText">Driftstatus</p>
-                </div>
-                <div class="flexBoxFooterPart2b">
-                    <div class="footerTextHolder">
-                        <p class="footerHeader2">Följ Boplats</p>
-                    </div>
-                    <div class="followBoplats">
-                        <img src="./Assests/Images/newsletter.svg" class="footerSocials">
-                        <p class="footerBodyText2">Läs vår nyhetsbrev</p>
-                    </div>
-                    <div class="instagram">
-                        <img src="./Assests/Images/instagram-icon.svg" class="footerSocials">
-                        <p class="footerBodyText2">Följ oss på instagram</p>
-                    </div>
-                    <div class="facebook">
-                        <img src="./Assests/Images/facebook-icon.svg" class="footerSocials">
-                        <p class="footerBodyText2">Följ oss på Facebook</p>
-                    </div>
-                </div>
+            <div class="flexBoxFooterPart1" >
+                <p class="footerHeader">Boplats</p>
+                <p class="footerBodyText">Sök bostad</p>
+                <p class="footerBodyText">Förmedling</p>
+                <p class="footerBodyText">Annonsera</p>
+                <p class="footerBodyText">Bostadsguiden</p>
             </div>
-            <div class="footerIllustrationDiv">
-                <div class="footerSocialsSS">
+            <div class="flexBoxFooterPart2">
+                <p class="footerHeader">Om Boplats</p>
+                <p class="footerBodyText">Kontakta oss</p>
+                <p class="footerBodyText">Boplats i siffror</p>
+                <p class="footerBodyText">Press</p>
+            </div>
+            <div class="flexBoxFooterPart2">
+                    <p class="footerHeader">Om Boplats.se</p>
+                    <p class="footerBodyText">Dina personuppgifter</p>
+                    <p class="footerBodyText">Cookies (kakor)</p>
+                    <p class="footerBodyText">Säkerhet och lösenord</p>
+                    <p class="footerBodyText">Om webbplatsen</p>
+            </div>
+            <div class="flexBoxFooterPart2" >
+                <p class="footerHeader">Tips & Hjälp</p>
+                <p class="footerBodyText">Att betala</p>
+                <p class="footerBodyText">Att registrera sig</p>
+                <p class="footerBodyText">Driftstatus</p>
+            </div>
+            <div class="flexBoxFooterPart2b">
+                <div class="footerTextHolder">
+                    <p class="footerHeader2">Följ Boplats</p>
+                </div>
+                <div class="followBoplats">
                     <img src="./Assests/Images/newsletter.svg" class="footerSocials">
-                    <img src="./Assests/Images/instagram-icon.svg" class="footerSocials">
-                    <img src="./Assests/Images/facebook-icon.svg" class="footerSocials">
+                    <p class="footerBodyText2">Läs vår nyhetsbrev</p>
                 </div>
-                <img src="./Assests/Images/logo-white.svg">
-                <img src="./Assests/Images/footer-flat-illustration.svg" class="footerIllustration">
+                <div class="instagram">
+                    <img src="./Assests/Images/instagram-icon.svg" class="footerSocials">
+                    <p class="footerBodyText2">Följ oss på instagram</p>
+                </div>
+                <div class="facebook">
+                    <img src="./Assests/Images/facebook-icon.svg" class="footerSocials">
+                    <p class="footerBodyText2">Följ oss på Facebook</p>
+                </div>
             </div>
+        </div>
+        <div class="footerIllustrationDiv">
+            <div class="footerSocialsSS">
+                <img src="./Assests/Images/newsletter.svg" class="footerSocials">
+                <img src="./Assests/Images/instagram-icon.svg" class="footerSocials">
+                <img src="./Assests/Images/facebook-icon.svg" class="footerSocials">
+            </div>
+            <img src="./Assests/Images/logo-white.svg">
+            <img src="./Assests/Images/footer-flat-illustration.svg" class="footerIllustration">
+        </div>
      </div>
-
 </body>
