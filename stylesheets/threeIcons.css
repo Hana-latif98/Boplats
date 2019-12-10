@@ -90,6 +90,7 @@
     border: none;
     margin-top:16px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .pinkButton2{
@@ -109,6 +110,7 @@
     max-width: 141px;
     margin-top: 40px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 
@@ -129,6 +131,7 @@
     max-width: 141px;
     margin-top: 64px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .pinkButton2b{
@@ -149,6 +152,7 @@
     margin-top: 16px;
     max-width: 181px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 
@@ -170,6 +174,7 @@
     margin-top: 64px;
     max-width: 181px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 @media only screen and (max-width: 639px){
