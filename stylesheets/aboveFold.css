@@ -711,3 +711,16 @@
 
 }
 
+@media only screen and (max-width: 324px){
+
+    .mainFunctionBox{
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 300px;
+    }
+
+    .mobileAd{
+        width: 320px;
+    }
+}
+
