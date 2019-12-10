@@ -553,10 +553,6 @@
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
-        background-image: url("../assests/images/commercial-holder-2.svg");
-        background-position-x: center;
-        background-position-y: 0px;
-        background-repeat: no-repeat;
     }
 
     .gridHeader{
@@ -572,7 +568,10 @@
         display: flex;
         flex-direction: column;
         max-height: none;
-        margin-top: 16%;
+        margin-top: 8%;
+        background-image: url("../assests/images/commercial-holder-2.svg");
+        background-position-x: center;
+        background-repeat: no-repeat;
     }
 
     .mainFunctionRow1{
@@ -610,8 +609,8 @@
         height: 56px;
         background-color: #ADADAD;
         justify-content: center;
-        margin-bottom: -4%;
         z-index: 20;
+        margin-bottom: 4px;
     }
 
 }
