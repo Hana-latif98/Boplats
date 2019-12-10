@@ -622,7 +622,7 @@
 
     .fullScreen{
         height: none;
-        min-height: 95vh;
+        min-height: 98vh;
         margin-top: 0;
         background-position-y: 14%;
     }
@@ -711,7 +711,7 @@
 
 }
 
-@media only screen and (max-width: 324px){
+, only screen and (max-width: 324px){
 
     .mainFunctionBox{
         padding-left: 24px;
