@@ -24,19 +24,7 @@
     height: auto;
 }
 
-
 .grid2Header{
-    font-family: Verdana;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    margin-top: 16px;
-    margin-bottom: 0px;
-    max-width: 300px;
-}
-
-.grid2Header2{
     font-family: Verdana;
     font-weight: bold;
     font-size: 20px;
@@ -44,8 +32,8 @@
     text-align: center;
     margin-top: 32px;
     margin-bottom: 0px;
-    max-width: 300px;
 }
+
 
 .grid2BodyText{
     font-family: Verdana;
