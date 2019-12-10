@@ -94,7 +94,7 @@
 .centerFlatImage{
     display: flex;
     align-items: center;
-    width: 51.3%;
+    width: 51.4%;
 }
 
 @media only screen and (max-width: 639px){
