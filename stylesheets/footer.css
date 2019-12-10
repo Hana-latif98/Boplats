@@ -110,7 +110,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 639px){
+@media only screen and (max-width: 768px){
 
     .footerDesign{
         justify-content: space-around;
@@ -134,12 +134,7 @@
     }
 
     .flexBoxFooterPart2b{
-        display: flex;
-        flex-direction: row;
-        max-width: 150px;
-        width: 100%;
-        justify-content: space-between;
-        margin-bottom: 40px;
+        display: none;
     }
     
     .footerHeader{
@@ -194,98 +189,7 @@
 
 }
 
-@media only screen and (max-width: 768px) and (min-width: 640px){
-
-    .footerDesign{
-        flex-direction: column-reverse;
-        padding-top: 40px;
-        align-items: center;
-        max-height: 600px;
-        bottom: 0px;
-    }
-    
-    .flexBoxFooterPart1{
-        display: none;
-    }
-    
-    .flexBoxFooterPart2{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .flexBoxFooterPart2b{
-        display: flex;
-        flex-direction: row;
-        max-width: 150px;
-        width: 100%;
-        justify-content: space-between;
-        margin-bottom: 40px;
-    }
-    
-    .footerHeader{
-        font-family: Verdana;
-        font-weight: bold;
-        font-size: 14px;
-        color: #FFFFFF;
-        margin-top: 0px;
-        margin-bottom : 8px;
-    }
-    
-    .footerBodyText{
-        display: none;
-    }
-    
-    .footerBodyText2{
-        display: none;
-    }
-    
-    .footerTextHolder{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .followBoplats{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 0px;
-    }
-
-    .footerIllustration{
-        margin-top: 20px;
-        max-width: 200px;
-    }
-
-    .footerHeader2{
-        display: none;
-    }
-
-    .footerSocials{
-        margin-top: 0px;
-        padding-right: 0px;
-    }
-
-    .facebook{
-        display: flex;
-        flex-direction: row;
-        margin-top: 0px;
-    }
-
-    .flexBoxFooterPart1{
-        display: flex;
-    }
-
-
-    .footerSocialsSS{
-        display: flex;
-        padding-bottom: 40px;
-        width: 140px;
-        justify-content: space-between;
-    }
-
-}
-
-@media only screen and (max-width: 1000px){
+@media only screen and (min-width: 769px){
     
     .flexBoxFooterPart2b{
         display: none;
