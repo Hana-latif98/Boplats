@@ -404,7 +404,6 @@
     display: none;
 }
 
-/* mobile */
 @media only screen and (max-width: 766px){
     
     .mainFunctionBox{
@@ -583,9 +582,11 @@
 
     .fullScreen{
         background-image: none;
-        background-image: url("../Assests/Images/Small\ Clouds.svg");
+        background-image: url("../Assests/Images/small-clouds.svg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 90%;
+        background-position-y: 0;
+        background-position-x: center;
         min-height: 50vh;
         margin-top: 10px;
     } 
