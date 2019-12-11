@@ -711,7 +711,7 @@
 
 }
 
-, only screen and (max-width: 324px){
+@media only screen and (max-width: 324px){
 
     .mainFunctionBox{
         padding-left: 24px;
@@ -724,3 +724,14 @@
     }
 }
 
+
+@media only screen and (max-height: 800px){
+
+    .fullScreen{
+        height: 97.2vh;
+    }
+
+    .mainFunctionBox{
+        margin-top: -2%;
+    }
+}
