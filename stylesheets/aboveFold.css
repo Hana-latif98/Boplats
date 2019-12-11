@@ -622,7 +622,7 @@
 
     .fullScreen{
         height: none;
-        min-height: 98vh;
+        min-height: 99vh;
         margin-top: 0;
         background-position-y: 14%;
     }
