@@ -615,10 +615,6 @@
         display: flex;
         max-height: 50px;
     }
-
-    .fullScreen{
-        height: 80vh;
-    }
 }
 
 
@@ -729,7 +725,7 @@
 }
 
 
-@media only screen and (max-height: 800px){
+@media only screen and (max-height: 800px) and (min-width: 1000px){
 
     .fullScreen{
         height: 97.2vh;
