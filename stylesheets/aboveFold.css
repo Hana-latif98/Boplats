@@ -423,7 +423,7 @@
         margin-left: auto;
         margin-right: auto;
         transform: none;
-        margin-top: 4px;
+        margin-top: 2%;
     }
 
     .mainFunctionContent{
@@ -614,6 +614,10 @@
     #smallAd{
         display: flex;
         max-height: 50px;
+    }
+
+    .fullScreen{
+        height: 80vh;
     }
 }
 
