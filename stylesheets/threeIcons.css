@@ -15,8 +15,7 @@
 .threeIconsFlexContent{
     display: flex;
     flex-direction: column;
-    max-width: 320px;
-    justify-content: center;
+    max-width: 340px;
     align-items: center;
 }
 
@@ -31,17 +30,36 @@
     font-size: 20px;
     color: black;
     text-align: center;
-    margin-top: 31px;
+    margin-top: 32px;
     margin-bottom: 0px;
 }
 
+
 .grid2BodyText{
     font-family: Verdana;
-    font-size: 14px;
+    font-size: 16px;
     color: #444444;
     text-align: center;
-    line-height: 22px;
+    line-height: 24px;
     margin-top: 16px;
+}
+
+.grid2BodyText2{
+    font-family: Verdana;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 32px;
+}
+
+.grid2BodyText2b{
+    font-family: Verdana;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 18px;
 }
 
 .pinkButton{
@@ -59,6 +77,8 @@
     padding-bottom: 12px;
     border: none;
     margin-top:16px;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .pinkButton2{
@@ -77,6 +97,29 @@
     border: none;
     max-width: 141px;
     margin-top: 40px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.pinkButton2a{
+    background: #E01171;
+    border-radius: 4px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    max-width: 141px;
+    margin-top: 64px;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .pinkButton2b{
@@ -94,8 +137,32 @@
     padding-bottom: 12px;
     border: none;
     max-width: 141px;
-    margin-top: 40px;
+    margin-top: 16px;
     max-width: 181px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.pinkButton2c{
+    background: #E01171;
+    border-radius: 4px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    max-width: 141px;
+    margin-top: 64px;
+    max-width: 181px;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 @media only screen and (max-width: 639px){
@@ -140,6 +207,24 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    .pinkButton2{
+        margin-top: 20px;
+    }
+
+    .pinkButton2a{
+        margin-top: 20px;
+    }
+
+    .pinkButton2b{
+        margin-top: 20px;
+    }
+
+    .pinkButton2c{
+        margin-top: 20px;
+    }
+
+    
 }
 
 @media only screen and (max-width: 768px) and (min-width: 640px){
@@ -169,22 +254,26 @@
         margin-bottom: 0px;
     }
 
-    .pinkButton{
-        margin-top: 20px;
-    }
-
     .pinkButton2{
         margin-top: 20px;
     }
 
+    .pinkButton2a{
+        margin-top: 20px;
+    }
 
     .pinkButton2b{
+        margin-top: 20px;
+    }
+
+    .pinkButton2c{
         margin-top: 20px;
     }
 
 }
 
 @media only screen and (max-width: 1120px) and (min-width: 769px){
+
     .threeIconsflexbox{
         display: flex;
         flex-direction: column;
@@ -210,16 +299,19 @@
         margin-bottom: 0px;
     }
 
-    .pinkButton{
-        margin-top: 20px;
-    }
-
     .pinkButton2{
         margin-top: 20px;
     }
 
+    .pinkButton2a{
+        margin-top: 20px;
+    }
 
     .pinkButton2b{
+        margin-top: 20px;
+    }
+
+    .pinkButton2c{
         margin-top: 20px;
     }
 }

@@ -2,23 +2,22 @@
 .footer{
     background: #AB0E86;
     box-shadow: 0 0 7px 2px rgba(102,153,204,0.26);
-    max-height: 301px;
     width: 100%;
     left: 0px;
     right: 0px;
     bottom: 0;
 }
 
-
 .footerDesign{
-    justify-content: space-around;
+    justify-content: space-between;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
     padding-top: 80px;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .flexBoxFooterPart1{
@@ -39,6 +38,7 @@
     color: #FFFFFF;
     margin-top: 0px;
     margin-bottom : 8px;
+    cursor: pointer;
 }
 
 .footerHeader2{
@@ -48,6 +48,7 @@
     color: #FFFFFF;
     margin-top: 0px;
     margin-bottom : 8px;
+    cursor: pointer;
 }
 
 
@@ -57,14 +58,40 @@
     color: #FFFFFF;
     margin-bottom: 8px;
     margin-top: 0px;
+    cursor: pointer;
 }
 
 .footerBodyText2{
     font-family: Verdana;
     font-size: 12px;
     color: #FFFFFF;
-    margin-bottom: 8px;
-    margin-top: 0px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.footerBodyText3{
+    font-family: Verdana;
+    font-size: 10px;
+    color: #FFFFFF;
+    align-self: left;
+    cursor: pointer;
+}
+
+.footerBodyText3b{
+    font-family: Verdana;
+    font-size: 10px;
+    color: #FFFFFF;
+    align-self: left;
+    cursor: pointer;
+    text-align: end;
+}
+
+.footerBodyText4{
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF;
+    align-self: left;
+    cursor: pointer;
 }
 
 .footerTextHolder{
@@ -76,13 +103,11 @@
 .followBoplats{
     display: flex;
     flex-direction: row;
-    margin-bottom: 12px;
 }
 
 .footerIllustration{
-    margin-top: 70px;
+    margin-top: 40px;
     max-width: 250px;
-    align-self: flex-end;
 }
 
 .instagram{
@@ -93,14 +118,57 @@
 .facebook{
     display: flex;
     flex-direction: row;
-    margin-top: 12px;
 }
 
 .footerSocials{
-    margin-right: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 140px;
 }
 
-@media only screen and (max-width: 639px){
+.footerSocials2{
+    display: none;
+}
+
+.footerIllustrationDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.footerHouses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerInfo{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.footerSocialRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerSocialIcon{
+    padding-right: 12px;
+}
+
+.footerIcons{
+    display: none;
+}
+
+@media only screen and (max-width: 839px){
 
     .footerDesign{
         justify-content: space-around;
@@ -108,29 +176,23 @@
         flex-direction: row;
         justify-content: space-around;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 40px;
-        align-items: center;
-        max-height: 600px;
         bottom: 0px;
+        max-height: 400px;
+        flex-wrap: wrap;
     }
     
     .flexBoxFooterPart1{
-        margin-top: 40px;
+        display: flex;
+        margin-bottom: 20px;
     }
     
     .flexBoxFooterPart2{
         display: flex;
-        flex-direction: rowr;
-    }
-
-    .flexBoxFooterPart2b{
-        display: flex;
-        flex-direction: row;
-        max-width: 150px;
-        width: 100%;
-        justify-content: space-between;
-        margin-bottom: 40px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        max-width: 250px;
     }
     
     .footerHeader{
@@ -140,14 +202,6 @@
         color: #FFFFFF;
         margin-top: 0px;
         margin-bottom : 8px;
-    }
-    
-    .footerBodyText{
-        display: none;
-    }
-    
-    .footerBodyText2{
-        display: none;
     }
     
     .footerTextHolder{
@@ -171,100 +225,53 @@
         display: none;
     }
 
-    .footerSocials{
-        margin-top: 0px;
-    }
-
-    .facebook{
+    .footerSocials2{
+        cursor: pointer;
         display: flex;
         flex-direction: row;
-        margin-top: 0px;
+        justify-content: space-between;
+        flex-direction: column;
     }
 
+    .footerIcons{
+        display: none;
+    }
 
 }
 
-@media only screen and (max-width: 768px) and (min-width: 640px){
+@media only screen and (max-width: 620px){
+
+    .footerIllustrationDiv{
+        flex-direction: column-reverse;
+    }
+
+    .footerBodyText3b{
+        text-align: center;
+    }
+
+    .footerBodyText3{
+        text-align: center;
+    }
+
+    .footerInfo{
+        align-self: center;
+    }
+
+    .footerSocials{
+        display: none;
+    }
+
+    .footerIcons{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px){
 
     .footerDesign{
-        flex-direction: column-reverse;
-        padding-top: 40px;
-        align-items: center;
-        max-height: 600px;
-        bottom: 0px;
-    }
-    
-    .flexBoxFooterPart1{
-        margin-top: 40px;
-    }
-    
-    .flexBoxFooterPart2{
-        display: flex;
-        flex-direction: rowr;
-    }
-
-    .flexBoxFooterPart2b{
-        display: flex;
-        flex-direction: row;
-        max-width: 150px;
-        width: 100%;
-        justify-content: space-between;
-        margin-bottom: 40px;
-    }
-    
-    .footerHeader{
-        font-family: Verdana;
-        font-weight: bold;
-        font-size: 14px;
-        color: #FFFFFF;
-        margin-top: 0px;
-        margin-bottom : 8px;
-    }
-    
-    .footerBodyText{
-        display: none;
-    }
-    
-    .footerBodyText2{
-        display: none;
-    }
-    
-    .footerTextHolder{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .followBoplats{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 0px;
-    }
-
-    .footerIllustration{
-        margin-top: 20px;
-        max-width: 200px;
-    }
-
-    .footerHeader2{
-        display: none;
-    }
-
-    .footerSocials{
-        margin-top: 0px;
-    }
-
-    .facebook{
-        display: flex;
-        flex-direction: row;
-        margin-top: 0px;
-    }
-
-}
-
-@media only screen and (max-width: 1000px){
-    
-    .flexBoxFooterPart2b{
-        display: none;
+        max-height: none;
     }
 }
