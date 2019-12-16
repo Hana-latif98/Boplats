@@ -574,7 +574,7 @@
         align-items: center;
         margin-top: 68px;
         width: 100%;
-        background-color: #C3C3C3;
+        background-color: #59097B;
         width: 324px;
     }
 
@@ -690,11 +690,12 @@
     }
 
     .commercial1{
-        display: none;
+        display: flex;
+        margin-bottom: 4px;
     }
 
     .commercial2{
-        margin-bottom: 8px;
+        margin-bottom: 4px;
     }
 
     .mobileAd{
@@ -721,17 +722,5 @@
 
     .mobileAd{
         width: 320px;
-    }
-}
-
-
-@media only screen and (max-height: 800px) and (min-width: 1000px){
-
-    .fullScreen{
-        height: 97.2vh;
-    }
-
-    .mainFunctionBox{
-        margin-top: -2%;
     }
 }
