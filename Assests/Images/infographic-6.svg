@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="300px" viewBox="0 0 370 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Infographic-6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-952.000000, -3673.000000)">
+            <g id="Infographic-6" transform="translate(952.000000, 3673.000000)">
+                <rect id="Rectangle" fill="#EBBDFF" x="5.68434189e-14" y="0" width="370" height="300" rx="6"></rect>
+                <g id="Number-6" transform="translate(12.043360, 12.000000)">
+                    <ellipse id="Oval" fill="#59097B" cx="40.1084011" cy="40" rx="40.1084011" ry="40"></ellipse>
+                    <text id="6" font-family="Verdana-Bold, Verdana" font-size="30" font-weight="bold" line-spacing="30" fill="#FFFFFF">
+                        <tspan x="29.0785908" y="55">6</tspan>
+                    </text>
+                </g>
+                <g id="Choice" transform="translate(100.000000, 114.000000)" stroke-width="4.06795884">
+                    <rect id="Rectangle" stroke="#FFFFFF" fill="#59097B" x="96.9530191" y="2.03397942" width="70.963282" height="68.2513095" rx="8.13591768"></rect>
+                    <rect id="Rectangle" stroke="#FFFFFF" fill="#FFFFFF" x="2.03397942" y="2.03397942" width="70.963282" height="68.2513095" rx="8.13591768"></rect>
+                    <path d="M20.7917896,39.7755976 C27.4210559,45.1995427 30.735689,47.9115152 30.735689,47.9115152 C30.735689,47.9115152 38.5702764,39.7755976 54.2394512,23.5037622" id="Path-11" stroke="#59097B" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Cross" transform="translate(122.942756, 25.311744)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M0,20.7917896 C0,20.7917896 6.32793598,13.8611931 18.9838079,0" id="Path-11"></path>
+                        <path d="M0,20.7917896 C0,20.7917896 6.32793598,13.8611931 18.9838079,0" id="Path-11" transform="translate(9.491904, 10.395895) scale(-1, 1) translate(-9.491904, -10.395895) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
