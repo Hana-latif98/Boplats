@@ -663,11 +663,17 @@
     .commercialSpace2{
         align-self: center;
         margin-bottom: 4px;
-        margin-top: 12px;
+        margin-top: 8px;
+    }
+
+    .commercialSpaceRow1{
+        margin-bottom: 4px;
     }
 
     .commercialSpaceRow2{
         flex-direction: column;
+        height: 128px;
+        justify-content: space-between;
     }
 
     .commercial1{
