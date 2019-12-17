@@ -381,7 +381,7 @@
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .house1100{
@@ -677,15 +677,6 @@
         flex-direction: column;
         height: 128px;
         justify-content: space-between;
-    }
-
-    .commercial1{
-        display: flex;
-        margin-bottom: 4px;
-    }
-
-    .commercial2{
-        margin-bottom: 4px;
     }
 
     .mobileAd{
