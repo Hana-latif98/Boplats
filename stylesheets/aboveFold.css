@@ -352,15 +352,18 @@
     display: flex;
     flex-direction: column;
     width: 960px;
-    height: 145px;
     align-self: center;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     background-image: url("../Assests/Images/commercial-holder.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: bottom;
+}
+
+.commercialSpaceRow1{
+    margin-bottom: 8px;
 }
 
 .commercialSpaceRow2{
