@@ -114,7 +114,7 @@
     .flexboxExFlat1B{
         display: flex;
         justify-content: flex-start;
-        max-width: 335px;
+        max-width: none;
         width: 100%;
         padding-left: 0px;
         align-items: center;
@@ -125,8 +125,8 @@
     .bodyTextExFlat1{
         text-align: center;
         margin-top: 12px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .flexboxExFlat2 {
@@ -139,7 +139,7 @@
     .flexboxExFlat2B{
         display: flex;
         justify-content: center;
-        max-width: 335px;
+        max-width: none;
         width: 100%;
         padding-left: 0px;
         align-items: center;
@@ -151,8 +151,8 @@
     .bodyTextExFlat2{
         text-align: center;
         margin-top: 12px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
   
     .h3{
