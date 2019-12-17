@@ -70,6 +70,9 @@
 
     .illustrationBodyText{
         margin-bottom: 50px;
+        max-width: none;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .illustrationHeader{
@@ -85,8 +88,7 @@
     }
 
     .flexBoxHDBWillustrations{
-        padding-left: 20px;
-        padding-right: 20px;
+        max-width: none;
     }
 
 }
