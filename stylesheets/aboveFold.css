@@ -388,7 +388,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 766px){
+@media only screen and (max-width: 767px){
     
     .mainFunctionBox{
         width: 100%;
