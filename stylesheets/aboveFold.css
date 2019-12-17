@@ -602,11 +602,11 @@
 }
 
 
-@media only screen and (max-width: 1130px) and (min-width: 767px){
+@media only screen and (max-width: 1130px) and (min-width: 768px){
 
     .fullScreen{
         height: none;
-        min-height: 99vh;
+        min-height: 100vh;
         margin-top: 0;
         background-position-y: 14%;
     }
