@@ -12,7 +12,7 @@ body{
 }
 
 .line{
-    border: 1px solid #D7D7D7;
+    border: 1px solid #D8D8D8;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -30,7 +30,7 @@ footer{
     width: 100%;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 640px){
+@media only screen and (max-width: 768px){
 
     .line{
         display: none;
@@ -38,7 +38,7 @@ footer{
 
     .lineSS{
         display: flex;
-        border: 1px solid #D7D7D7;
+        border: 1px solid #D8D8D8;
         margin-top: 0px;
         margin-bottom: 0px;
     }
