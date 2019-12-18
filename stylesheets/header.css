@@ -240,16 +240,24 @@
         display: flex;
     }
 
+    .headerCreateAccount{
+        display: none;
+    }
+
+    .headerLoginText{
+        display: none;
+    }
+
     .headerPart1{
         justify-content: flex-start;
     }
 
     #createAccountIcon{
-        display: none;
+        display: flex;
     }
     
     #loginIcon{
-        display: none;
+        display: flex;
     }
     
 }
