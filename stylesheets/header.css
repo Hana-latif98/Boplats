@@ -243,6 +243,14 @@
     .headerPart1{
         justify-content: flex-start;
     }
+
+    #createAccountIcon{
+        display: none;
+    }
+    
+    #loginIcon{
+        display: none;
+    }
     
 }
 
