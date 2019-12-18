@@ -238,6 +238,8 @@
 
     .createAccount{
         display: flex;
+        width: 64px;
+        margin-right: 20px;
     }
 
     .headerCreateAccount{
