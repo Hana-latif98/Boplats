@@ -229,7 +229,7 @@
     }
 
     #noWrap{
-        display: none;
+        display: flex;
     }
 
     .hamburgerFlex{
