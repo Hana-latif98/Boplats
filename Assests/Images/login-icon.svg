@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="28px" viewBox="0 0 21 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>login-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-431.000000, -137.000000)" fill="#E01171">
+            <g id="login-icon" transform="translate(431.157895, 137.000000)">
+                <circle id="Oval" cx="10.3684211" cy="6.22222222" r="6.22222222"></circle>
+                <path d="M10.3684211,13.6888889 C16.5906433,13.6888889 19.8721248,18.4592593 20.2128655,28 L0.523976608,28 C0.864717349,18.4592593 4.14619883,13.6888889 10.3684211,13.6888889 Z" id="Triangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>
