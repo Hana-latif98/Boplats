@@ -107,7 +107,15 @@
     display: none;
 }
 
-@media only screen and (max-width: 768px){
+#createAccountIcon{
+    display: none;
+}
+
+#loginIcon{
+    display: none;
+}
+
+@media only screen and (max-width: 767px){
 
     .header{
         height: 100%;
@@ -214,14 +222,14 @@
     
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 769px){
+@media only screen and (max-width: 1000px) and (min-width: 768px){
     
     .headerText{
         display: flex;
     }
 
     #noWrap{
-        display: none;
+        display: flex;
     }
 
     .hamburgerFlex{
@@ -230,10 +238,28 @@
 
     .createAccount{
         display: flex;
+        width: 64px;
+        margin-right: 20px;
+    }
+
+    .headerCreateAccount{
+        display: none;
+    }
+
+    .headerLoginText{
+        display: none;
     }
 
     .headerPart1{
         justify-content: flex-start;
+    }
+
+    #createAccountIcon{
+        display: flex;
+    }
+    
+    #loginIcon{
+        display: flex;
     }
     
 }
