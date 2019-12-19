@@ -169,6 +169,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    background-image: url("../Assests/Images/chevron2.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
 }
   
 .dropdown {
@@ -244,6 +248,10 @@
     color: #444444;
     text-align: justify;
     margin-right: 0px;
+    background-image: url("../Assests/Images/chevron2.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
 }
 
   
@@ -476,6 +484,10 @@
         margin-top: 4px;
         font-size: 14px;
         text-align: left;
+        background-image: url("../Assests/Images/chevron.svg");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: right;
     }
     
     .dropdown-content {
@@ -508,6 +520,10 @@
         width: 100%;
         margin-top: 4px;
         margin-right: 3px;
+        background-image: url("../Assests/Images/chevron.svg");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: right;
     }
       
     .dropdown2 {
