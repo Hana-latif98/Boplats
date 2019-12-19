@@ -173,6 +173,8 @@
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: right;
+    max-width: 368px;
+    max-height: 50px;
 }
   
 .dropdown {
