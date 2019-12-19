@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="35px" viewBox="0 0 58 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>chevron2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Kommun" transform="translate(-314.000000, -8.000000)">
+            <g id="chevron2">
+                <g transform="translate(314.000000, 8.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="58" height="35"></rect>
+                    <polyline id="Path-9" stroke="#363636" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="24 17 30 23 36 17"></polyline>
+                    <line x1="1.5" y1="0" x2="1.5" y2="35" id="Path-18" stroke="#363636"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -30,6 +30,7 @@
     display: none;
 }
 
+
 .mainFunctionBox{
     background: #E01171;
     box-shadow: 0 1px 10px 1px rgba(0,0,0,0.15);
@@ -157,6 +158,7 @@
     padding-left: 22px;
     padding-top: 16px;
     padding-bottom: 16px;
+    padding-right: 60px;
     font-size: 14px;
     border: none;
     cursor: pointer;
@@ -166,6 +168,15 @@
     color: #444444;
     text-align: justify;
     cursor:pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-image: url("../Assests/Images/chevron2.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    max-width: 368px;
+    max-height: 50px;
 }
   
 .dropdown {
@@ -241,6 +252,10 @@
     color: #444444;
     text-align: justify;
     margin-right: 0px;
+    background-image: url("../Assests/Images/chevron2.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
 }
 
   
@@ -473,6 +488,10 @@
         margin-top: 4px;
         font-size: 14px;
         text-align: left;
+        background-image: url("../Assests/Images/chevron.svg");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: right;
     }
     
     .dropdown-content {
@@ -505,6 +524,10 @@
         width: 100%;
         margin-top: 4px;
         margin-right: 3px;
+        background-image: url("../Assests/Images/chevron.svg");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: right;
     }
       
     .dropdown2 {
