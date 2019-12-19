@@ -166,6 +166,9 @@
     color: #444444;
     text-align: justify;
     cursor:pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
   
 .dropdown {
