@@ -116,7 +116,6 @@
 }
 
 .englishIcon{
-    height: 16px;
     margin-right: 20px;
 }
 
@@ -269,10 +268,6 @@
     
     #loginIcon{
         display: flex;
-    }
-
-    .englishIcon{
-        display: none;
     }
     
 }
