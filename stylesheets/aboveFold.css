@@ -719,7 +719,7 @@
         flex-direction: column;
         background-image: url("../Assests/Images/commercial-holder-2.svg");
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
     }
 
     .houseIllustration{
@@ -738,7 +738,22 @@
     }
 
     .commercialSpaceRow1{
+        display: none;
+    }
+
+    .commercialIpad{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        width: 614px;
+        justify-content: space-between;
         margin-bottom: 4px;
+        margin-top: 4px;
+    }
+
+    .commercial{
+        height: 202px;
+        width: 202px;
     }
 
     .commercialSpaceRow2{
