@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="26px" viewBox="0 0 35 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Path 12 + Path 12 + Path 22 + Path 22 + Path 21 + Path 21 + Path 10 + Path 10 + Rectangle Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.0849673203" width="34.8366013" height="25.8300654" rx="6.45751634"></rect>
+    </defs>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-149.000000, -176.000000)">
+            <g id="Path-12-+-Path-12-+-Path-22-+-Path-22-+-Path-21-+-Path-21-+-Path-10-+-Path-10-+-Rectangle-Mask" transform="translate(149.000000, 176.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#6787F5" xlink:href="#path-1"></use>
+                <path d="M1.35947712,0.934640523 L28.5490196,28.124183 C30.8148148,27.7843137 32.1742919,27.4444444 32.627451,27.1045752 C33.08061,26.7647059 33.4204793,25.9150327 33.6470588,24.5555556 L7.81699346,-1.2745098 L1.35947712,0.934640523 Z" id="Path-12" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                <path d="M1.35947712,0.934640523 L28.5490196,28.124183 C30.8148148,27.7843137 32.1742919,27.4444444 32.627451,27.1045752 C33.08061,26.7647059 33.4204793,25.9150327 33.6470588,24.5555556 L7.81699346,-1.2745098 L1.35947712,0.934640523 Z" id="Path-12" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(17.503268, 13.424837) scale(-1, 1) translate(-17.503268, -13.424837) "></path>
+                <polygon id="Path-22" fill="#FF337A" mask="url(#mask-2)" points="3.56862745 25.5751634 29.7385621 -0.594771242 31.4379085 0.764705882 5.60784314 26.4248366"></polygon>
+                <polygon id="Path-22" fill="#FF337A" mask="url(#mask-2)" transform="translate(17.503268, 12.915033) scale(-1, 1) translate(-17.503268, -12.915033) " points="3.56862745 25.5751634 29.7385621 -0.594771242 31.4379085 0.764705882 5.60784314 26.4248366"></polygon>
+                <polygon id="Path-21" fill="#FFFFFF" mask="url(#mask-2)" points="12.9150327 26.0849673 22.0915033 26.0849673 22.0915033 0.0849673203 12.9150327 0.0849673203"></polygon>
+                <polygon id="Path-21" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(17.418301, 13.084967) rotate(-90.000000) translate(-17.418301, -13.084967) " points="12.8300654 30.5882353 22.0065359 30.5882353 22.0065359 -4.41830065 12.8300654 -4.41830065"></polygon>
+                <polygon id="Path-10" fill="#FF337A" mask="url(#mask-2)" points="14.9542484 0.0849673203 14.9542484 25.9150327 19.8823529 25.9150327 19.8823529 0.0849673203"></polygon>
+                <polygon id="Path-10" fill="#FF337A" mask="url(#mask-2)" transform="translate(17.503268, 13.000000) rotate(90.000000) translate(-17.503268, -13.000000) " points="15.0392157 -4.41830065 15.0392157 30.4183007 19.9673203 30.4183007 19.9673203 -4.41830065"></polygon>
+                <rect id="Rectangle" fill-opacity="0.153409091" fill="#000000" mask="url(#mask-2)" x="17.503268" y="-2.29411765" width="21.0718954" height="31.4379085"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
