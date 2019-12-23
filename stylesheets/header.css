@@ -224,6 +224,10 @@
         border-radius: 10px;
         height: 4px;
     }
+
+    .englishIcon{
+        display: none;
+    }
     
 }
 
@@ -265,6 +269,10 @@
     
     #loginIcon{
         display: flex;
+    }
+
+    .englishIcon{
+        display: none;
     }
     
 }
