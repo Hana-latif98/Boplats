@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="21px" height="26px" viewBox="0 0 21 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
-    <title>Group 2</title>
+    <title>login-icon</title>
     <desc>Created with Sketch.</desc>
     <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-598.000000, -843.000000)">
-            <g id="Group-2" transform="translate(598.000000, 843.000000)">
-                <circle id="Oval" fill="#E01171" cx="10.8241206" cy="8.68844221" r="8.68844221"></circle>
-                <path d="M10.8894472,11.3668342 C13.5896147,11.3668342 15.5058626,12.5862647 16.638191,15.0251256 L5.14070352,15.0251256 C6.27303183,12.5862647 8.18927973,11.3668342 10.8894472,11.3668342 Z" id="Triangle" fill="#FFFFFF" transform="translate(10.889447, 13.195980) scale(1, -1) translate(-10.889447, -13.195980) "></path>
-                <path d="M10.758794,18.160804 C18.0753769,18.160804 21.3718593,20.7738693 20.6482412,26 L1,26 C0.189279732,20.7738693 3.44221106,18.160804 10.758794,18.160804 Z" id="Triangle" fill="#E01171"></path>
+        <g id="Artboard" transform="translate(-149.000000, -112.000000)">
+            <g id="login-icon" transform="translate(149.000000, 112.000000)">
+                <rect id="Rectangle" fill="#E01171" x="0" y="0" width="22.5882353" height="22.5882353" rx="2.82352941"></rect>
+                <g id="Group-2" transform="translate(5.647059, 2.823529)">
+                    <path d="M5.64705882,9.88235294 C9.41176471,9.88235294 11.2941176,12.2352941 11.2941176,16.9411765 L0,16.9411765 C0,12.2352941 1.88235294,9.88235294 5.64705882,9.88235294 Z" id="Triangle" fill="#FFFFFF"></path>
+                    <ellipse id="Oval" stroke="#FFFFFF" stroke-width="1.41176471" fill="#FFFFFF" cx="5.64705882" cy="3.90950226" rx="3.52941176" ry="3.20361991"></ellipse>
+                    <path d="M5.64705882,4.23529412 C7.52941176,4.23529412 8.47058824,5.17647059 8.47058824,7.05882353 L2.82352941,7.05882353 C2.82352941,5.17647059 3.76470588,4.23529412 5.64705882,4.23529412 Z" id="Triangle" fill="#E01171" transform="translate(5.647059, 5.647059) scale(1, -1) translate(-5.647059, -5.647059) "></path>
+                </g>
             </g>
         </g>
     </g>
