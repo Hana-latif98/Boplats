@@ -246,8 +246,9 @@
 
     .createAccount{
         display: flex;
-        width: 60px;
+        width: 64px;
         margin-right: 20px;
+        flex-direction: row-reverse;
     }
 
     .headerCreateAccount{
@@ -268,6 +269,10 @@
     
     #loginIcon{
         display: flex;
+    }
+
+    .englishIcon{
+        margin: 0;
     }
     
 }
