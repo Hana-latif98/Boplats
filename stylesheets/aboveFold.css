@@ -814,6 +814,24 @@
         width: 156px;
     }
 
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 100px;
+        background-color: #59097B;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: -120%;
+        left: 50%;
+        margin-left: -260%;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 12px;
+    }
+
 }
 
 @media only screen and (max-width: 324px){
