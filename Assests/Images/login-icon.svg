@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
     <title>login-icon</title>
     <desc>Created with Sketch.</desc>
     <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-320.000000, -35.000000)">
-            <g id="login-icon" transform="translate(320.000000, 35.000000)">
-                <rect id="Rectangle" fill="#E01171" x="0" y="0" width="26" height="23" rx="2.82352941"></rect>
+        <g id="Artboard" transform="translate(-285.000000, -34.000000)">
+            <g id="login-icon" transform="translate(285.000000, 34.000000)">
+                <rect id="Rectangle" fill="#E01171" x="0" y="0" width="26" height="26" rx="2.82352941"></rect>
                 <g id="Group-2" transform="translate(7.000000, 3.000000)">
-                    <path d="M6,11 C10,11 12,13 12,17 L0,17 C0,13 2,11 6,11 Z" id="Triangle" fill="#FFFFFF"></path>
-                    <circle id="Oval" stroke="#FFFFFF" stroke-width="1.41176471" fill="#FFFFFF" cx="6" cy="5" r="4.29411765"></circle>
-                    <path d="M6,6 C8,6 9,7 9,9 L3,9 C3,7 4,6 6,6 Z" id="Triangle" fill="#E01171" transform="translate(6.000000, 7.500000) scale(1, -1) translate(-6.000000, -7.500000) "></path>
+                    <path d="M6.5,12.6086957 C10.8333333,12.6086957 13,14.942029 13,19.6086957 L0,19.6086957 C0,14.942029 2.16666667,12.6086957 6.5,12.6086957 Z" id="Triangle" fill="#FFFFFF"></path>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="1.41176471" fill="#FFFFFF" cx="6.5" cy="6.10869565" r="4.79411765"></circle>
+                    <path d="M6.5,6.60869565 C8.83333333,6.60869565 10,7.60869565 10,9.60869565 L3,9.60869565 C3,7.60869565 4.16666667,6.60869565 6.5,6.60869565 Z" id="Triangle" fill="#E01171" transform="translate(6.500000, 8.108696) scale(1, -1) translate(-6.500000, -8.108696) "></path>
                 </g>
             </g>
         </g>
