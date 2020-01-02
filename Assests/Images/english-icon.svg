@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="36px" height="27px" viewBox="0 0 36 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
     <title>english-icon</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="2.23820962e-13" y="0.359477124" width="34.8366013" height="25.8300654" rx="6.45751634"></rect>
-    </defs>
     <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-146.000000, -216.000000)">
-            <g id="english-icon" transform="translate(146.000000, 215.500000)">
-                <g id="Path-12-+-Path-12-+-Path-22-+-Path-22-Mask" transform="translate(1.000000, 0.225490)">
-                    <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
-                    </mask>
-                    <use id="Mask" fill="#6787F5" xlink:href="#path-1"></use>
-                    <path d="M1.35947712,1.20915033 L28.5490196,28.3986928 C30.8148148,28.0588235 32.1742919,27.7189542 32.627451,27.379085 C33.08061,27.0392157 33.4204793,26.1895425 33.6470588,24.8300654 L7.81699346,-1 L1.35947712,1.20915033 Z" id="Path-12" fill="#FFFFFF" mask="url(#mask-2)"></path>
-                    <path d="M1.35947712,1.20915033 L28.5490196,28.3986928 C30.8148148,28.0588235 32.1742919,27.7189542 32.627451,27.379085 C33.08061,27.0392157 33.4204793,26.1895425 33.6470588,24.8300654 L7.81699346,-1 L1.35947712,1.20915033 Z" id="Path-12" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(17.503268, 13.699346) scale(-1, 1) translate(-17.503268, -13.699346) "></path>
-                    <polygon id="Path-22" fill="#FF337A" mask="url(#mask-2)" points="3.56862745 25.8496732 29.7385621 -0.320261438 31.4379085 1.03921569 5.60784314 26.6993464"></polygon>
-                    <polygon id="Path-22" fill="#FF337A" mask="url(#mask-2)" transform="translate(17.503268, 13.189542) scale(-1, 1) translate(-17.503268, -13.189542) " points="3.56862745 25.8496732 29.7385621 -0.320261438 31.4379085 1.03921569 5.60784314 26.6993464"></polygon>
-                </g>
-                <polygon id="Path-21" fill="#FFFFFF" points="13.9150327 26.5849673 23.0915033 26.5849673 23.0915033 0.58496732 13.9150327 0.58496732"></polygon>
-                <polygon id="Path-21" fill="#FFFFFF" transform="translate(18.418301, 13.584967) rotate(-90.000000) translate(-18.418301, -13.584967) " points="13.8300654 31.0882353 23.0065359 31.0882353 23.0065359 -3.91830065 13.8300654 -3.91830065"></polygon>
-                <polygon id="Path-10" fill="#FF337A" points="15.9542484 0.58496732 15.9542484 26.5849673 20.8823529 26.5849673 20.8823529 0.58496732"></polygon>
-                <polygon id="Path-10" fill="#FF337A" transform="translate(18.421569, 13.500000) rotate(90.000000) translate(-18.421569, -13.500000) " points="15.9575163 -4 15.9575163 31 20.8856209 31 20.8856209 -4"></polygon>
+        <g id="Artboard" transform="translate(-255.000000, -34.000000)">
+            <g id="english-icon" transform="translate(255.000000, 34.000000)">
+                <rect id="Rectangle" fill="#19107B" x="-9.09494702e-13" y="0.0546699089" width="25.954675" height="25.8781126" rx="2.39895718"></rect>
+                <rect id="pink-middle" fill="#FFFFFF" x="10.1062451" y="0.0546699089" width="5.74218474" height="25.8781126"></rect>
+                <polygon id="whit-horizontal" fill="#FFFFFF" transform="translate(12.977338, 12.993726) rotate(90.000000) translate(-12.977338, -12.993726) " points="9.74257344 0.0163886773 16.2121016 0.0163886773 16.2121016 25.9710637 9.74257344 25.9710637"></polygon>
+                <rect id="white-middle" fill="#E01171" x="11.0677743" y="0.073079495" width="3.83838384" height="25.8781126"></rect>
+                <polygon id="pink-hori" fill="#E01171" transform="translate(12.986966, 13.109158) rotate(90.000000) translate(-12.986966, -13.109158) " points="10.8246766 0.124532753 15.1492558 0.124532753 15.1492558 26.0937841 10.8246766 26.0937841"></polygon>
+                <polygon id="Path-12" fill="#FFFFFF" transform="translate(20.381433, 21.092810) scale(-1, 1) translate(-20.381433, -21.092810) " points="16.5132738 25.9750324 19.5334758 25.9454431 24.9173142 19.4695702 24.9173142 16.2105879 23.0789304 16.2105879 15.8455521 25.4561757"></polygon>
+                <polygon id="Path-12" fill="#FFFFFF" points="1.78389095 25.9454431 4.81524904 25.9454431 10.2102435 19.4695702 10.2102435 16.2105879 8.37185966 16.2105879 1.00716823 25.531194"></polygon>
+                <polygon id="Path-12" fill="#FFFFFF" transform="translate(5.608706, 4.914901) scale(1, -1) translate(-5.608706, -4.914901) " points="1.78389095 9.77493135 4.81524904 9.81931519 10.2102435 3.26946921 10.2102435 0.0104869024 8.37185966 0.0104869024 1.00716823 9.33109296"></polygon>
+                <polygon id="Path-12" fill="#FFFFFF" transform="translate(20.447090, 4.914901) scale(-1, -1) translate(-20.447090, -4.914901) " points="16.6222748 9.77493135 19.6536329 9.77493135 25.0486273 3.34344228 25.0486273 0.0548707407 23.2102435 0.0548707407 15.8455521 9.40506603"></polygon>
+                <polygon id="Path-10" fill="#E01171" points="1.79504702 25.8270862 4.28999651 25.8270862 9.93646116 18.577726 9.93646116 16.2105879 9.14858237 16.2105879"></polygon>
+                <polygon id="Path-10" fill="#E01171" transform="translate(20.178885, 21.018837) scale(-1, 1) translate(-20.178885, -21.018837) " points="15.8455521 25.8270862 18.501466 25.8270862 24.5122187 18.577726 24.5122187 16.2105879 23.6735091 16.2105879"></polygon>
+                <polygon id="Path-10" fill="#E01171" transform="translate(20.113229, 4.929696) scale(-1, -1) translate(-20.113229, -4.929696) " points="15.8455521 9.77493135 18.3701529 9.77493135 24.3809056 2.52557108 24.3809056 0.0844599663 23.5421959 0.0844599663"></polygon>
+                <polygon id="Path-10" fill="#E01171" transform="translate(5.800098, 4.929696) scale(1, -1) translate(-5.800098, -4.929696) " points="1.53242076 9.62698522 4.0570216 9.77493135 10.0677743 2.52557108 10.0677743 0.0844599663 9.22906462 0.0844599663"></polygon>
             </g>
         </g>
     </g>
