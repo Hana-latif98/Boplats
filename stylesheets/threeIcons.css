@@ -183,9 +183,14 @@
     }
 
     .grid2Header{
-        margin-top: 20px;
+        margin-top: 32px;
         font-size: 18px;
         line-height: 18px;
+    }
+
+    .grid2BodyText2b{
+        margin-top: 16px;
+        margin-bottom: 0px;
     }
 
     .pinkButton{
@@ -194,6 +199,10 @@
 
     .pinkButton2{
         margin-top: 20px;
+    }
+
+    .pinkButton2a{
+        margin-top: 32px;
     }
 
     .pinkButton2b{
@@ -211,10 +220,6 @@
     }
 
     .pinkButton2{
-        margin-top: 20px;
-    }
-
-    .pinkButton2a{
         margin-top: 20px;
     }
 
