@@ -261,7 +261,7 @@
         font-size: 18px;
     }
 
-    .grid2BodyText{
+    .grid2BodyText2b{
         margin-bottom: 0px;
         margin-top: 16px;
     }
@@ -271,15 +271,15 @@
     }
 
     .pinkButton2a{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2b{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2c{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
 }
@@ -303,11 +303,16 @@
     }
 
     .grid2Header{
-        margin-top: 12px;
+        margin-top: 32px;
         font-size: 18px;
     }
 
     .grid2BodyText{
+        margin-bottom: 0px;
+    }
+
+    .grid2BodyText2b{
+        margin-top: 16px;
         margin-bottom: 0px;
     }
 
@@ -316,15 +321,15 @@
     }
 
     .pinkButton2a{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2b{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2c{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 }
 
