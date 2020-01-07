@@ -28,6 +28,7 @@
     font-family: Verdana;
     font-weight: bold;
     font-size: 20px;
+    line-height: 20px;
     color: black;
     text-align: center;
     margin-top: 32px;
@@ -178,12 +179,18 @@
     .icons{
         max-width: 100px;
         height: auto;
-        margin-top: 50px;
+        margin-top: 52px;
     }
 
     .grid2Header{
-        margin-top: 12px;
+        margin-top: 32px;
         font-size: 18px;
+        line-height: 18px;
+    }
+
+    .grid2BodyText2b{
+        margin-top: 16px;
+        margin-bottom: 0px;
     }
 
     .pinkButton{
@@ -192,6 +199,10 @@
 
     .pinkButton2{
         margin-top: 20px;
+    }
+
+    .pinkButton2a{
+        margin-top: 32px;
     }
 
     .pinkButton2b{
@@ -212,16 +223,12 @@
         margin-top: 20px;
     }
 
-    .pinkButton2a{
-        margin-top: 20px;
-    }
-
     .pinkButton2b{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2c{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .threeIconsFlexContent{
@@ -250,12 +257,13 @@
     }
 
     .grid2Header{
-        margin-top: 12px;
+        margin-top: 32px;
         font-size: 18px;
     }
 
-    .grid2BodyText{
+    .grid2BodyText2b{
         margin-bottom: 0px;
+        margin-top: 16px;
     }
 
     .pinkButton2{
@@ -263,15 +271,15 @@
     }
 
     .pinkButton2a{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2b{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2c{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
 }
@@ -295,11 +303,16 @@
     }
 
     .grid2Header{
-        margin-top: 12px;
+        margin-top: 32px;
         font-size: 18px;
     }
 
     .grid2BodyText{
+        margin-bottom: 0px;
+    }
+
+    .grid2BodyText2b{
+        margin-top: 16px;
         margin-bottom: 0px;
     }
 
@@ -308,15 +321,15 @@
     }
 
     .pinkButton2a{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2b{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .pinkButton2c{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 }
 

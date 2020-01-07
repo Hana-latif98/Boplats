@@ -3,6 +3,8 @@
     font-family: Verdana;
     font-weight: bold;
     font-size: 36px;
+    line-height: 36px;
+    margin-top: 0px;
     color: #1B1B1B;
     text-align: center;
     margin-bottom: 100px;
@@ -99,9 +101,9 @@
 
 @media only screen and (max-width: 639px){
     .h2{
-        font-size: 20px;
-        margin-bottom: 40px;
-        margin-top: 60px;
+        font-size: 22px;
+        margin-bottom: 52px;
+        margin-top: 52px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -162,12 +164,12 @@
     }
 
     .smallTitle{
-        margin-top: 4px;
+        margin-top: 6px;
     }
 
 
     .pinkButton2{
-        margin-top: 20px;
+        margin-top: 32px;
     }
 
     .centerFlatImage{
