@@ -73,10 +73,12 @@
         max-width: none;
         padding-left: 24px;
         padding-right: 24px;
+        margin-top: 12px;
     }
 
     .illustrationHeader{
-        margin-top: 8px;
+        margin-top: 20px;
+        font-size: 18px;
     }
 
     .howBoplatsWorks{
