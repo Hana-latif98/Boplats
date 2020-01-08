@@ -217,6 +217,10 @@
         overflow-x: hidden;
         padding-top: 60px;
         transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 20px;
     }
 
     .sideNavDiv{
@@ -285,6 +289,7 @@
         padding-bottom: 12px;
         text-transform: uppercase;
         white-space: nowrap;
+        border: none;
     }
 
     .spanHM{
