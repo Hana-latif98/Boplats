@@ -230,13 +230,12 @@
         font-size: 14px;
         color: #59097B;
         letter-spacing: 0.58px;
+        padding-left: 20px;
     }
 
     .sidenav a {
-        padding: 12px 8px 12px 32px;
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
+        padding-left: 20px;
+        padding-bottom: 12px;
         display: block;
         transition: 0.3s;
         white-space: nowrap;
