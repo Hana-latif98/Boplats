@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="21px" viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Plus" transform="translate(-235.000000, -297.000000)">
+            <g id="Group" transform="translate(235.000000, 298.000000)">
+                <rect id="Rectangle" fill="#59097B" x="0" y="0" width="18.8851351" height="18.9189189" rx="2.43243243"></rect>
+                <path d="M2.61812736,15.0261016 C11.2388272,14.9843205 15.8929049,14.9530974 16.5803605,14.9324324 C17.3093166,14.9105199 17.739737,14.7753848 17.8716216,14.527027 L17.8716216,16.7567568 C17.8716216,17.5777206 17.206099,18.2432432 16.3851351,18.2432432 L2.61824324,18.2432432 C1.73197549,18.2432432 1.01351351,17.5247813 1.01351351,16.6385135 C1.01351351,15.7510441 1.7306684,15.030405 2.61812736,15.0261016 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <path d="M2.63513514,16.6554054 C10.4954955,16.6554054 15,16.6554054 16.1486486,16.6554054 C17.2972973,16.6554054 17.9617117,15.6756757 18.1418919,13.7162162" id="Path-22" stroke="#59097B" stroke-width="0.675675676" stroke-linecap="round"></path>
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="0.675675676" fill="#59097B" x="2.2972973" y="-0.337837838" width="2.36486486" height="15.7432432" rx="0.135135135"></rect>
+                <path d="M4.57432432,16.6828832 L4.57432432,19.75 L7.01351351,19.75 L7.01351351,16.6828832 L5.90301373,17.2214685 L5.68482411,17.2214685 L4.57432432,16.6828832 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="0.5" fill="#59097B" transform="translate(5.793919, 18.141892) scale(1, -1) translate(-5.793919, -18.141892) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
