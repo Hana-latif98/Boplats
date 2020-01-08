@@ -219,6 +219,12 @@
         transition: 0.5s;
     }
 
+    .sideNavDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .sidenav a {
         padding: 12px 8px 12px 32px;
         text-decoration: none;
