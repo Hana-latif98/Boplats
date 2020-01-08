@@ -119,15 +119,17 @@
                 <script>
                     function openNavigation() {
                         document.getElementById("sideNavigation").style.width = "200px";
+                        document.getElementById("overlay").style.display = "block";
                     }
                     
                     function closeNavigation() {
                         document.getElementById("sideNavigation").style.width = "0";
+                        document.getElementById("overlay").style.display = "none";
                     }
                 </script>
             </div>
     </div>
-
+    <div id="overlay"></div>
     <div class="wrapper">
         <div class="fullScreen" id="fullS">
             <div class="dummy">
