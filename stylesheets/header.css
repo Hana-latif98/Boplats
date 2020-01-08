@@ -225,6 +225,13 @@
         justify-content: space-between;
     }
 
+    .sideNavText{
+        font-family: Verdana;
+        font-size: 14px;
+        color: #59097B;
+        letter-spacing: 0.58px;
+    }
+
     .sidenav a {
         padding: 12px 8px 12px 32px;
         text-decoration: none;
