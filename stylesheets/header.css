@@ -238,7 +238,7 @@
 
     .sidenav a {
         padding-left: 20px;
-        padding-bottom: 12px;
+        padding-bottom: 4px;
         display: block;
         transition: 0.3s;
         white-space: nowrap;
