@@ -1,12 +1,12 @@
-function myFunction4b() {
-    document.getElementById("myDropdown4b").classList.toggle("show");
+function maximumLivingAreaDropDown() {
+    document.getElementById("maxLivingAreaDropDown").classList.toggle("show");
 }
 
 let maximumLivingArea = null
 const getValue6 = (value6) => {
     if(value6) {
         maximumLivingArea = value6
-        myFunction4b()
+        maximumLivingAreaDropDown()
         updateMaximumLivingAreaText(value6)
     } else {
         // error
