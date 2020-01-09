@@ -18,9 +18,36 @@ const saveInputValues = (value, inputType, elementID, dropDownID) => {
     toggleDropDown(dropDownID);
 }
 
-// TODO:
+var municipalityArray = [];
 
-// 1) Rename openDropDown to toggleDropDown X
-// 2) Add saveInputValues with all props in HTML X
-// 3) Delete href in dropdown X
-// 4) Rename classes like "dropbtn2"
+const collectValue = (munID, eleID, inputType2) => {
+    
+    // check how to check wants in an array
+    // check if munID exists in array (if statement)
+    // if true - remove munID from array
+    // if false - push munID to array
+
+    for(let i = 0; i < municipalityArray.length; i++){
+
+        console.log(municipalityArray[i]);
+
+        if(municipalityArray.includes(munID)){
+
+        }
+
+        else{
+            municipalityArray.push(munID);
+    let print = municipalityArray.toString();
+
+    inputType2 = munID;
+
+    const inputElement2 = document.getElementById(eleID);
+    inputElement2.innerHTML = inputType2;
+        }
+     
+     }
+}
+
+
+
+
