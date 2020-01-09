@@ -1,12 +1,12 @@
-function myFunction3() {
-    document.getElementById("myDropdown3").classList.toggle("show");
+function minimumRoomDropDown() {
+    document.getElementById("minimum-room-ID").classList.toggle("show");
 }
 
 let minimumRoom = null
 const getValue3 = (value3) => {
     if(value3) {
         minimumRent = value3
-        myFunction3()
+        minimumRoomDropDown()
         updateMinimumRoomText(value3)
     } else {
         // error
