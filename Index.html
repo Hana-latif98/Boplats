@@ -371,33 +371,6 @@
 
         <script>
 
-            function myFunction2() {
-                document.getElementById("myDropdown2").classList.toggle("show");
-            } /*toggle show myDropDown2*/
-
-            let minimumRent = null
-            const getValue = (value) => {
-                if(value) {
-                    minimumRent = value
-                    myFunction2()
-                    updateMinRentText(value)
-                } else {
-                    // error
-                }
-            }
-
-            const minimumRentText = document.getElementById('minimum-rent')
-
-            const updateMinRentText = (value) => {
-                if (value) {
-                    minimumRentText.innerHTML = value
-                } else {
-                    minimumRentText.innerHTML = 'Min'
-                }
-            }
-
-            updateMinRentText() /*minimum rent change text*/
-
             function myFunction2b() {
                 document.getElementById("myDropdown2b").classList.toggle("show");
             }
@@ -781,6 +754,6 @@
      </div>
      <script src="./script/toggle-hamburger-menu.js" type="text/javascript"></script>
      <script src="./script/municipilaty-drop-down.js" type="text/javascript"></script>
-     <script src="./script/municipilaty-replace-innerHTML.js" type="text/javascript"></script>
      <script src="./script/toggle-small-drop-downs.js" type="text/javascript"></script>
+     <script src="./script/minimum-rent-drop-down.js" type="text/javascript"></script>
 </body>
