@@ -1,12 +1,12 @@
-function myFunction3b() {
-    document.getElementById("myDropdown3b").classList.toggle("show");
+function maximumRoomDropDown() {
+    document.getElementById("maximum-room-ID").classList.toggle("show");
 }
 
 let maximumRoom = null
 const getValue4 = (value4) => {
     if(value4) {
         maximumRoom = value4
-        myFunction3b()
+        maximumRoomDropDown()
         updateMaximumRoomText(value4)
     } else {
         // error
