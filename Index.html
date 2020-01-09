@@ -60,7 +60,7 @@
         </div>
             <div class="hamburgerMenu">
                 <div id="sideNavigation" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">
+                    <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">
                         <img src="./Assests/Images/cross-icon.svg">
                     </a>
                     <div>
@@ -109,27 +109,37 @@
                        <button class="sideNavCreateAccountButton">Skapa konto</button>
                     </div>
                 </div>
-                <span class="spanHM" onclick="openNavigation()">
+                <span class="spanHM" onclick="toggleMenu()">
                     <div class="hamburgerFlex">
                         <div class="hamburgerDesign"></div>
                         <div class="hamburgerDesign"></div>
                         <div class="hamburgerDesign"></div>
                     </div>
                 </span>
+                <div id="overlay"></div>
                 <script>
-                    function openNavigation() {
-                        document.getElementById("sideNavigation").style.width = "200px";
-                        document.getElementById("overlay").style.display = "block";
-                    }
+                    // function openNavigation() {
+                    //     document.getElementById("sideNavigation").style.width = "200px";
+                    //     document.getElementById("overlay").style.display = "block";
+                    // }
                     
-                    function closeNavigation() {
-                        document.getElementById("sideNavigation").style.width = "0";
-                        document.getElementById("overlay").style.display = "none";
+                    // function closeNavigation() {
+                    //     document.getElementById("sideNavigation").style.width = "0";
+                    //     document.getElementById("overlay").style.display = "none";
+                    // }
+
+                    const toggleMenu = () => {
+                        const overlayElement = document.getElementById("overlay");
+                        const navigationElement = document.getElementById("sideNavigation");
+                        navigationElement.classList.toggle("show");
+                        overlayElement.classList.toggle("show");
                     }
+
+                    // toggleMenu();
+                    
                 </script>
             </div>
     </div>
-    <div id="overlay"></div>
     <div class="wrapper">
         <div class="fullScreen" id="fullS">
             <div class="dummy">
