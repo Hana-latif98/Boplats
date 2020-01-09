@@ -131,60 +131,60 @@
                             <div class="kommun">
                                 <p class="gridHeader">Kommun</p>
                                 <div class="dropdown">
-                                    <button id="municipilaty-button" class="dropbtn">Alla...</button>
+                                    <button id="municipality-button" class="dropbtn" onclick="toggleDropDown('municipality-ID')">Alla...</button>
                                     <element>
-                                        <div id="municipilaty-ID" class="dropdown-content">
-                                            <a href="#gothenburg 'javascript:void();'" onclick="toggleActive('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
-                                            <a href="#ale 'javascript:void();" onclick="toggleActive('ale')" id='ale' class="dropdownText;">Ale</a>
-                                            <a href="#alingas 'javascript:void();" onclick="toggleActive('alingsas')" id='alingsas' class="dropdownText">Alingsås</a>
-                                            <a href="#bengtfors 'javascript:void();" onclick="toggleActive('bengtfors')" id='bengtfors' class="dropdownText">Bengtfors</a>
-                                            <a href="#bollebygd 'javascript:void();" onclick="toggleActive('bollebygd')" id='bollebygd' class="dropdownText">Bollebygd</a>
-                                            <a href="#boras 'javascript:void();" onclick="toggleActive('boras')" id='boras' class="dropdownText">Borås</a>
-                                            <a href="#dalsEd 'javascript:void();" onclick="toggleActive('dalsEd')" id='dalsEd' class="dropdownText">DalsEd</a>
-                                            <a href="#essunga 'javascript:void();" onclick="toggleActive('essunga')" id='essunga' class="dropdownText">Essunga</a>
-                                            <a href="#falkenberg 'javascript:void();" onclick="toggleActive('falkenberg')" id='falkenberg' class="dropdownText">Falkenberg</a>
-                                            <a href="#falkoping 'javascript:void();" onclick="toggleActive('falkoping')" id='falkoping' class="dropdownText">Falköping</a>
-                                            <a href="#fargelanda 'javascript:void();" onclick="toggleActive('fargelanda')" id='fargelanda' class="dropdownText">Färgelanda</a>
-                                            <a href="#grastorp 'javascript:void();" onclick="toggleActive('grastorp')" id='grastorp' class="dropdownText">Grästorp</a>
-                                            <a href="#gullspang 'javascript:void();" onclick="toggleActive('gullspang')" id='gullspang' class="dropdownText">Gullspång</a>
-                                            <a href="#gotene 'javascript:void();" onclick="toggleActive('gotene')" id='gotene' class="dropdownText">Götene</a>
-                                            <a href="#halmstad 'javascript:void();" onclick="toggleActive('halmstad')" id='halmstad' class="dropdownText">Halmstad</a>
-                                            <a href="#herrljunga 'javascript:void();" onclick="toggleActive('herrljunga')" id='herrljunga' class="dropdownText">Herrljunga</a>
-                                            <a href="#hjo 'javascript:void();" onclick="toggleActive('hjo')" id='hjo' class="dropdownText">Hjo</a>
-                                            <a href="#harryda 'javascript:void();" onclick="toggleActive('harryda')" id='harryda' class="dropdownText">Härryda</a>
-                                            <a href="#karlsborg 'javascript:void();" onclick="toggleActive('karlsborg')" id='karlsborg' class="dropdownText">Karlsborg</a>
-                                            <a href="#kungsbacka 'javascript:void();" onclick="toggleActive('kungsbacka')" id='kungsbacka' class="dropdownText">Kungsbacka</a>
-                                            <a href="#kungalv 'javascript:void();" onclick="toggleActive('kungalv')" id='kungalv' class="dropdownText">Kungälv</a>
-                                            <a href="#lerum 'javascript:void();" onclick="toggleActive('lerum')" id='lerum' class="dropdownText">Lerum</a>
-                                            <a href="#lidkoping 'javascript:void();" onclick="toggleActive('lidkoping')" id='lidkoping' class="dropdownText">Lidköping</a>
-                                            <a href="#lillaEdet 'javascript:void();" onclick="toggleActive('lillaEdet')" id='lillaEdet' class="dropdownText">Lilla Edet</a>
-                                            <a href="#lysekil 'javascript:void();" onclick="toggleActive('lysekil')" id='lysekil' class="dropdownText">Lysekil</a>
-                                            <a href="#mariestad 'javascript:void();" onclick="toggleActive('mariestad')" id='mariestad' class="dropdownText">Mariestad</a>
-                                            <a href="#mark 'javascript:void();" onclick="toggleActive('mark')" id='mark' class="dropdownText">Mark</a>
-                                            <a href="#mellerud 'javascript:void();" onclick="toggleActive('mellerud')" id='mellerud' class="dropdownText">Mellerud</a>
-                                            <a href="#molndal 'javascript:void();" onclick="toggleActive('molndal')" id='molndal' class="dropdownText">Mölndal</a>
-                                            <a href="#orust 'javascript:void();" onclick="toggleActive('orust')" id='orust' class="dropdownText">Orust</a>
-                                            <a href="#partille 'javascript:void();" onclick="toggleActive('partille')" id='partille' class="dropdownText">Partille</a>
-                                            <a href="#skara 'javascript:void();" onclick="toggleActive('skara')" id='skara' class="dropdownText">Skara</a>
-                                            <a href="#skovde 'javascript:void();" onclick="toggleActive('skovde')" id='skovde' class="dropdownText">Skövde</a>
-                                            <a href="#sotenas 'javascript:void();" onclick="toggleActive('sotenas')" id="sotenas" class="dropdownText">Sotenäs</a>
-                                            <a href="#stenugnsund 'javascript:void();" onclick="toggleActive('stenungsund')" id='stenungsund' class="dropdownText">Stenungsund</a>
-                                            <a href="#stromstad 'javascript:void();" onclick="toggleActive('stromstad')" id='stromstad' class="dropdownText">Strömstad</a>
-                                            <a href="#svenjunga 'javascript:void();" onclick="toggleActive('svenjunga')" id='svenjunga' class="dropdownText">Svenjunga</a>
-                                            <a href="#tanum 'javascript:void();" onclick="toggleActive('tanum')" id='tanum' class="dropdownText">Tanum</a>
-                                            <a href="#tibro 'javascript:void();" onclick="toggleActive('tibro')" id='tibro' class="dropdownText">Tibro</a>
-                                            <a href="#tidaholm 'javascript:void();" onclick="toggleActive('tidaholm')" id='tidaholm' class="dropdownText">Tidaholm</a>
-                                            <a href="#tjorn 'javascript:void();" onclick="toggleActive('tjorn')" id='tjorn' class="dropdownText">Tjörn</a>
-                                            <a href="#tranemo 'javascript:void();" onclick="toggleActive('tranemo')" id='tranemo' class="dropdownText">Tranemo</a>
-                                            <a href="#trollhattan 'javascript:void();" onclick="toggleActive('trollhattan')" id='trollhattan' class="dropdownText">Trollhättan</a>
-                                            <a href="#toreboda 'javascript:void();" onclick="toggleActive('toreboda')" id='toreboda' class="dropdownText">Töreboda</a>
-                                            <a href="#uddevalla 'javascript:void();" onclick="toggleActive('uddevalla')" id='uddevalla' class="dropdownText">Uddevalla</a>
-                                            <a href="#ulricehamn 'javascript:void();" onclick="toggleActive('ulricehamn')" id='ulricehamn' class="dropdownText">Ulricehamn</a>
-                                            <a href="#vara 'javascript:void();" onclick="toggleActive('vara')" id='vara' class="dropdownText">Vara</a>
-                                            <a href="#vargarda 'javascript:void();" onclick="toggleActive('vargarda')" id='vargarda' class="dropdownText">Vårgårda</a>
-                                            <a href="#vanersborg 'javascript:void();" onclick="toggleActive('vanersborg')" id='vanersborg' class="dropdownText">Vänersborg</a>
-                                            <a href="#amal 'javascript:void();" onclick="toggleActive('amal')" id='amal' class="dropdownText">Åmål</a>
-                                            <a href="#ockero 'javascript:void();" onclick="toggleActive('ockero')" id='ockero' class="dropdownText">Öckero</a>
+                                        <div id="municipality-ID" class="dropdown-content">
+                                            <a href="#gothenburg 'javascript:void();'" onclick="saveInputValues('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
+                                            <a href="#ale 'javascript:void();" onclick="saveInputValues('ale')" id='ale' class="dropdownText;">Ale</a>
+                                            <a href="#alingas 'javascript:void();" onclick="saveInputValues('alingsas')" id='alingsas' class="dropdownText">Alingsås</a>
+                                            <a href="#bengtfors 'javascript:void();" onclick="saveInputValues('bengtfors')" id='bengtfors' class="dropdownText">Bengtfors</a>
+                                            <a href="#bollebygd 'javascript:void();" onclick="saveInputValues('bollebygd')" id='bollebygd' class="dropdownText">Bollebygd</a>
+                                            <a href="#boras 'javascript:void();" onclick="saveInputValues('boras')" id='boras' class="dropdownText">Borås</a>
+                                            <a href="#dalsEd 'javascript:void();" onclick="saveInputValues('dalsEd')" id='dalsEd' class="dropdownText">DalsEd</a>
+                                            <a href="#essunga 'javascript:void();" onclick="saveInputValues('essunga')" id='essunga' class="dropdownText">Essunga</a>
+                                            <a href="#falkenberg 'javascript:void();" onclick="saveInputValues('falkenberg')" id='falkenberg' class="dropdownText">Falkenberg</a>
+                                            <a href="#falkoping 'javascript:void();" onclick="saveInputValues('falkoping')" id='falkoping' class="dropdownText">Falköping</a>
+                                            <a href="#fargelanda 'javascript:void();" onclick="saveInputValues('fargelanda')" id='fargelanda' class="dropdownText">Färgelanda</a>
+                                            <a href="#grastorp 'javascript:void();" onclick="saveInputValues('grastorp')" id='grastorp' class="dropdownText">Grästorp</a>
+                                            <a href="#gullspang 'javascript:void();" onclick="saveInputValues('gullspang')" id='gullspang' class="dropdownText">Gullspång</a>
+                                            <a href="#gotene 'javascript:void();" onclick="saveInputValues('gotene')" id='gotene' class="dropdownText">Götene</a>
+                                            <a href="#halmstad 'javascript:void();" onclick="saveInputValues('halmstad')" id='halmstad' class="dropdownText">Halmstad</a>
+                                            <a href="#herrljunga 'javascript:void();" onclick="saveInputValues('herrljunga')" id='herrljunga' class="dropdownText">Herrljunga</a>
+                                            <a href="#hjo 'javascript:void();" onclick="saveInputValues('hjo')" id='hjo' class="dropdownText">Hjo</a>
+                                            <a href="#harryda 'javascript:void();" onclick="saveInputValues('harryda')" id='harryda' class="dropdownText">Härryda</a>
+                                            <a href="#karlsborg 'javascript:void();" onclick="saveInputValues('karlsborg')" id='karlsborg' class="dropdownText">Karlsborg</a>
+                                            <a href="#kungsbacka 'javascript:void();" onclick="saveInputValues('kungsbacka')" id='kungsbacka' class="dropdownText">Kungsbacka</a>
+                                            <a href="#kungalv 'javascript:void();" onclick="saveInputValues('kungalv')" id='kungalv' class="dropdownText">Kungälv</a>
+                                            <a href="#lerum 'javascript:void();" onclick="saveInputValues('lerum')" id='lerum' class="dropdownText">Lerum</a>
+                                            <a href="#lidkoping 'javascript:void();" onclick="saveInputValues('lidkoping')" id='lidkoping' class="dropdownText">Lidköping</a>
+                                            <a href="#lillaEdet 'javascript:void();" onclick="saveInputValues('lillaEdet')" id='lillaEdet' class="dropdownText">Lilla Edet</a>
+                                            <a href="#lysekil 'javascript:void();" onclick="saveInputValues('lysekil')" id='lysekil' class="dropdownText">Lysekil</a>
+                                            <a href="#mariestad 'javascript:void();" onclick="saveInputValues('mariestad')" id='mariestad' class="dropdownText">Mariestad</a>
+                                            <a href="#mark 'javascript:void();" onclick="saveInputValues('mark')" id='mark' class="dropdownText">Mark</a>
+                                            <a href="#mellerud 'javascript:void();" onclick="saveInputValues('mellerud')" id='mellerud' class="dropdownText">Mellerud</a>
+                                            <a href="#molndal 'javascript:void();" onclick="saveInputValues('molndal')" id='molndal' class="dropdownText">Mölndal</a>
+                                            <a href="#orust 'javascript:void();" onclick="saveInputValues('orust')" id='orust' class="dropdownText">Orust</a>
+                                            <a href="#partille 'javascript:void();" onclick="saveInputValues('partille')" id='partille' class="dropdownText">Partille</a>
+                                            <a href="#skara 'javascript:void();" onclick="saveInputValues('skara')" id='skara' class="dropdownText">Skara</a>
+                                            <a href="#skovde 'javascript:void();" onclick="saveInputValues('skovde')" id='skovde' class="dropdownText">Skövde</a>
+                                            <a href="#sotenas 'javascript:void();" onclick="saveInputValues('sotenas')" id="sotenas" class="dropdownText">Sotenäs</a>
+                                            <a href="#stenugnsund 'javascript:void();" onclick="saveInputValues('stenungsund')" id='stenungsund' class="dropdownText">Stenungsund</a>
+                                            <a href="#stromstad 'javascript:void();" onclick="saveInputValues('stromstad')" id='stromstad' class="dropdownText">Strömstad</a>
+                                            <a href="#svenjunga 'javascript:void();" onclick="saveInputValues('svenjunga')" id='svenjunga' class="dropdownText">Svenjunga</a>
+                                            <a href="#tanum 'javascript:void();" onclick="saveInputValues('tanum')" id='tanum' class="dropdownText">Tanum</a>
+                                            <a href="#tibro 'javascript:void();" onclick="saveInputValues('tibro')" id='tibro' class="dropdownText">Tibro</a>
+                                            <a href="#tidaholm 'javascript:void();" onclick="saveInputValues('tidaholm')" id='tidaholm' class="dropdownText">Tidaholm</a>
+                                            <a href="#tjorn 'javascript:void();" onclick="saveInputValues('tjorn')" id='tjorn' class="dropdownText">Tjörn</a>
+                                            <a href="#tranemo 'javascript:void();" onclick="saveInputValues('tranemo')" id='tranemo' class="dropdownText">Tranemo</a>
+                                            <a href="#trollhattan 'javascript:void();" onclick="saveInputValues('trollhattan')" id='trollhattan' class="dropdownText">Trollhättan</a>
+                                            <a href="#toreboda 'javascript:void();" onclick="saveInputValues('toreboda')" id='toreboda' class="dropdownText">Töreboda</a>
+                                            <a href="#uddevalla 'javascript:void();" onclick="saveInputValues('uddevalla')" id='uddevalla' class="dropdownText">Uddevalla</a>
+                                            <a href="#ulricehamn 'javascript:void();" onclick="saveInputValues('ulricehamn')" id='ulricehamn' class="dropdownText">Ulricehamn</a>
+                                            <a href="#vara 'javascript:void();" onclick="saveInputValues('vara')" id='vara' class="dropdownText">Vara</a>
+                                            <a href="#vargarda 'javascript:void();" onclick="saveInputValues('vargarda')" id='vargarda' class="dropdownText">Vårgårda</a>
+                                            <a href="#vanersborg 'javascript:void();" onclick="saveInputValues('vanersborg')" id='vanersborg' class="dropdownText">Vänersborg</a>
+                                            <a href="#amal 'javascript:void();" onclick="saveInputValues('amal')" id='amal' class="dropdownText">Åmål</a>
+                                            <a href="#ockero 'javascript:void();" onclick="saveInputValues('ockero')" id='ockero' class="dropdownText">Öckero</a>
                                         </div>
                                 </div>
                             </div>
@@ -192,31 +192,31 @@
                                     <p class="gridHeaderRow2">Rum</p>
                                     <div class="rumB">
                                         <div class="dropdown2">
-                                            <button onclick="minimumRoomDropDown()" class="dropbtn2" id="minimum-room"></button>
+                                            <button onclick="toggleDropDown('minimum-room-ID')" class="dropbtn2" id="minimum-room">Min</button>
                                             <div id="minimum-room-ID" class="dropdown-content2">
-                                                <a href="#min1" class="dropdownText" onclick="getValue3(1)">1</a>
-                                                <a href="#min2" class="dropdownText" onclick="getValue3(2)">2</a>
-                                                <a href="#min3" class="dropdownText" onclick="getValue3(3)">3</a>
-                                                <a href="#min4" class="dropdownText" onclick="getValue3(4)">4</a>
-                                                <a href="#min5" class="dropdownText" onclick="getValue3(5)">5</a>
-                                                <a href="#min6" class="dropdownText" onclick="getValue3(6)">6</a>
-                                                <a href="#min7" class="dropdownText" onclick="getValue3(7)">7</a>
-                                                <a href="#min8" class="dropdownText" onclick="getValue3(8)">8</a>
-                                                <a href="#minRoom" class="dropdownText" onclick="getValue3('Min')">Min</a>
+                                                <a class="dropdownText" onclick="saveInputValues(1, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">1</a>
+                                                <a class="dropdownText" onclick="saveInputValues(2, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">2</a>
+                                                <a class="dropdownText" onclick="saveInputValues(3, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">3</a>
+                                                <a class="dropdownText" onclick="saveInputValues(4, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">4</a>
+                                                <a class="dropdownText" onclick="saveInputValues(5, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">5</a>
+                                                <a class="dropdownText" onclick="saveInputValues(6, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">6</a>
+                                                <a class="dropdownText" onclick="saveInputValues(7, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">7</a>
+                                                <a class="dropdownText" onclick="saveInputValues(8, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">8</a>
+                                                <a class="dropdownText" onclick="saveInputValues('Min', 'roomMinimum', 'minimum-room', 'minimum-room-ID')">Min</a>
                                             </div>
                                         </div>
                                         <div class="dropdown2b">
-                                            <button onclick="maximumRoomDropDown()" class="dropbtn2" id="maximum-room"></button>
+                                            <button onclick="toggleDropDown('maximum-room-ID')" class="dropbtn2" id="maximum-room">Max</button>
                                             <div id="maximum-room-ID" class="dropdown-content2">
-                                                <a href="#max1" class="dropdownText" onclick="getValue4(1)">1</a>
-                                                <a href="#max2" class="dropdownText" onclick="getValue4(2)">2</a>
-                                                <a href="#max3" class="dropdownText" onclick="getValue4(3)">3</a>
-                                                <a href="#max4" class="dropdownText" onclick="getValue4(4)">4</a>
-                                                <a href="#max5" class="dropdownText" onclick="getValue4(5)">5</a>
-                                                <a href="#max6" class="dropdownText" onclick="getValue4(6)">6</a>
-                                                <a href="#max7" class="dropdownText" onclick="getValue4(7)">7</a>
-                                                <a href="#max8" class="dropdownText" onclick="getValue4(8)">8</a>
-                                                <a href="#maxRoom" class="dropdownText" onclick="getValue4('Max')">Max</a>
+                                                <a class="dropdownText" onclick="saveInputValues(1, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">1</a>
+                                                <a class="dropdownText" onclick="saveInputValues(2, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">2</a>
+                                                <a class="dropdownText" onclick="saveInputValues(3, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">3</a>
+                                                <a class="dropdownText" onclick="saveInputValues(4, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">4</a>
+                                                <a class="dropdownText" onclick="saveInputValues(5, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">5</a>
+                                                <a class="dropdownText" onclick="saveInputValues(6, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">6</a>
+                                                <a class="dropdownText" onclick="saveInputValues(7, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">7</a>
+                                                <a class="dropdownText" onclick="saveInputValues(8, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">8</a>
+                                                <a class="dropdownText" onclick="saveInputValues('Max', 'roomMaximum', 'maximum-room', 'maximum-room-ID')">Max</a>
                                             </div>
                                         </div>
                                     </div>
@@ -227,35 +227,35 @@
                                     <p class="gridHeader">Hyra</p>
                                     <div class="hyraB">
                                             <div class="dropdown2">
-                                                <button onclick="minimumRentDropDown()" class="dropbtn2" id="minimum-rent">Min</button>
+                                                <button onclick="toggleDropDown('minimum-rent-ID')" class="dropbtn2" id="minimum-rent">Min</button>
                                                     <div id="minimum-rent-ID" class="dropdown-content2">
-                                                        <a href="#min1000" class="dropdownText" onclick="getValue(1000)">1000</a>
-                                                        <a href="#min2000" class="dropdownText" onclick="getValue(2000)">2000</a>
-                                                        <a href="#min3000" class="dropdownText" onclick="getValue(3000)">3000</a>
-                                                        <a href="#min4000" class="dropdownText" onclick="getValue(4000)">4000</a>
-                                                        <a href="#min5000" class="dropdownText" onclick="getValue(5000)">5000</a>
-                                                        <a href="#min6000" class="dropdownText" onclick="getValue(6000)">6000</a>
-                                                        <a href="#min7000" class="dropdownText" onclick="getValue(7000)">7000</a>
-                                                        <a href="#min8000" class="dropdownText" onclick="getValue(8000)">8000</a>
-                                                        <a href="#min9000" class="dropdownText" onclick="getValue(9000)">9000</a>
-                                                        <a href="#min10000" class="dropdownText" onclick="getValue(10000)">10000</a>
-                                                        <a href="#minRent" class="dropdownText" onclick="getValue('Min')">Min</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(1000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">1000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(2000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">2000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(3000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">3000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(4000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">4000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(5000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">5000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(6000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">6000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(7000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">7000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(8000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">8000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(9000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">9000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(10000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">10000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues('Min', 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">Min</a>
                                                     </div>
                                             </div>
                                             <div class="dropdown2b">
-                                                <button onclick="maximumRentDropDown()" class="dropbtn2" id ="maximum-rent"></button>
+                                                <button onclick="toggleDropDown('maximum-rent-ID')" class="dropbtn2" id ="maximum-rent">Max</button>
                                                     <div id="maximum-rent-ID" class="dropdown-content2">
-                                                        <a href="#max1000" class="dropdownText" onclick="getValue2(1000)">1000</a>
-                                                        <a href="#max2000" class="dropdownText" onclick="getValue2(2000)">2000</a>
-                                                        <a href="#max3000" class="dropdownText" onclick="getValue2(3000)">3000</a>
-                                                        <a href="#max4000" class="dropdownText" onclick="getValue2(4000)">4000</a>
-                                                        <a href="#max5000" class="dropdownText" onclick="getValue2(5000)">5000</a>
-                                                        <a href="#max6000" class="dropdownText" onclick="getValue2(6000)">6000</a>
-                                                        <a href="#max7000" class="dropdownText" onclick="getValue2(7000)">7000</a>
-                                                        <a href="#max8000" class="dropdownText" onclick="getValue2(8000)">8000</a>
-                                                        <a href="#max9000" class="dropdownText" onclick="getValue2(9000)">9000</a>
-                                                        <a href="#max10000" class="dropdownText" onclick="getValue2(10000)">10000</a>
-                                                        <a href="#maxRent" class="dropdownText" onclick="getValue2('Max')">Max</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(1000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">1000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(2000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">2000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(3000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">3000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(4000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">4000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(5000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">5000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(6000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">6000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(7000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">7000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(8000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">8000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(9000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">9000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(10000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">10000</a>
+                                                        <a class="dropdownText" onclick="saveInputValues('Max', 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">Max</a>
                                                     </div>
                                             </div>
                                     </div>
@@ -264,43 +264,43 @@
                                     <p class="gridHeaderRow2">Boarea</p>
                                         <div class="boareaB">
                                             <div class="dropdown2" id="original">
-                                                <button onclick="minimumLivingAreaDropDown()" class="dropbtn2" id="minimum-living-area"></button>
+                                                <button onclick="toggleDropDown('minimum-living-area-ID')" class="dropbtn2" id="minimum-living-area">Min</button>
                                                     <div id="minimum-living-area-ID" class="dropdown-content2">
-                                                        <a href="#min20" class="dropdownText" onclick="getValue5(20)">20</a>
-                                                        <a href="#min30" class="dropdownText" onclick="getValue5(30)">30</a>
-                                                        <a href="#min40" class="dropdownText" onclick="getValue5(40)">40</a>
-                                                        <a href="#min50" class="dropdownText" onclick="getValue5(50)">50</a>
-                                                        <a href="#min60" class="dropdownText" onclick="getValue5(60)">60</a>
-                                                        <a href="#min70" class="dropdownText" onclick="getValue5(70)">70</a>
-                                                        <a href="#min80" class="dropdownText" onclick="getValue5(80)">80</a>
-                                                        <a href="#min90" class="dropdownText" onclick="getValue5(90)">90</a>
-                                                        <a href="#min100" class="dropdownText" onclick="getValue5(100)">100</a>
-                                                        <a href="#min110" class="dropdownText" onclick="getValue5(110)">110</a>
-                                                        <a href="#min120" class="dropdownText" onclick="getValue5(120)">120</a>
-                                                        <a href="#min130" class="dropdownText" onclick="getValue5(130)">130</a>
-                                                        <a href="#min140" class="dropdownText" onclick="getValue5(140)">140</a>
-                                                        <a href="#min150" class="dropdownText" onclick="getValue5(150)">150</a>
-                                                        <a href="#minLivingArea" class="dropdownText" onclick="getValue5('Min')">Min</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(20, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">20</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(30, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">30</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(40, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">40</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(50, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">50</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(60, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">60</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(70, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">70</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(80, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">80</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(90, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">90</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(100, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">100</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(110, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">110</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(120, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">120</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(130, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">130</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(140, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">140</a>
+                                                        <a class="dropdownText" onclick="saveInputValues(150, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">150</a>
+                                                        <a class="dropdownText" onclick="saveInputValues('Min', 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">Min</a>
                                                     </div>
                                             </div>
                                             <div class="dropdown2b">
-                                                    <button onclick="maximumLivingAreaDropDown()" class="dropbtn2" id="maximum-living-area"></button>
+                                                    <button onclick="toggleDropDown('max-living-area-ID')" class="dropbtn2" id="maximum-living-area">Max</button>
                                                         <div id="max-living-area-ID" class="dropdown-content2">
-                                                            <a href="#max20" class="dropdownText" onclick="getValue6(20)">20</a>
-                                                            <a href="#max30" class="dropdownText" onclick="getValue6(30)">30</a>
-                                                            <a href="#max40" class="dropdownText" onclick="getValue6(40)">40</a>
-                                                            <a href="#max50" class="dropdownText" onclick="getValue6(50)">50</a>
-                                                            <a href="#max60" class="dropdownText" onclick="getValue6(60)">60</a>
-                                                            <a href="#max70" class="dropdownText" onclick="getValue6(70)">70</a>
-                                                            <a href="#max80" class="dropdownText" onclick="getValue6(80)">80</a>
-                                                            <a href="#max90" class="dropdownText" onclick="getValue6(90)">90</a>
-                                                            <a href="#max100" class="dropdownText" onclick="getValue6(100)">100</a>
-                                                            <a href="#max110" class="dropdownText" onclick="getValue6(110)">110</a>
-                                                            <a href="#mxa120" class="dropdownText" onclick="getValue6(120)">120</a>
-                                                            <a href="#max130" class="dropdownText" onclick="getValue6(130)">130</a>
-                                                            <a href="#max140" class="dropdownText" onclick="getValue6(150)">140</a>
-                                                            <a href="#max150" class="dropdownText" onclick="getValue6(160)">150</a>
-                                                            <a href ="#maxLivingArea" class="dropdownText" onclick="getValue6('Max')">Max</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(20, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">20</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(30, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">30</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(40, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">40</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(50, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">50</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(60, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">60</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(70, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">70</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(80, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">80</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(90, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">90</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(100, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">100</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(110, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">110</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(120, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">120</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(130, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">130</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(150, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">140</a>
+                                                            <a class="dropdownText" onclick="saveInputValues(160, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">150</a>
+                                                            <a class="dropdownText" onclick="saveInputValues('Max', 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">Max</a>
                                                         </div>
                                             </div>
                                         </div>
@@ -612,12 +612,13 @@
         </div>
      </div>
      <script src="./script/toggle-hamburger-menu.js" type="text/javascript"></script>
-     <script src="./script/municipilaty-drop-down.js" type="text/javascript"></script>
+     <!-- <script src="./script/municipality-drop-down.js" type="text/javascript"></script>
      <script src="./script/toggle-small-drop-downs.js" type="text/javascript"></script>
      <script src="./script/minimum-rent-drop-down.js" type="text/javascript"></script>
      <script src="./script/maximum-rent-drop-down.js" type="text/javascript"></script>
      <script src="./script/minimum-room-drop-down.js" type="text/javascript"></script>
      <script src="./script/maximum-room-drop-down.js" type="text/javascript"></script>
      <script src="./script/minimum-living-area-drop-down.js" type="text/javascript"></script>
-     <script src="./script/maximum-living-area-drop-down.js" type="text/javascript"></script>
+     <script src="./script/maximum-living-area-drop-down.js" type="text/javascript"></script> -->
+     <script src="./script/input.js" type="text/javascript"></script>
 </body>
