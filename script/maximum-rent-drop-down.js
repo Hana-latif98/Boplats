@@ -1,4 +1,4 @@
-function maximumRentDropDown() {
+const maximumRentDropDown = () => {
     document.getElementById("maximum-rent-ID").classList.toggle("show");
 }
 

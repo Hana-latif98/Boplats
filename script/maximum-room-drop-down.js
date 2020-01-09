@@ -1,4 +1,4 @@
-function maximumRoomDropDown() {
+const maximumRoomDropDown = () => {
     document.getElementById("maximum-room-ID").classList.toggle("show");
 }
 

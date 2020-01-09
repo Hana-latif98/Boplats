@@ -1,4 +1,4 @@
-function minimumRentDropDown() {
+const minimumRentDropDown = () => {
     document.getElementById("minimum-rent-ID").classList.toggle("show");
 } /*toggle show myDropDown2*/
 

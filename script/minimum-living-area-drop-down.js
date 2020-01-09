@@ -1,4 +1,4 @@
-function minimumLivingAreaDropDown() {
+const minimumLivingAreaDropDown = () => {
     document.getElementById("minimum-living-area-ID").classList.toggle("show");
 }
 

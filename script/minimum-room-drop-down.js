@@ -1,4 +1,4 @@
-function minimumRoomDropDown() {
+const minimumRoomDropDown = () => {
     document.getElementById("minimum-room-ID").classList.toggle("show");
 }
 

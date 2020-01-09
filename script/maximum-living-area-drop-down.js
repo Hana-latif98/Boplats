@@ -1,4 +1,4 @@
-function maximumLivingAreaDropDown() {
+const maximumLivingAreaDropDown = () => {
     document.getElementById("max-living-area-ID").classList.toggle("show");
 }
 
