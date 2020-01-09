@@ -368,66 +368,6 @@
                 </div>
                 <img src="./Assests/Images/flat-illustration-small-screen.svg" class="houseIllustrationSS">
         </div>
-
-        <script>
-
-            function myFunction4() {
-                document.getElementById("myDropdown4").classList.toggle("show");
-            }
-
-            let minimumLivingArea = null
-            const getValue5 = (value5) => {
-                if(value5) {
-                    minimumLivingArea = value5
-                    myFunction4()
-                    updateMinimumLivingAreaText(value5)
-                } else {
-                    // error
-                }
-            }
-
-            const minimumLivingAreaText = document.getElementById('minimum-living-area')
-
-            const updateMinimumLivingAreaText = (value5) => {
-                if (value5) {
-                    minimumLivingAreaText.innerHTML = value5
-                } else {
-                    minimumLivingAreaText.innerHTML = 'Min'
-                }
-            }
-
-            updateMinimumLivingAreaText() /*minimum living area change text*/
-
-            function myFunction4b() {
-                document.getElementById("myDropdown4b").classList.toggle("show");
-            }
-
-            let maximumLivingArea = null
-            const getValue6 = (value6) => {
-                if(value6) {
-                    maximumLivingArea = value6
-                    myFunction4b()
-                    updateMaximumLivingAreaText(value6)
-                } else {
-                    // error
-                }
-            }
-
-            const maximumLivingAreaText = document.getElementById('maximum-living-area')
-
-            const updateMaximumLivingAreaText = (value6) => {
-                if (value6) {
-                    maximumLivingAreaText.innerHTML = value6
-                } else {
-                    maximumLivingAreaText.innerHTML = 'Max'
-                }
-            }
-
-            updateMaximumLivingAreaText() /*maximum living area change text*/
-            
-
-        </script>
-
         <div id="threeIconsSS">
             <div class="threeIconsflexbox">
                 <div class="threeIconsFlexContent">
@@ -678,5 +618,7 @@
      <script src="./script/maximum-rent-drop-down.js" type="text/javascript"></script>
      <script src="./script/minimum-room-drop-down.js" type="text/javascript"></script>
      <script src="./script/maximum-room-drop-down.js" type="text/javascript"></script>
+     <script src="./script/minimum-living-area-drop-down.js" type="text/javascript"></script>
+     <script src="./script/maximum-living-area-drop-down.js" type="text/javascript"></script>
 
 </body>
