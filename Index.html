@@ -131,9 +131,9 @@
                             <div class="kommun">
                                 <p class="gridHeader">Kommun</p>
                                 <div class="dropdown">
-                                    <button id='dropDownButton' class="dropbtn">Alla...</button>
+                                    <button id="municipilaty-button" class="dropbtn">Alla...</button>
                                     <element>
-                                        <div id="kommun" class="dropdown-content">
+                                        <div id="municipilaty-ID" class="dropdown-content">
                                             <a href="#gothenburg 'javascript:void();'" onclick="toggleActive('gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
                                             <a href="#ale 'javascript:void();" onclick="toggleActive('ale')" id='ale' class="dropdownText;">Ale</a>
                                             <a href="#alingas 'javascript:void();" onclick="toggleActive('alingsas')" id='alingsas' class="dropdownText">Alingsås</a>
@@ -192,8 +192,8 @@
                                     <p class="gridHeaderRow2">Rum</p>
                                     <div class="rumB">
                                         <div class="dropdown2">
-                                            <button onclick="myFunction3()" class="dropbtn2" id="minimum-room"></button>
-                                            <div id="myDropdown3" class="dropdown-content2">
+                                            <button onclick="minimumRoomDropDown()" class="dropbtn2" id="minimum-room"></button>
+                                            <div id="minimum-room-ID" class="dropdown-content2">
                                                 <a href="#min1" class="dropdownText" onclick="getValue3(1)">1</a>
                                                 <a href="#min2" class="dropdownText" onclick="getValue3(2)">2</a>
                                                 <a href="#min3" class="dropdownText" onclick="getValue3(3)">3</a>
@@ -206,8 +206,8 @@
                                             </div>
                                         </div>
                                         <div class="dropdown2b">
-                                            <button onclick="myFunction3b()" class="dropbtn2" id="maximum-room"></button>
-                                            <div id="myDropdown3b" class="dropdown-content2">
+                                            <button onclick="maximumRoomDropDown()" class="dropbtn2" id="maximum-room"></button>
+                                            <div id="maximum-room-ID" class="dropdown-content2">
                                                 <a href="#max1" class="dropdownText" onclick="getValue4(1)">1</a>
                                                 <a href="#max2" class="dropdownText" onclick="getValue4(2)">2</a>
                                                 <a href="#max3" class="dropdownText" onclick="getValue4(3)">3</a>
@@ -227,8 +227,8 @@
                                     <p class="gridHeader">Hyra</p>
                                     <div class="hyraB">
                                             <div class="dropdown2">
-                                                <button onclick="myFunction2()" class="dropbtn2" id="minimum-rent">Min</button>
-                                                    <div id="myDropdown2" class="dropdown-content2">
+                                                <button onclick="minimumRentDropDown()" class="dropbtn2" id="minimum-rent">Min</button>
+                                                    <div id="minimum-rent-ID" class="dropdown-content2">
                                                         <a href="#min1000" class="dropdownText" onclick="getValue(1000)">1000</a>
                                                         <a href="#min2000" class="dropdownText" onclick="getValue(2000)">2000</a>
                                                         <a href="#min3000" class="dropdownText" onclick="getValue(3000)">3000</a>
@@ -243,8 +243,8 @@
                                                     </div>
                                             </div>
                                             <div class="dropdown2b">
-                                                <button onclick="myFunction2b()" class="dropbtn2" id ="maximum-rent"></button>
-                                                    <div id="myDropdown2b" class="dropdown-content2">
+                                                <button onclick="maximumRentDropDown()" class="dropbtn2" id ="maximum-rent"></button>
+                                                    <div id="maximum-rent-ID" class="dropdown-content2">
                                                         <a href="#max1000" class="dropdownText" onclick="getValue2(1000)">1000</a>
                                                         <a href="#max2000" class="dropdownText" onclick="getValue2(2000)">2000</a>
                                                         <a href="#max3000" class="dropdownText" onclick="getValue2(3000)">3000</a>
@@ -264,8 +264,8 @@
                                     <p class="gridHeaderRow2">Boarea</p>
                                         <div class="boareaB">
                                             <div class="dropdown2" id="original">
-                                                <button onclick="myFunction4()" class="dropbtn2" id="minimum-living-area"></button>
-                                                    <div id="myDropdown4" class="dropdown-content2">
+                                                <button onclick="minimumLivingAreaDropDown()" class="dropbtn2" id="minimum-living-area"></button>
+                                                    <div id="minimum-living-area-ID" class="dropdown-content2">
                                                         <a href="#min20" class="dropdownText" onclick="getValue5(20)">20</a>
                                                         <a href="#min30" class="dropdownText" onclick="getValue5(30)">30</a>
                                                         <a href="#min40" class="dropdownText" onclick="getValue5(40)">40</a>
@@ -285,7 +285,7 @@
                                             </div>
                                             <div class="dropdown2b">
                                                     <button onclick="maximumLivingAreaDropDown()" class="dropbtn2" id="maximum-living-area"></button>
-                                                        <div id="maxLivingAreaDropDown" class="dropdown-content2">
+                                                        <div id="max-living-area-ID" class="dropdown-content2">
                                                             <a href="#max20" class="dropdownText" onclick="getValue6(20)">20</a>
                                                             <a href="#max30" class="dropdownText" onclick="getValue6(30)">30</a>
                                                             <a href="#max40" class="dropdownText" onclick="getValue6(40)">40</a>
