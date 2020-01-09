@@ -1,12 +1,12 @@
-function myFunction4() {
-    document.getElementById("myDropdown4").classList.toggle("show");
+function minimumLivingAreaDropDown() {
+    document.getElementById("minimum-living-area-ID").classList.toggle("show");
 }
 
 let minimumLivingArea = null
 const getValue5 = (value5) => {
     if(value5) {
         minimumLivingArea = value5
-        myFunction4()
+        minimumLivingAreaDropDown()
         updateMinimumLivingAreaText(value5)
     } else {
         // error
