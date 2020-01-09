@@ -371,21 +371,6 @@
 
         <script>
 
-            window.onload = function offClick(){
-
-                var kommunButton = document.getElementById('dropDownButton');
-                var kommunDc = document.getElementById('kommun');
-                
-                document.onclick = function kommunClick(e){
-                    if(e.target === kommunButton){
-                        kommunDc.classList.toggle("show");
-                    }
-                    else if(!e.target.className.includes('dropdownText') || e.target === e.target.id === 'kommun'){
-                        kommunDc.classList.remove("show");
-                    }
-                }
-            }
-            
             window.onclick = function offClick2(event) {
                 if (!event.target.matches('.dropbtn2')) {
 
@@ -398,7 +383,7 @@
                     }
                     }
                 }
-            }
+            } /*open and close dropbtn2 dropdown*/
 
             function toggleActive(id) {
                 document.getElementById(id).classList.toggle("dropdown-content-active");
@@ -415,11 +400,11 @@
                     const text = ('Alla...');
                     document.getElementById('dropDownButton').innerHTML = text;
                 }
-            }
+            } /*replace text information for kommun*/
 
             function myFunction2() {
                 document.getElementById("myDropdown2").classList.toggle("show");
-            }
+            } /*toggle show myDropDown2*/
 
             let minimumRent = null
             const getValue = (value) => {
@@ -442,7 +427,7 @@
                 }
             }
 
-            updateMinRentText()
+            updateMinRentText() /*minimum rent change text*/
 
             function myFunction2b() {
                 document.getElementById("myDropdown2b").classList.toggle("show");
@@ -469,7 +454,7 @@
                 }
             }
 
-            updateMaxRentText2()
+            updateMaxRentText2() /*maximum rent change text*/
 
             function myFunction3() {
                 document.getElementById("myDropdown3").classList.toggle("show");
@@ -496,7 +481,7 @@
                 }
             }
 
-            updateMinimumRoomText()
+            updateMinimumRoomText() /*minimum room change text*/
 
             function myFunction3b() {
                 document.getElementById("myDropdown3b").classList.toggle("show");
@@ -523,7 +508,7 @@
                 }
             }
 
-            updateMaximumRoomText()
+            updateMaximumRoomText() /*maximum rent change text*/
 
             function myFunction4() {
                 document.getElementById("myDropdown4").classList.toggle("show");
@@ -550,7 +535,7 @@
                 }
             }
 
-            updateMinimumLivingAreaText()
+            updateMinimumLivingAreaText() /*minimum living area change text*/
 
             function myFunction4b() {
                 document.getElementById("myDropdown4b").classList.toggle("show");
@@ -577,7 +562,7 @@
                 }
             }
 
-            updateMaximumLivingAreaText()
+            updateMaximumLivingAreaText() /*maximum living area change text*/
             
 
         </script>
@@ -825,5 +810,6 @@
             </div>
         </div>
      </div>
-     <script src="./script/toggleMenu.js" type="text/javascript"></script>
+     <script src="./script/toggle-hamburger-menu.js" type="text/javascript"></script>
+     <script src="./script/municipilaty-drop-down.js" type="text/javascript"></script>
 </body>
