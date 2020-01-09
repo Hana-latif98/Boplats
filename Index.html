@@ -60,37 +60,86 @@
         </div>
             <div class="hamburgerMenu">
                 <div id="sideNavigation" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">
+                    <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">
                         <img src="./Assests/Images/cross-icon.svg">
                     </a>
-                    <a href="#login">Logga in</a>
-                    <a href="#createAcount">Skapa konto</a>
-                    <a href="#sokBostad">Sök Bostad</a>
-                    <a href="#formedling">Förmedling</a>
-                    <a href="#annonsera">Annonsera</a>
-                    <a href="#bostadsGuiden">Bostadsguiden</a>
-                    <a href="#omBoplats">Om Boplats</a>
-                    <a href="#changeLanguage">In English</a>
+                    <div>
+                        <p> </p>
+                    </div>
+                    <div>
+                      <a href="#sokBostad">
+                        <div class="sideNavDiv">
+                          <img src="./assests/images/search-flat-side-nav-icon.svg">
+                        <p class="sideNavText">Sök Bostad</p>  
+                        </div>
+                    </a>
+                    <a href="#formedling">
+                        <div class="sideNavDiv">
+                            <img src="./assests/images/housing-side-nav.svg">
+                            <p class="sideNavText">Förmedling</p>  
+                        </div>
+                    </a>
+                    <a href="#annonsera">
+                        <div class="sideNavDiv">
+                            <img src="./assests/images/advertise-side-nav.svg">
+                            <p class="sideNavText">Annonsera</p>  
+                        </div>
+                    </a>
+                    <a href="#bostadsGuiden">
+                        <div class="sideNavDiv">
+                            <img src="./assests/images/guide-side-nav.svg">
+                            <p class="sideNavText">Bostadsguiden</p>  
+                        </div>
+                    </a>
+                    <a href="#omBoplats">
+                        <div class="sideNavDiv">
+                            <img src="./assests/images/info-side-nav.svg">
+                            <p class="sideNavText">Om Boplats</p>  
+                        </div>
+                    </a>
+                    <a href="#changeLanguage">
+                        <div class="sideNavDiv">
+                            <img src="./assests/images/in-english-side-nav.svg">
+                            <p class="sideNavText">In English</p>  
+                        </div>
+                    </a>  
+                    </div>
+                    <div class="sideNavBottomButtons">
+                       <button class="sideNavLoginButton">Logga in</button> 
+                       <button class="sideNavCreateAccountButton">Skapa konto</button>
+                    </div>
                 </div>
-                <span class="spanHM" onclick="openNavigation()">
+                <span class="spanHM" onclick="toggleMenu()">
                     <div class="hamburgerFlex">
                         <div class="hamburgerDesign"></div>
                         <div class="hamburgerDesign"></div>
                         <div class="hamburgerDesign"></div>
                     </div>
                 </span>
+                <div id="overlay"></div>
                 <script>
-                    function openNavigation() {
-                        document.getElementById("sideNavigation").style.width = "200px";
-                    }
+                    // function openNavigation() {
+                    //     document.getElementById("sideNavigation").style.width = "200px";
+                    //     document.getElementById("overlay").style.display = "block";
+                    // }
                     
-                    function closeNavigation() {
-                        document.getElementById("sideNavigation").style.width = "0";
+                    // function closeNavigation() {
+                    //     document.getElementById("sideNavigation").style.width = "0";
+                    //     document.getElementById("overlay").style.display = "none";
+                    // }
+
+                    const toggleMenu = () => {
+                        const overlayElement = document.getElementById("overlay");
+                        const navigationElement = document.getElementById("sideNavigation");
+                        navigationElement.classList.toggle("show");
+                        overlayElement.classList.toggle("show");
                     }
+
+                    // toggleMenu();
+                    
                 </script>
             </div>
     </div>
-
     <div class="wrapper">
         <div class="fullScreen" id="fullS">
             <div class="dummy">

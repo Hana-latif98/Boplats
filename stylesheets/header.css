@@ -213,17 +213,39 @@
         z-index: 1;
         top: 0;
         right: -1px;
-        background-color: #59097B;
+        background-color: #FFFFFF;
         overflow-x: hidden;
         padding-top: 60px;
         transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+    .sidenav.show{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .sideNavDiv{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sideNavText{
+        font-family: Verdana;
+        font-size: 14px;
+        color: #59097B;
+        letter-spacing: 0.58px;
+        padding-left: 20px;
     }
 
     .sidenav a {
-        padding: 12px 8px 12px 32px;
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
+        padding-left: 20px;
+        padding-bottom: 4px;
         display: block;
         transition: 0.3s;
         white-space: nowrap;
@@ -231,9 +253,76 @@
 
     .sidenav .closebtn {
         position: absolute;
-        right: 17px;
-        top: 0px;
+        right: 24px;
+        top: 16px;
     }
+
+    .sideNavLoginButton{
+        background: #FFFFFF;
+        border: 2px solid #E01171;
+        border-radius: 4px;
+        font-family: Verdana-Bold;
+        font-size: 12px;
+        color: #E01171;
+        letter-spacing: 1.5px;
+        line-height: 15.99px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-transform: uppercase;
+        padding-right: 40px;
+        padding-left: 40px;
+        white-space: nowrap;
+    }
+
+    .sideNavBottomButtons{
+        display: flex;
+        flex-direction: column;
+        height: 92px;
+        max-width: 162px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sideNavCreateAccountButton{
+        background: #E01171;
+        border-radius: 4px;
+        font-family: Verdana-Bold;
+        font-size: 12px;
+        color: #FFFFFF;
+        letter-spacing: 1.5px;
+        line-height: 15.99px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        border: none;
+    }
+
+    #overlay{
+        position: fixed;
+        width: 0%;
+        height: 0%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #59097B;
+        opacity: 0%;
+        z-index: 2;
+        transition: opacity 300ms ease;
+    }
+
+    #overlay.show{
+        opacity: 75%;
+        width: 100%;
+        height: 100%;
+    }
+
+    #sideNavigation{
+        z-index: 200;
+    }
+
 
     .spanHM{
         font-size:30px;

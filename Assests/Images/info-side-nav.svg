@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Plus" transform="translate(-234.000000, -339.000000)">
+            <g id="Group-2" transform="translate(234.000000, 339.000000)">
+                <circle id="Oval" fill="#59097B" cx="10" cy="10" r="10"></circle>
+                <g id="Group" transform="translate(6.779026, 3.820225)" fill="#FFFFFF">
+                    <ellipse id="Oval" cx="4.04494382" cy="1.46067416" rx="1.53558052" ry="1.46067416"></ellipse>
+                    <path d="M0.149812734,4.83895131 L0,5.5505618 C1.07365793,5.22596754 1.66042447,5.28838951 1.76029963,5.73782772 C2.02247191,6.78651685 0.674157303,9.78277154 0.823970037,11.0187266 C0.973782772,12.2546816 2.39700375,12.3670412 2.9588015,12.3670412 C3.33333333,12.3670412 4.04494382,12.1672909 5.09363296,11.7677903 L5.28089888,11.0187266 C4.33208489,11.3433208 3.73283396,11.2684145 3.48314607,10.7940075 C3.22097378,9.97003745 4.68164794,6.78651685 4.38202247,5.5505618 C4.082397,4.31460674 3.37078652,4.31460674 2.5093633,4.23970037 C1.93508115,4.1897628 1.14856429,4.38951311 0.149812734,4.83895131 Z" id="Path-23"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

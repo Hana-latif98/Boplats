@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Boplats-landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Plus" transform="translate(-234.000000, -258.000000)">
+            <g id="Group" transform="translate(234.000000, 258.000000)">
+                <path d="M11.0522995,1.07858607 C10.9777557,0.584748116 10.5534113,0.219574684 10.0539786,0.219468396 L6.30957479,0.218720037 C5.81540697,0.218621272 5.39375713,0.576158387 5.31307921,1.06369604 C4.93861792,3.32659001 4.39134361,5.59047133 3.67132039,7.85527163 C2.93630533,10.1672281 1.96229784,12.6656401 0.749368765,15.3507807 C0.719802067,15.4162345 0.704510206,15.4872332 0.704510206,15.5590551 C0.704510206,15.8384722 0.931019422,16.0649765 1.21043946,16.0649606 L15.1237729,16.0649606 C15.1968081,16.0649606 15.2689774,16.0491466 15.3353204,16.0186054 C15.5891137,15.901771 15.700145,15.6013135 15.5833217,15.3475174 C14.4310111,12.8444136 13.4615424,10.346827 12.6749792,7.85477557 C11.908726,5.42707209 11.3677579,3.16843707 11.0522995,1.07858607 Z" id="Triangle" stroke="#FFFFFF" stroke-width="0.5" fill="#59097B" transform="translate(8.173228, 8.141732) scale(-1, 1) rotate(90.000000) translate(-8.173228, -8.141732) "></path>
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="0.62992126" fill="#59097B" x="3.77952756" y="11.0551181" width="2.23622047" height="7.11811024" rx="1.11811024"></rect>
+                <polygon id="Rectangle" fill="#FFFFFF" points="3.02362205 4.66141732 3.65354331 4.56692913 3.65354331 11.7165354 3.02362205 11.6220472"></polygon>
+                <rect id="Rectangle" fill="#59097B" x="16.8503937" y="7.90551181" width="3.1496063" height="1" rx="0.31496063"></rect>
+                <rect id="Rectangle" fill="#59097B" transform="translate(18.078740, 5.259843) rotate(-17.000000) translate(-18.078740, -5.259843) " x="16.503937" y="4.94488189" width="3.1496063" height="1" rx="0.31496063"></rect>
+                <rect id="Rectangle" fill="#59097B" transform="translate(18.078740, 11.055118) scale(1, -1) rotate(-17.000000) translate(-18.078740, -11.055118) " x="16.503937" y="10.7401575" width="3.1496063" height="1" rx="0.31496063"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
