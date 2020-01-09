@@ -1,5 +1,5 @@
 function maximumLivingAreaDropDown() {
-    document.getElementById("maxLivingAreaDropDown").classList.toggle("show");
+    document.getElementById("max-living-area-ID").classList.toggle("show");
 }
 
 let maximumLivingArea = null
