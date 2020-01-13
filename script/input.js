@@ -27,27 +27,28 @@ const collectValue = (munID, eleID, inputType2) => {
     // if true - remove munID from array
     // if false - push munID to array
 
+
+    municipalityArray.push(munID);
+
     for(let i = 0; i < municipalityArray.length; i++){
 
-        console.log(municipalityArray[i]);
+        if((municipalityArray[i] === munID)=== municipalityArray[i]){
+            municipalityArray.splice(munID);
+            console.log('fak');
 
-        if(municipalityArray.includes(munID)){
+        } else {
+            let print = municipalityArray.toString();
 
+            inputType2 = print;
+
+            const inputElement2 = document.getElementById(eleID);
+            inputElement2.innerHTML = inputType2;
         }
 
-        else{
-            municipalityArray.push(munID);
-    let print = municipalityArray.toString();
-
-    inputType2 = munID;
-
-    const inputElement2 = document.getElementById(eleID);
-    inputElement2.innerHTML = inputType2;
-        }
+        console.log(municipalityArray)
      
-     }
+    }
 }
-
 
 
 
