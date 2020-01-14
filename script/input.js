@@ -57,4 +57,31 @@ window.onclick = function offClick2(event) {
         }
         }
     }
+
+    var municipalityButton = document.getElementById("municipality-button");
+    var municipalityDc = document.getElementById("municipality-ID");
+    
+    document.onclick = function municipalityClick(e){
+        if(e.target === municipalityButton){
+            municipalityDc.classList.add("show");
+        }
+        else if(!e.target.className.includes("dropdownText") || e.target === e.target.id === "municipality-ID"){
+            municipalityDc.classList.remove("show");
+        }
+    }
 }
+
+// window.onload = function offClick(){
+
+//     var municipalityButton = document.getElementById("municipality-button");
+//     var municipalityDc = document.getElementById("municipality-ID");
+    
+//     document.onclick = function municipalityClick(e){
+//         if(e.target === municipalityButton){
+//             municipalityDc.classList.toggle("show");
+//         }
+//         else if(!e.target.className.includes("dropdownText") || e.target === e.target.id === "municipality-ID"){
+//             municipalityDc.classList.remove("show");
+//         }
+//     }
+// } /*open and close municipality dropdown*/
