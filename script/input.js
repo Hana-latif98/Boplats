@@ -43,6 +43,11 @@ const collectValue = (munID, eleID) => {
     const inputElement2 = document.getElementById(eleID);
     inputElement2.innerHTML = municipalityArray;
 
+    if(municipalityArray.length === 0){
+        const standardText = ('Alla...');
+        document.getElementById("municipality-button").innerHTML = standardText;
+    }
+
 }
 
 window.onclick = function offClick2(event) {
