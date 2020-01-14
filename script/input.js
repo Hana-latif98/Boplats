@@ -22,27 +22,30 @@ const saveInputValues = (value, inputType, elementID, dropDownID) => {
 
 var municipalityArray = [];
 
-const collectValue = (munID, eleID) => {
+const collectValue = (munID, dropdownID, elementID) => {
     const includesValue = municipalityArray.includes(munID);
+    const dropDownElement = document.getElementById(elementID);
 
     let index = municipalityArray.indexOf(munID);
 
     if (includesValue) {
         municipalityArray.splice(index, 1);
+
+        dropDownElement.classList.remove("dropdown-content-active");
     } else {
         municipalityArray.push(munID);
+        dropDownElement.classList.add("dropdown-content-active");
     }
 
     console.log(municipalityArray);
 
-    const inputElement2 = document.getElementById(eleID);
+    const inputElement2 = document.getElementById(dropdownID);
     inputElement2.innerHTML = municipalityArray;
 
     if(municipalityArray.length === 0){
         const standardText = ('Alla...');
         document.getElementById("municipality-button").innerHTML = standardText;
     }
-
 }
 
 window.onclick = function offClick2(event) {
@@ -70,18 +73,3 @@ window.onclick = function offClick2(event) {
         }
     }
 }
-
-// window.onload = function offClick(){
-
-//     var municipalityButton = document.getElementById("municipality-button");
-//     var municipalityDc = document.getElementById("municipality-ID");
-    
-//     document.onclick = function municipalityClick(e){
-//         if(e.target === municipalityButton){
-//             municipalityDc.classList.toggle("show");
-//         }
-//         else if(!e.target.className.includes("dropdownText") || e.target === e.target.id === "municipality-ID"){
-//             municipalityDc.classList.remove("show");
-//         }
-//     }
-// } /*open and close municipality dropdown*/
