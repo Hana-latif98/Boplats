@@ -3,6 +3,7 @@ const toggleDropDown = (id) => {
     dropDownElement.classList.toggle("show");
 }
 
+
 const saveInputValues = (value, inputType, elementID, dropDownID) => {
     let rentMinimum = 0;
     let rentMaximum = 0;
@@ -16,39 +17,44 @@ const saveInputValues = (value, inputType, elementID, dropDownID) => {
     const inputElement = document.getElementById(elementID);
     inputElement.innerHTML = value;
     toggleDropDown(dropDownID);
+
 }
 
 var municipalityArray = [];
 
-const collectValue = (munID, eleID, inputType2) => {
-    
-    // check how to check wants in an array
-    // check if munID exists in array (if statement)
-    // if true - remove munID from array
-    // if false - push munID to array
+const collectValue = (munID, eleID) => {
+    const includesValue = municipalityArray.includes(munID);
 
+    console.log('value: ' + munID)
+    console.log('is in array: ' + includesValue)
 
-    municipalityArray.push(munID);
+    let index = municipalityArray.indexOf(munID);
 
-    for(let i = 0; i < municipalityArray.length; i++){
-
-        if((municipalityArray[i] === munID)=== municipalityArray[i]){
-            municipalityArray.splice(munID);
-            console.log('fak');
-
-        } else {
-            let print = municipalityArray.toString();
-
-            inputType2 = print;
-
-            const inputElement2 = document.getElementById(eleID);
-            inputElement2.innerHTML = inputType2;
-        }
-
-        console.log(municipalityArray)
-     
+    if (includesValue) {
+        console.log(municipalityArray);
+        municipalityArray.splice(index, 1);
+        console.log(municipalityArray);
+    } else {
+        municipalityArray.push(munID);
     }
+
+    console.log(municipalityArray);
+
+    const inputElement2 = document.getElementById(eleID);
+    inputElement2.innerHTML = municipalityArray;
+
 }
 
+window.onclick = function offClick2(event) {
+    if (!event.target.matches('.dropbtn2')) {
 
-
+        var dropdowns = document.getElementsByClassName("dropdown-content2");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+        }
+        }
+    }
+}
