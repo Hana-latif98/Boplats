@@ -25,15 +25,10 @@ var municipalityArray = [];
 const collectValue = (munID, eleID) => {
     const includesValue = municipalityArray.includes(munID);
 
-    console.log('value: ' + munID)
-    console.log('is in array: ' + includesValue)
-
     let index = municipalityArray.indexOf(munID);
 
     if (includesValue) {
-        console.log(municipalityArray);
         municipalityArray.splice(index, 1);
-        console.log(municipalityArray);
     } else {
         municipalityArray.push(munID);
     }
