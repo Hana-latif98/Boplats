@@ -125,13 +125,13 @@
                 <p>.</p>
             </div>
             <div class="mainFunctionBox"> 
-                <p class="mainFunctionTitle1">Sök Bostad</p>
+                <p class="mainFunctionTitle">Sök Bostad</p>
                     <div class="mainFunctionContent">
                         <div class="mainFunctionRow1">
-                            <div class="kommun">
-                                <p class="gridHeader">Kommun</p>
+                            <div class="municipality">
+                                <p class="headerRow1">Kommun</p>
                                 <div class="dropdown">
-                                    <button id="municipality-button" class="dropbtn" onclick="toggleDropDown('municipality-ID')">Alla...</button>
+                                    <button id="municipality-button" class="dropButtonLarge" onclick="toggleDropDown('municipality-ID')">Alla...</button>
                                     <element>
                                         <div id="municipality-ID" class="dropdown-content">
                                             <a href="#gothenburg 'javascript:void();'" onclick="collectValue(' Göteborg', 'municipality-button', 'gothenburg')" id='gothenburg' class="dropdownText">Göteborg</a>
@@ -188,11 +188,11 @@
                                         </div>
                                 </div>
                             </div>
-                                <div class="rum">
-                                    <p class="gridHeaderRow2">Rum</p>
-                                    <div class="rumB">
+                                <div class="room">
+                                    <p class="headerRow2">Rum</p>
+                                    <div class="roomHolder">
                                         <div class="dropdown2">
-                                            <button onclick="toggleDropDown('minimum-room-ID')" class="dropbtn2" id="minimum-room">Min</button>
+                                            <button onclick="toggleDropDown('minimum-room-ID')" class="dropButtonSmall" id="minimum-room">Min</button>
                                             <div id="minimum-room-ID" class="dropdown-content2">
                                                 <a class="dropdownText" onclick="saveInputValues(1, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">1</a>
                                                 <a class="dropdownText" onclick="saveInputValues(2, 'roomMinimum', 'minimum-room', 'minimum-room-ID')">2</a>
@@ -206,7 +206,7 @@
                                             </div>
                                         </div>
                                         <div class="dropdown2b">
-                                            <button onclick="toggleDropDown('maximum-room-ID')" class="dropbtn2" id="maximum-room">Max</button>
+                                            <button onclick="toggleDropDown('maximum-room-ID')" class="dropButtonSmall" id="maximum-room">Max</button>
                                             <div id="maximum-room-ID" class="dropdown-content2">
                                                 <a class="dropdownText" onclick="saveInputValues(1, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">1</a>
                                                 <a class="dropdownText" onclick="saveInputValues(2, 'roomMaximum', 'maximum-room', 'maximum-room-ID')">2</a>
@@ -223,11 +223,11 @@
                                 </div>
                         </div>
                             <div class="mainFunctionRow2">
-                                <div class="hyra">
-                                    <p class="gridHeader">Hyra</p>
-                                    <div class="hyraB">
+                                <div class="rent">
+                                    <p class="headerRow1">Hyra</p>
+                                    <div class="rentHolder">
                                             <div class="dropdown2">
-                                                <button onclick="toggleDropDown('minimum-rent-ID')" class="dropbtn2" id="minimum-rent">Min</button>
+                                                <button onclick="toggleDropDown('minimum-rent-ID')" class="dropButtonSmall" id="minimum-rent">Min</button>
                                                     <div id="minimum-rent-ID" class="dropdown-content2">
                                                         <a class="dropdownText" onclick="saveInputValues(1000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">1000</a>
                                                         <a class="dropdownText" onclick="saveInputValues(2000, 'rentMinimum', 'minimum-rent', 'minimum-rent-ID')">2000</a>
@@ -243,7 +243,7 @@
                                                     </div>
                                             </div>
                                             <div class="dropdown2b">
-                                                <button onclick="toggleDropDown('maximum-rent-ID')" class="dropbtn2" id ="maximum-rent">Max</button>
+                                                <button onclick="toggleDropDown('maximum-rent-ID')" class="dropButtonSmall" id ="maximum-rent">Max</button>
                                                     <div id="maximum-rent-ID" class="dropdown-content2">
                                                         <a class="dropdownText" onclick="saveInputValues(1000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">1000</a>
                                                         <a class="dropdownText" onclick="saveInputValues(2000, 'rentMaximum', 'maximum-rent', 'maximum-rent-ID')">2000</a>
@@ -260,11 +260,11 @@
                                             </div>
                                     </div>
                                 </div>
-                                <div class="boarea">
-                                    <p class="gridHeaderRow2">Boarea</p>
-                                        <div class="boareaB">
+                                <div class="livingArea">
+                                    <p class="headerRow2">Boarea</p>
+                                        <div class="livingAreaHolder">
                                             <div class="dropdown2" id="original">
-                                                <button onclick="toggleDropDown('minimum-living-area-ID')" class="dropbtn2" id="minimum-living-area">Min</button>
+                                                <button onclick="toggleDropDown('minimum-living-area-ID')" class="dropButtonSmall" id="minimum-living-area">Min</button>
                                                     <div id="minimum-living-area-ID" class="dropdown-content2">
                                                         <a class="dropdownText" onclick="saveInputValues(20, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">20</a>
                                                         <a class="dropdownText" onclick="saveInputValues(30, 'livingAreaMinimum', 'minimum-living-area', 'minimum-living-area-ID')">30</a>
@@ -284,7 +284,7 @@
                                                     </div>
                                             </div>
                                             <div class="dropdown2b">
-                                                    <button onclick="toggleDropDown('max-living-area-ID')" class="dropbtn2" id="maximum-living-area">Max</button>
+                                                    <button onclick="toggleDropDown('max-living-area-ID')" class="dropButtonSmall" id="maximum-living-area">Max</button>
                                                         <div id="max-living-area-ID" class="dropdown-content2">
                                                             <a class="dropdownText" onclick="saveInputValues(20, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">20</a>
                                                             <a class="dropdownText" onclick="saveInputValues(30, 'livingAreaMaximum', 'maximum-living-area', 'max-living-area-ID')">30</a>
