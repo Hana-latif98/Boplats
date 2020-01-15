@@ -3,7 +3,6 @@ const toggleDropDown = (id) => {
     dropDownElement.classList.toggle("show");
 }
 
-
 const saveInputValues = (value, inputType, elementID, dropDownID) => {
     let rentMinimum = 0;
     let rentMaximum = 0;
@@ -22,18 +21,18 @@ const saveInputValues = (value, inputType, elementID, dropDownID) => {
 
 var municipalityArray = [];
 
-const collectValue = (munID, dropdownID, elementID) => {
-    const includesValue = municipalityArray.includes(munID);
+const collectValue = (municipalityID, dropdownID, elementID) => {
+    const includesValue = municipalityArray.includes(municipalityID);
     const dropDownElement = document.getElementById(elementID);
 
-    let index = municipalityArray.indexOf(munID);
+    let index = municipalityArray.indexOf(municipalityID);
 
     if (includesValue) {
         municipalityArray.splice(index, 1);
 
         dropDownElement.classList.remove("dropdown-content-active");
     } else {
-        municipalityArray.push(munID);
+        municipalityArray.push(municipalityID);
         dropDownElement.classList.add("dropdown-content-active");
     }
 
@@ -49,7 +48,7 @@ const collectValue = (munID, dropdownID, elementID) => {
 }
 
 window.onclick = function offClick2(event) {
-    if (!event.target.matches('.dropbtn2')) {
+    if (!event.target.matches('.dropButtonSmall')) {
 
         var dropdowns = document.getElementsByClassName("dropdown-content2");
         var i;
